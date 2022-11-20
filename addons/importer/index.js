@@ -22,11 +22,11 @@ for (let i = 0; i < files.length; i++) {
             resourcePath = resourcePath.replace("../..", "res:/");
             let tres = `[gd_resource type="AtlasTexture" load_steps=2 format=2]\n\n`;
             tres += `[ext_resource path="${resourcePath}" type="Texture" id=1]\n\n[resource]\nflags = 7\natlas = ExtResource( 1 )\n`
-            // tres += `region = Rect2( ${sprites[sprite].region.x}, ${sprites[sprite].region.y}, ${sprites[sprite].region.w}, ${sprites[sprite].region.h} )\n`
+            tres += `region = Rect2( ${sprites[sprite].region.x}, ${sprites[sprite].region.y}, ${sprites[sprite].region.w}, ${sprites[sprite].region.h} )\n`
             // tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${sprites[sprite].margin.w}, ${sprites[sprite].margin.h} )\n`
 
             if (path.includes("items")) tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${128 - sprites[sprite].region.w}, ${128 - sprites[sprite].region.h} )\n`
-            else tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${512 - sprites[sprite].region.w}, ${512 - sprites[sprite].region.h} )\n`
+            else tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${1024 - sprites[sprite].region.w}, ${1024 - sprites[sprite].region.h} )\n`
 
             saveFile(path, tres)
         }

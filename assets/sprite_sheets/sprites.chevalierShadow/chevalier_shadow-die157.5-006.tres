@@ -6,4 +6,4 @@
 flags = 7
 atlas = ExtResource( 1 )
 region = Rect2( 1350, 2077, 171, 89 )
-margin = Rect2( 344, 542, 0, 0 )
+margin = Rect2( 344, 542, 853, 935 )

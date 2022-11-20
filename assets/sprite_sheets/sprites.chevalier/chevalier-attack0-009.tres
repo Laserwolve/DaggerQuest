@@ -1,8 +1,9 @@
-[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://4fumhaxo06sh"]
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
 
-[ext_resource type="Texture2D" uid="uid://d087hykr7hh6i" path="res://assets/sprite_sheets/chevalier.png" id="1"]
+[ext_resource path="res://assets/sprite_sheets/chevalier.png" type="Texture" id=1]
 
 [resource]
-atlas = ExtResource("1")
-region = Rect2(2417, 1326, 158, 190)
-margin = Rect2(446, 437, 0, 0)
+flags = 7
+atlas = ExtResource( 1 )
+region = Rect2( 2417, 1326, 158, 190 )
+margin = Rect2( 446, 437, 866, 834 )
