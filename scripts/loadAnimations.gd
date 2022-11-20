@@ -74,7 +74,14 @@ func _ready():
 	# Add all the frames
 	for animName in ANIMATONS:
 		for i in range(0, 160):
-			spriteFrame.add_frame(animName, ResourceLoader.load(files.pop_back(), "Texture2D", ResourceLoader.CACHE_MODE_IGNORE))
+			spriteFrame.add_frame(
+				animName,
+				ResourceLoader.load(
+					files.pop_back(),
+					"Texture2D",
+					ResourceLoader.CACHE_MODE_IGNORE
+				)
+			)
 	
 	frames = spriteFrame
 	
