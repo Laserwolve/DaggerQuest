@@ -13,8 +13,8 @@ var last_delta: float = 0
 func _ready():
 	NAVIGATION.set_target_location(position)
 	
-func _physics_process(_delta):
-	last_delta = _delta
+func _physics_process(delta):
+	last_delta = delta
 	var target_position: Vector2 = NAVIGATION.get_next_location()
 	# Get Inputs
 	if Input.is_action_just_pressed("move"):
