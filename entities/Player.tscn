@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqrip3l0uy31w"]
+
+[ext_resource type="Script" path="res://entities/Player.gd" id="1_6g22q"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_6g22q")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
