@@ -91,15 +91,16 @@ func _ready():
 	for animName in ANIMATONS:
 		var frame_offset = 0
 		var animationLibrary: AnimationLibrary = AnimationLibrary.new()
-		var ani: Animation = Animation.new()
-		var track_index: int = ani.add_track(Animation.TYPE_VALUE)
-		ani.track_set_path(track_index, "Character:frame")
-		
-		var ani_track: int = ani.add_track(Animation.TYPE_VALUE)
-		ani.track_set_path(ani_track, "Character:animation")
-		ani.track_insert_key(ani_track, 0, animName)
-	
+
 		for direction in DIRECTIONS:
+			var ani: Animation = Animation.new()
+			var track_index: int = ani.add_track(Animation.TYPE_VALUE)
+			ani.track_set_path(track_index, "Character:frame")
+			
+			var ani_track: int = ani.add_track(Animation.TYPE_VALUE)
+			ani.track_set_path(ani_track, "Character:animation")
+			ani.track_insert_key(ani_track, 0, animName)
+			
 			for i in range(0, 10):
 				ani.track_insert_key(track_index, 0.08*i, i + (10 * frame_offset))
 				
