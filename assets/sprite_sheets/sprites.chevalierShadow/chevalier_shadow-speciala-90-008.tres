@@ -1,9 +1,0 @@
-[gd_resource type="AtlasTexture" load_steps=2 format=2]
-
-[ext_resource path="res://assets/sprite_sheets/chevalierShadow.png" type="Texture" id=1]
-
-[resource]
-flags = 7
-atlas = ExtResource( 1 )
-region = Rect2( 2031, 3219, 135, 145 )
-margin = Rect2( 420, 494, 889, 879 )
