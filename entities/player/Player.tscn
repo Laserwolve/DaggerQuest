@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dqrip3l0uy31w"]
 
 [ext_resource type="Script" path="res://entities/player/Player.gd" id="1_qh42t"]
-[ext_resource type="SpriteFrames" uid="uid://dggjv0tvf88b3" path="res://resources/sprite_frames/chevalier.tres" id="2_uk011"]
+[ext_resource type="Script" path="res://scripts/loadAnimations.gd" id="3_scl5f"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_th2xk"]
 size = Vector2(154, 202)
@@ -9,9 +9,10 @@ size = Vector2(154, 202)
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_qh42t")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="Character" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -90)
-frames = ExtResource("2_uk011")
+script = ExtResource("3_scl5f")
+folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalier/"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(4, 6)
