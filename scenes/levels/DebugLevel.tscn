@@ -1,6 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://ctmso0yccq6mc"]
+[gd_scene load_steps=4 format=3 uid="uid://ctmso0yccq6mc"]
 
 [ext_resource type="Texture2D" uid="uid://cn2girs8w08ug" path="res://assets/sprites/backgrounds/bg.png" id="1_bg6to"]
+[ext_resource type="PackedScene" uid="uid://dqrip3l0uy31w" path="res://entities/player/Player.tscn" id="2_nhiob"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_76r2n"]
+vertices = PackedVector2Array(-1457, -943, 2594, -1003, 2558, 1772, -1463, 1802)
+polygons = [PackedInt32Array(0, 1, 2, 3)]
+outlines = [PackedVector2Array(-1457, -943, 2594, -1003, 2558, 1772, -1463, 1802)]
 
 [node name="DebugLevel" type="Node2D"]
 
@@ -12,3 +18,9 @@ offset_right = 2714.0
 offset_bottom = 1935.0
 texture = ExtResource("1_bg6to")
 stretch_mode = 1
+
+[node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
+navpoly = SubResource("NavigationPolygon_76r2n")
+
+[node name="Player" parent="." instance=ExtResource("2_nhiob")]
+position = Vector2(317, 34)
