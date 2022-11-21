@@ -58,4 +58,11 @@ func _safe_velocity_computed(safe_velocity):
 
 func get_look_angle(look_direction: Vector2) -> String:
 	var angle: float = rad_to_deg(get_angle_to(position + look_direction))
-	return str(round(angle/22.5)*22.5)
+	var string: String = str(round(angle/22.5)*22.5)
+	
+	if (string == "-180"):
+		string = "180"
+	elif (string == "-0"):
+		string = "0"
+	
+	return string

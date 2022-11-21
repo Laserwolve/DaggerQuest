@@ -9,11 +9,13 @@ size = Vector2(154, 202)
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_qh42t")
 
-[node name="Body" type="AnimatedSprite2D" parent="."]
+[node name="Sprites" type="Node2D" parent="."]
+
+[node name="Body" type="AnimatedSprite2D" parent="Sprites"]
 script = ExtResource("3_scl5f")
 folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalier/"
 
-[node name="Legs" type="AnimatedSprite2D" parent="."]
+[node name="Legs" type="AnimatedSprite2D" parent="Sprites"]
 script = ExtResource("3_scl5f")
 folder_name = "res://assets/sprite_sheets/simple_leggings/sprites.simpleLeggings/"
 
