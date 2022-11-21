@@ -5,7 +5,8 @@ class_name Player
 @export var move_speed: float = 200
 
 # OnReady Variables
-@onready var NAVIGATION: NavigationAgent2D = $NavigationAgent2D # ALL_CAPS because it's technically constant.
+@onready var NAVIGATION: NavigationAgent2D = $NavigationAgent2D
+# ALL_CAPS because it's technically constant, feel free to change it.
 
 # Other Variables
 var last_delta: float = 0
