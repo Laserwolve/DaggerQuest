@@ -41,6 +41,8 @@ func _physics_process(delta):
 	#print(get_look_angle(look_direction))
 
 func play_animation(animation_name: String):
+	if animation_players.size() == 0:
+		return
 	if animation_name == animation_players[0].current_animation:
 		return
 	
