@@ -1,6 +1,5 @@
 extends AnimatedSprite2D
 
-
 const ANIMATONS: Array[String] = [
 	"attack",
 	"block",
@@ -39,7 +38,6 @@ const DIRECTIONS: Array[String] = [
 # Unless you write a custom sorter that is.
 
 @export var folder_name: String = ""
-
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -95,10 +93,10 @@ func _ready():
 		for direction in DIRECTIONS:
 			var ani: Animation = Animation.new()
 			var track_index: int = ani.add_track(Animation.TYPE_VALUE)
-			ani.track_set_path(track_index, "Character:frame")
+			ani.track_set_path(track_index, String(name) + ":frame")
 			
 			var ani_track: int = ani.add_track(Animation.TYPE_VALUE)
-			ani.track_set_path(ani_track, "Character:animation")
+			ani.track_set_path(ani_track, String(name) + ":animation")
 			ani.track_insert_key(ani_track, 0, animName)
 			
 			for i in range(0, 10):
@@ -118,4 +116,4 @@ func _ready():
 	
 	# Add the animation player to the Player
 	get_parent().call_deferred("add_child", animationPlayer)
-	get_parent().set_animation_player(animationPlayer)
+	get_parent().register_animation_player(animationPlayer)

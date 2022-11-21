@@ -10,7 +10,7 @@ class_name Player
 # Other Variables
 var last_delta: float = 0
 var look_direction: Vector2 = Vector2(0, 0)
-var animation_player: AnimationPlayer = null
+var animation_players: Array[AnimationPlayer] = []
 
 # Constants
 
@@ -40,8 +40,8 @@ const LOOK_NAMES: Array[String] = [
 func _ready():
 	NAVIGATION.set_target_location(position)
 
-func set_animation_player(player: AnimationPlayer):
-	animation_player = player
+func register_animation_player(player: AnimationPlayer):
+	animation_players.push_back(player)
 	
 func _physics_process(delta):
 	last_delta = delta
@@ -55,11 +55,15 @@ func _physics_process(delta):
 		NAVIGATION.set_velocity(position.direction_to(target_position) * move_speed)
 	else:
 		look_direction = position.direction_to(get_global_mouse_position())
-		animation_player.play("idleUNARMED/" + get_look_angle(look_direction))
+		play_animation("idleUNARMED/" + get_look_angle(look_direction))
 
 	#print(look_direction)
-	print(get_look_angle(look_direction))
-	
+	#print(get_look_angle(look_direction))
+
+func play_animation(animation_name: String):
+	for player in animation_players:
+		player.play(animation_name)
+
 func _safe_velocity_computed(safe_velocity):
 	velocity = safe_velocity;
 	look_direction = position.direction_to(NAVIGATION.get_next_location())
@@ -68,7 +72,7 @@ func _safe_velocity_computed(safe_velocity):
 	else:
 		move_and_slide()
 	
-	animation_player.play("walkUNARMED/" + get_look_angle(look_direction))
+	play_animation("walkUNARMED/" + get_look_angle(look_direction))
 
 func get_look_angle(look_direction: Vector2) -> String:
 	var shortest_angle = 99.0
