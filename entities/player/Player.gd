@@ -27,6 +27,7 @@ func _physics_process(delta):
 	
 	# Get Inputs
 	if Input.is_action_pressed("move"):
+		look_direction = position.direction_to(get_global_mouse_position())
 		NAVIGATION.set_target_location(get_global_mouse_position())
 		target_position = get_global_mouse_position()
 	
@@ -34,7 +35,6 @@ func _physics_process(delta):
 	if !NAVIGATION.is_navigation_finished():
 		NAVIGATION.set_velocity(position.direction_to(target_position) * move_speed)
 	else:
-		look_direction = position.direction_to(get_global_mouse_position())
 		play_animation("idleUNARMED/" + get_look_angle(look_direction))
 
 	#print(look_direction)
