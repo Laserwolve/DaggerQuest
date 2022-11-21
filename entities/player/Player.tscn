@@ -23,6 +23,7 @@ folder_name = "res://assets/sprite_sheets/simple_leggings/sprites.simpleLeggings
 
 [node name="Body" type="AnimatedSprite2D" parent="Sprites"]
 script = ExtResource("3_scl5f")
+is_body = true
 folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalier/"
 
 [node name="Legs" type="AnimatedSprite2D" parent="Sprites"]

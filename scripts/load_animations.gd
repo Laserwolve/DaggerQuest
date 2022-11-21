@@ -1,5 +1,7 @@
 extends AnimatedSprite2D
 
+@export var is_body: bool = false
+
 const ANIMATONS: Array[String] = [
 	"attack",
 	"block",
@@ -61,10 +63,10 @@ func _ready():
 	files.sort()
 	
 	# Setup the SpriteFrames
-	var spriteFrame: SpriteFrames = SpriteFrames.new()
+	var sprite_frame: SpriteFrames = SpriteFrames.new()
 	for animName in ANIMATONS:
-		spriteFrame.add_animation(animName)
-		spriteFrame.set_animation_speed(animName, 12)
+		sprite_frame.add_animation(animName)
+		sprite_frame.set_animation_speed(animName, 12)
 	
 	# Reverse the list for performance
 	files.reverse()
@@ -72,7 +74,7 @@ func _ready():
 	# Add all the frames
 	for animName in ANIMATONS:
 		for i in range(0, 160):
-			spriteFrame.add_frame(
+			sprite_frame.add_frame(
 				animName,
 				ResourceLoader.load(
 					files.pop_back(),
@@ -81,14 +83,14 @@ func _ready():
 				)
 			)
 	
-	frames = spriteFrame
+	frames = sprite_frame
 	
-	var animationPlayer = AnimationPlayer.new()
+	var animation_player = AnimationPlayer.new()
 	
 	# Create the animation libraries.
 	for animName in ANIMATONS:
 		var frame_offset = 0
-		var animationLibrary: AnimationLibrary = AnimationLibrary.new()
+		var animation_library: AnimationLibrary = AnimationLibrary.new()
 
 		for direction in DIRECTIONS:
 			var ani: Animation = Animation.new()
@@ -107,13 +109,16 @@ func _ready():
 				ani.loop_mode = Animation.LOOP_LINEAR
 			
 			frame_offset += 1
-			animationLibrary.add_animation(direction, ani)
+			animation_library.add_animation(direction, ani)
 	
-		animationPlayer.add_animation_library(animName, animationLibrary)
+		animation_player.add_animation_library(animName, animation_library)
 		
 	# Set just a default animation
-	animationPlayer.play("idle/0")
+	animation_player.play("idle/0")
 	
 	# Add the animation player to the Player
-	get_parent().call_deferred("add_child", animationPlayer)
-	get_parent().get_parent().register_animation_player(animationPlayer)
+	get_parent().call_deferred("add_child", animation_player)
+	get_parent().get_parent().register_animation_player(animation_player)
+	
+	if is_body:
+		animation_player.connect("animation_finished", get_parent().get_parent().animation_finished)
