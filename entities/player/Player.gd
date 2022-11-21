@@ -13,6 +13,7 @@ var last_delta: float = 0
 var look_direction: Vector2 = Vector2(0, 0)
 var animation_players: Array[AnimationPlayer] = []
 var forced_animation: String = ""
+var final_animation: bool = false
 
 # Constants
 
@@ -33,9 +34,17 @@ func _physics_process(delta):
 		NAVIGATION.set_target_location(get_global_mouse_position())
 		target_position = get_global_mouse_position()
 	
+	# Enter
 	if Input.is_action_just_pressed("ui_accept"):
 		NAVIGATION.set_target_location(position)
 		forced_animation = "attack"
+	
+	# Shift + D
+	if Input.is_action_just_pressed("die"):
+		NAVIGATION.set_target_location(position)
+		play_animation("die/" + get_look_angle(look_direction))
+		forced_animation = "die"
+		final_animation = true
 	
 	# Decide whether the player should try and walk or just be idle
 	if !NAVIGATION.is_navigation_finished():
@@ -48,6 +57,8 @@ func _physics_process(delta):
 	play_animation(animation_name + "/" + get_look_angle(look_direction))
 
 func play_animation(animation_name: String):
+	if final_animation:
+		return
 	if animation_players.size() == 0:
 		return
 	if animation_name == animation_players[0].current_animation:
@@ -63,8 +74,17 @@ func play_animation(animation_name: String):
 		if same_category:
 			player.seek(old_time, true) 
 
+func damage(amount: float):
+	NAVIGATION.set_target_location(position)
+	forced_animation = "hit"
+	
+func die():
+	NAVIGATION.set_target_location(position)
+	forced_animation = "die"
+
 func animation_finished(animation_name: String):
-	forced_animation = ""
+	if !final_animation:
+		forced_animation = ""
 
 func _safe_velocity_computed(safe_velocity):
 	velocity = safe_velocity;

@@ -12,21 +12,25 @@ script = ExtResource("1_qh42t")
 [node name="Shadows" type="Node2D" parent="."]
 
 [node name="BodyShadow" type="AnimatedSprite2D" parent="Shadows"]
+offset = Vector2(0, -50)
 script = ExtResource("3_scl5f")
 folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalierShadow/"
 
 [node name="LegsShadow" type="AnimatedSprite2D" parent="Shadows"]
+offset = Vector2(0, -50)
 script = ExtResource("3_scl5f")
 folder_name = "res://assets/sprite_sheets/simple_leggings/sprites.simpleLeggings_shadow/"
 
 [node name="Sprites" type="Node2D" parent="."]
 
 [node name="Body" type="AnimatedSprite2D" parent="Sprites"]
+offset = Vector2(0, -50)
 script = ExtResource("3_scl5f")
 is_body = true
 folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalier/"
 
 [node name="Legs" type="AnimatedSprite2D" parent="Sprites"]
+offset = Vector2(0, -50)
 script = ExtResource("3_scl5f")
 folder_name = "res://assets/sprite_sheets/simple_leggings/sprites.simpleLeggings/"
 
