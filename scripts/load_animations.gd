@@ -22,8 +22,8 @@ const DIRECTIONS: Array[String] = [
 	"-67.5", # 20-20
 	"-90", # 30-39
 	"-112.5", # 40-49
-	"135", # 50-59
-	"157.5", # 60-69
+	"-135", # 50-59
+	"-157.5", # 60-69
 	"0", # 70-79
 	"22.5", # 80-89
 	"45", # 90-99
@@ -103,7 +103,11 @@ func _ready():
 			
 			for i in range(0, 10):
 				ani.track_insert_key(track_index, 0.08*i, i + (10 * frame_offset))
-				
+			
+			ani.length = 0.72
+			if animName.contains("walk") || animName.contains("idle"):
+				ani.loop_mode = Animation.LOOP_LINEAR
+			
 			frame_offset += 1
 			animationLibrary.add_animation(direction, ani)
 	
@@ -114,3 +118,4 @@ func _ready():
 	
 	# Add the animation player to the Player
 	get_parent().call_deferred("add_child", animationPlayer)
+	get_parent().call_deferred("set_player", animationPlayer)
