@@ -1,6 +1,6 @@
-[gd_resource type="AtlasTexture" load_steps=2 format=3]
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
 
-[ext_resource type="Texture" uid="uid://c7d0hlyjwunao" path="res://assets/sprite_sheets/chevalier/chevalierShadow.png" id="1"]
+[ext_resource path="res://assets/sprite_sheets/chevalier/chevalierShadow.png" type="Texture" id=1]
 
 [resource]
 flags = 7

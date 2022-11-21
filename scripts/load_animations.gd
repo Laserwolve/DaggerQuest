@@ -118,4 +118,4 @@ func _ready():
 	
 	# Add the animation player to the Player
 	get_parent().call_deferred("add_child", animationPlayer)
-	get_parent().call_deferred("set_player", animationPlayer)
+	get_parent().set_animation_player(animationPlayer)

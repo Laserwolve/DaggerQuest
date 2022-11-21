@@ -1,0 +1,135 @@
+[gd_scene load_steps=28 format=3 uid="uid://dr2dq8iowbbvw"]
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_u6hto"]
+animation = &"idleUNARMED/-90"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_w812m"]
+animation = &"idleUNARMED/0"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_rfy86"]
+animation = &"idleUNARMED/112.5"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_id2qu"]
+animation = &"idleUNARMED/157.5"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_gp5xl"]
+animation = &"idleUNARMED/-157.5"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_s5kls"]
+animation = &"idleUNARMED/-112.5"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_a65x4"]
+animation = &"idleUNARMED/-22.5"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ql4h3"]
+animation = &"idleUNARMED/-67.5"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_03bd8"]
+animation = &"idleUNARMED/90"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_gqo0y"]
+animation = &"idleUNARMED/180"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_k74vl"]
+animation = &"idleUNARMED/-45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_u36y2"]
+animation = &"idleUNARMED/45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_h7uqn"]
+animation = &"idleUNARMED/135"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_iefi8"]
+animation = &"idleUNARMED/-135"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_wp88c"]
+animation = &"idleUNARMED/22.5"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_qhahs"]
+animation = &"idleUNARMED/-67.5"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_r62oq"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_u6hto")
+blend_point_0/pos = Vector2(0, 1)
+blend_point_1/node = SubResource("AnimationNodeAnimation_w812m")
+blend_point_1/pos = Vector2(1, 0)
+blend_point_2/node = SubResource("AnimationNodeAnimation_03bd8")
+blend_point_2/pos = Vector2(0, -1)
+blend_point_3/node = SubResource("AnimationNodeAnimation_gqo0y")
+blend_point_3/pos = Vector2(-1, 0)
+blend_point_4/node = SubResource("AnimationNodeAnimation_k74vl")
+blend_point_4/pos = Vector2(0.5, 0.5)
+blend_point_5/node = SubResource("AnimationNodeAnimation_u36y2")
+blend_point_5/pos = Vector2(0.5, -0.5)
+blend_point_6/node = SubResource("AnimationNodeAnimation_h7uqn")
+blend_point_6/pos = Vector2(-0.5, -0.5)
+blend_point_7/node = SubResource("AnimationNodeAnimation_iefi8")
+blend_point_7/pos = Vector2(-0.5, 0.5)
+blend_point_8/node = SubResource("AnimationNodeAnimation_wp88c")
+blend_point_8/pos = Vector2(0.75, -0.25)
+blend_point_9/node = SubResource("AnimationNodeAnimation_qhahs")
+blend_point_9/pos = Vector2(0.25, -0.75)
+blend_point_10/node = SubResource("AnimationNodeAnimation_rfy86")
+blend_point_10/pos = Vector2(-0.25, -0.75)
+blend_point_11/node = SubResource("AnimationNodeAnimation_id2qu")
+blend_point_11/pos = Vector2(-0.75, -0.25)
+blend_point_12/node = SubResource("AnimationNodeAnimation_gp5xl")
+blend_point_12/pos = Vector2(-0.75, 0.25)
+blend_point_13/node = SubResource("AnimationNodeAnimation_s5kls")
+blend_point_13/pos = Vector2(-0.25, 0.75)
+blend_point_14/node = SubResource("AnimationNodeAnimation_a65x4")
+blend_point_14/pos = Vector2(0.75, 0.25)
+blend_point_15/node = SubResource("AnimationNodeAnimation_ql4h3")
+blend_point_15/pos = Vector2(0.25, 0.75)
+snap = Vector2(0.05, 0.05)
+blend_mode = 1
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_e56nw"]
+animation = &"walkUNARMED/0"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_i1seg"]
+animation = &"walkUNARMED/90"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_amb7c"]
+animation = &"walkUNARMED/180"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_4xw8p"]
+animation = &"walkUNARMED/-90"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_r3c8f"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_e56nw")
+blend_point_0/pos = Vector2(1, 0)
+blend_point_1/node = SubResource("AnimationNodeAnimation_i1seg")
+blend_point_1/pos = Vector2(0, -1)
+blend_point_2/node = SubResource("AnimationNodeAnimation_amb7c")
+blend_point_2/pos = Vector2(-1, 0)
+blend_point_3/node = SubResource("AnimationNodeAnimation_4xw8p")
+blend_point_3/pos = Vector2(0, 1)
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_1gcke"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_egaqf"]
+switch_mode = 2
+auto_advance = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_hk3y8"]
+auto_advance = true
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_vg54b"]
+states/End/position = Vector2(957, 100)
+"states/Idle Unarmed/node" = SubResource("AnimationNodeBlendSpace2D_r62oq")
+"states/Idle Unarmed/position" = Vector2(375, 134)
+states/Start/position = Vector2(148, 94)
+"states/Walk Unarmed/node" = SubResource("AnimationNodeBlendSpace2D_r3c8f")
+"states/Walk Unarmed/position" = Vector2(616, 77)
+transitions = ["Idle Unarmed", "Walk Unarmed", SubResource("AnimationNodeStateMachineTransition_1gcke"), "Walk Unarmed", "Idle Unarmed", SubResource("AnimationNodeStateMachineTransition_egaqf"), "Start", "Idle Unarmed", SubResource("AnimationNodeStateMachineTransition_hk3y8")]
+graph_offset = Vector2(-99, 27.2875)
+
+[sub_resource type="AnimationNodeStateMachinePlayback" id="AnimationNodeStateMachinePlayback_krmco"]
+
+[node name="AnimationTree" type="AnimationTree"]
+tree_root = SubResource("AnimationNodeStateMachine_vg54b")
+anim_player = NodePath("../2")
+parameters/playback = SubResource("AnimationNodeStateMachinePlayback_krmco")
+"parameters/Idle Unarmed/blend_position" = Vector2(-0.0250232, -0.126638)
+"parameters/Walk Unarmed/blend_position" = Vector2(0, 0)

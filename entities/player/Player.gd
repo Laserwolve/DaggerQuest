@@ -6,18 +6,32 @@ class_name Player
 
 # OnReady Variables
 @onready var NAVIGATION: NavigationAgent2D = $NavigationAgent2D # ALL_CAPS because it's technically constant.
-@onready var ANIMATION_TREE: AnimationTree = $AnimationTree
 
 # Other Variables
 var last_delta: float = 0
 var look_direction: Vector2 = Vector2(0, 0)
+var animation_player: AnimationPlayer = null
 
-func set_player(animationPlayer: AnimationPlayer):
-	ANIMATION_TREE.anim_player = NodePath("../" + String(animationPlayer.name))
-	ANIMATION_TREE.active = true
+# Constants
+const LOOK_ANGELS: Array[Vector2] = [
+	Vector2(-1, 0),
+	Vector2(0, 1),
+	Vector2(1, 0),
+	Vector2(-1, 0)
+] # Four directions for now.
+
+const LOOK_NAMES: Array[String] = [
+	"-90",
+	"0",
+	"90",
+	"180"
+]
 
 func _ready():
 	NAVIGATION.set_target_location(position)
+
+func set_animation_player(player: AnimationPlayer):
+	animation_player = player
 	
 func _physics_process(delta):
 	last_delta = delta
@@ -32,18 +46,21 @@ func _physics_process(delta):
 	else:
 		look_direction = position.direction_to(get_global_mouse_position())
 	
-	update_blend_position()
-
-func update_blend_position():
-	var animation_mode = ANIMATION_TREE.get("parameters/playback")
-	ANIMATION_TREE.set("parameters/Idle Unarmed/blend_position", look_direction)
-	animation_mode.travel("Idle Unarmed")
-
 func _safe_velocity_computed(safe_velocity):
 	velocity = safe_velocity;
 	look_direction = position.direction_to(NAVIGATION.get_next_location())
-	update_blend_position()
 	if position.distance_to(NAVIGATION.get_next_location()) < move_speed * last_delta:
 		position = NAVIGATION.get_next_location()
 	else:
 		move_and_slide()
+
+func getLookAngel(look_direction: Vector2) -> String:
+	var shortest_angle = 99.0
+	var closest_angle = ""
+
+	for i in range(0, LOOK_ANGELS.size()):
+		if look_direction.distance_to(LOOK_ANGELS[i]) < shortest_angle:
+			shortest_angle = look_direction.distance_to(LOOK_ANGELS[i])
+			closest_angle = LOOK_NAMES[i]
+
+	return closest_angle
