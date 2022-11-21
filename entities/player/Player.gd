@@ -35,17 +35,17 @@ func _physics_process(delta):
 		target_position = get_global_mouse_position()
 	
 	# Debug Inputs (Will be replaced/removed later
-	# Enter
-	if Input.is_action_just_pressed("ui_accept"):
+	
+	if Input.is_action_just_pressed("ui_accept"): # Enter
 		NAVIGATION.set_target_location(position)
 		forced_animation = "attack"
 	
-	# Shift + D
-	if Input.is_action_just_pressed("die"):
+	if Input.is_action_just_pressed("die"): # Shift + D
 		NAVIGATION.set_target_location(position)
 		play_animation("die/" + get_look_angle(look_direction))
 		forced_animation = "die"
 		final_animation = true
+		
 	#====================================================
 	
 	# Decide whether the player should try and walk or just be idle
