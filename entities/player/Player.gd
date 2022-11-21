@@ -13,17 +13,27 @@ var look_direction: Vector2 = Vector2(0, 0)
 var animation_player: AnimationPlayer = null
 
 # Constants
+
+# Tempory implementation of rotation (Still need the .5 values as well)
 const LOOK_ANGELS: Array[Vector2] = [
-	Vector2(-1, 0),
-	Vector2(0, 1),
-	Vector2(1, 0),
-	Vector2(-1, 0)
-] # Four directions for now.
+	Vector2(-.5, -.5), # -135
+	Vector2(0, -1), # -90
+	Vector2(.5, -.5), # -45
+	Vector2(1, 0), # 0
+	Vector2(.5, .5), # 45
+	Vector2(0, 1), # 90
+	Vector2(-.5, .5), # 135
+	Vector2(-1, 0) # 180
+]
 
 const LOOK_NAMES: Array[String] = [
+	"-135",
 	"-90",
+	"-45",
 	"0",
+	"45",
 	"90",
+	"135",
 	"180"
 ]
 
@@ -45,6 +55,10 @@ func _physics_process(delta):
 		NAVIGATION.set_velocity(position.direction_to(target_position) * move_speed)
 	else:
 		look_direction = position.direction_to(get_global_mouse_position())
+		animation_player.play("idleUNARMED/" + get_look_angle(look_direction))
+
+	#print(look_direction)
+	print(get_look_angle(look_direction))
 	
 func _safe_velocity_computed(safe_velocity):
 	velocity = safe_velocity;
@@ -53,8 +67,10 @@ func _safe_velocity_computed(safe_velocity):
 		position = NAVIGATION.get_next_location()
 	else:
 		move_and_slide()
+	
+	animation_player.play("walkUNARMED/" + get_look_angle(look_direction))
 
-func getLookAngel(look_direction: Vector2) -> String:
+func get_look_angle(look_direction: Vector2) -> String:
 	var shortest_angle = 99.0
 	var closest_angle = ""
 
