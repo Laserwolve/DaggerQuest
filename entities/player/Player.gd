@@ -26,7 +26,7 @@ func _physics_process(delta):
 	var target_position: Vector2 = NAVIGATION.get_next_location()
 	
 	# Get Inputs
-	if Input.is_action_just_pressed("move"):
+	if Input.is_action_pressed("move"):
 		NAVIGATION.set_target_location(get_global_mouse_position())
 		target_position = get_global_mouse_position()
 	
@@ -41,8 +41,18 @@ func _physics_process(delta):
 	#print(get_look_angle(look_direction))
 
 func play_animation(animation_name: String):
+	if animation_name == animation_players[0].current_animation:
+		return
+	
+	var same_category = false
+	if animation_name.split("/")[0] == animation_players[0].current_animation.split("/")[0]:
+		same_category = true
+	
 	for player in animation_players:
+		var old_time: float = player.current_animation_position
 		player.play(animation_name)
+		if same_category:
+			player.seek(old_time, true) 
 
 func _safe_velocity_computed(safe_velocity):
 	velocity = safe_velocity;
