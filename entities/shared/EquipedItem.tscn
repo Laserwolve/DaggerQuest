@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bh2gtggljamvl"]
+
+[ext_resource type="Script" path="res://entities/shared/load_animations.gd" id="1_cwn1w"]
+
+[node name="EquipedItem" type="AnimatedSprite2D"]
+script = ExtResource("1_cwn1w")
