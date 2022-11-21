@@ -54,6 +54,7 @@ func _ready():
 	if dir:
 		dir.list_dir_begin()
 		var file_name: String = dir.get_next()
+		print(file_name)
 		
 		while file_name != "":
 			files.push_back(dir.get_current_dir() + "/" + file_name)
