@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bix22ib03xh1d"
-path="res://.godot/imported/inventory_grid_slot.png-1090dcb23c081a1a07f4bbb43901e361.ctex"
+uid="uid://ct2jrplf0gox5"
+path="res://.godot/imported/heroicStrike.png-c0bc27d39ac356407fec3d26607ae82d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/ui/inventory_grid_slot.png"
-dest_files=["res://.godot/imported/inventory_grid_slot.png-1090dcb23c081a1a07f4bbb43901e361.ctex"]
+source_file="res://assets/sprites/ui/heroicStrike.png"
+dest_files=["res://.godot/imported/heroicStrike.png-c0bc27d39ac356407fec3d26607ae82d.ctex"]
 
 [params]
 

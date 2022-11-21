@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctepopuv4i7dc"
-path="res://.godot/imported/equipment_icons.webp-6555b80c578bfdfec6eb3fe8d815fbce.ctex"
+uid="uid://dl2lhjcolltsn"
+path="res://.godot/imported/click.png-0f138f8c3d8b602750f32901c013d8a8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/ui/equipment_icons.webp"
-dest_files=["res://.godot/imported/equipment_icons.webp-6555b80c578bfdfec6eb3fe8d815fbce.ctex"]
+source_file="res://assets/sprites/ui/click.png"
+dest_files=["res://.godot/imported/click.png-0f138f8c3d8b602750f32901c013d8a8.ctex"]
 
 [params]
 
