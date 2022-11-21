@@ -80,12 +80,5 @@ func _safe_velocity_computed(safe_velocity):
 	play_animation("walkUNARMED/" + get_look_angle(look_direction))
 
 func get_look_angle(look_direction: Vector2) -> String:
-	var shortest_angle = 99.0
-	var closest_angle = ""
-
-	for i in range(0, LOOK_ANGELS.size()):
-		if look_direction.distance_to(LOOK_ANGELS[i]) < shortest_angle:
-			shortest_angle = look_direction.distance_to(LOOK_ANGELS[i])
-			closest_angle = LOOK_NAMES[i]
-
-	return closest_angle
+	var angle: float = rad_to_deg(get_angle_to(position + look_direction))
+	return str(round(angle/22.5)*22.5)
