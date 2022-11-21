@@ -15,29 +15,6 @@ var animation_players: Array[AnimationPlayer] = []
 
 # Constants
 
-# Tempory implementation of rotation (Still need the .5 values as well)
-const LOOK_ANGELS: Array[Vector2] = [
-	Vector2(-.5, -.5), # -135
-	Vector2(0, -1), # -90
-	Vector2(.5, -.5), # -45
-	Vector2(1, 0), # 0
-	Vector2(.5, .5), # 45
-	Vector2(0, 1), # 90
-	Vector2(-.5, .5), # 135
-	Vector2(-1, 0) # 180
-]
-
-const LOOK_NAMES: Array[String] = [
-	"-135",
-	"-90",
-	"-45",
-	"0",
-	"45",
-	"90",
-	"135",
-	"180"
-]
-
 func _ready():
 	NAVIGATION.set_target_location(position)
 
