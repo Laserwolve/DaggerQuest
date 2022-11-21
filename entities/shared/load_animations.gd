@@ -43,7 +43,6 @@ const DIRECTIONS: Array[String] = [
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	print(folder_name)
 	offset = Vector2(0, -75)
 	
 	if folder_name == "":
