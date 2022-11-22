@@ -36,6 +36,8 @@ const DIRECTIONS: Array[String] = [
 	"90" # 150-159 !
 ]
 
+var animation_player = AnimationPlayer.new()
+
 # Changing the order of stuff in the arrays will break everything so dont pls.
 # Unless you write a custom sorter that is.
 
@@ -124,3 +126,7 @@ func _ready():
 	
 	if is_body:
 		animation_player.connect("animation_finished", get_parent().get_parent().animation_finished)
+
+func delete():
+	get_parent().get_parent().unregister_animation_player(animation_player)
+	queue_free()

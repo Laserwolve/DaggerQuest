@@ -15,13 +15,24 @@ var animation_players: Array[AnimationPlayer] = []
 var forced_animation: String = ""
 var final_animation: bool = false
 
+var equipment: Dictionary = {
+	"legs": null,
+	"legs_shadow": null
+}
+
 # Constants
+const EQUIPED_ITEM = preload("res://entities/shared/EquipedItem.tscn")
 
 func _ready():
 	NAVIGATION.set_target_location(position)
+	
+	print(Items.items)
 
 func register_animation_player(player: AnimationPlayer):
 	animation_players.push_back(player)
+	
+func unregister_animation_player(player: AnimationPlayer):
+	animation_players.erase(player)
 	
 func _physics_process(delta):
 	last_delta = delta
@@ -35,6 +46,9 @@ func _physics_process(delta):
 		target_position = get_global_mouse_position()
 	
 	# Debug Inputs (Will be replaced/removed later
+	
+	if Input.is_action_just_pressed("toggle_legs"): # Enter
+		toggle_legs()
 	
 	if Input.is_action_just_pressed("ui_accept"): # Enter
 		NAVIGATION.set_target_location(position)
@@ -108,3 +122,16 @@ func get_look_angle(look_direction: Vector2) -> String:
 		string = "0"
 	
 	return string
+
+func toggle_legs():
+	if equipment["legs"] == null:
+		var legs = EQUIPED_ITEM.instantiate()
+		var legs_shadow = EQUIPED_ITEM.instantiate()
+		legs.folder_name = Items.items[Items.ItemID.SIMPLE_LEGGINGS].equipment_path
+		legs_shadow.folder_name = Items.items[Items.ItemID.SIMPLE_LEGGINGS].shadow_path
+		
+		$Sprites.add_child(legs)
+		$Shadows.add_child(legs_shadow)
+	else:
+		equipment["legs"].delete()
+		equipment["legs_shadow"].delete()
