@@ -31,4 +31,6 @@ shape = SubResource("RectangleShape2D_th2xk")
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
 avoidance_enabled = true
 
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
 [connection signal="velocity_computed" from="NavigationAgent2D" to="." method="_safe_velocity_computed"]

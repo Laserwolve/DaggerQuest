@@ -25,11 +25,10 @@ const EQUIPED_ITEM = preload("res://entities/shared/EquipedItem.tscn")
 
 func _ready():
 	NAVIGATION.set_target_location(position)
-	
-	print(Items.items)
 
 func register_animation_player(player: AnimationPlayer):
 	animation_players.push_back(player)
+	play_animation("hit/0")
 	
 func unregister_animation_player(player: AnimationPlayer):
 	animation_players.erase(player)
@@ -129,6 +128,9 @@ func toggle_legs():
 		var legs_shadow = EQUIPED_ITEM.instantiate()
 		legs.folder_name = Items.items[Items.ItemID.SIMPLE_LEGGINGS].equipment_path
 		legs_shadow.folder_name = Items.items[Items.ItemID.SIMPLE_LEGGINGS].shadow_path
+		
+		equipment["legs"] = legs
+		equipment["legs_shadow"] = legs_shadow
 		
 		$Sprites.add_child(legs)
 		$Shadows.add_child(legs_shadow)

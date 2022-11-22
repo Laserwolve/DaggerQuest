@@ -116,9 +116,6 @@ func _ready():
 			animation_library.add_animation(direction, ani)
 	
 		animation_player.add_animation_library(animName, animation_library)
-		
-	# Set just a default animation
-	animation_player.play("idle/0")
 	
 	# Add the animation player to the Player
 	get_parent().call_deferred("add_child", animation_player)
