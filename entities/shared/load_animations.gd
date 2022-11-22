@@ -2,6 +2,7 @@ extends AnimatedSprite2D
 
 @export var is_body: bool = false
 @export var armed_only: bool = false
+@export var extra_offset: Vector2 = Vector2(0.0, 0.0)
 
 const ANIMATONS: Array[String] = [
 	"attack",
@@ -47,6 +48,7 @@ var animation_player = AnimationPlayer.new()
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	offset = Vector2(0, -75)
+	offset += extra_offset
 	
 	if folder_name == "":
 		return

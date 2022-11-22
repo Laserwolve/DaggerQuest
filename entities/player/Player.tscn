@@ -15,10 +15,12 @@ script = ExtResource("1_qh42t")
 [node name="BodyShadow" type="AnimatedSprite2D" parent="Shadows"]
 offset = Vector2(0, -50)
 script = ExtResource("2_kmlx4")
+extra_offset = Vector2(-1, -1)
 folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalierShadow/"
 
 [node name="SimpleSwordShadow" parent="Shadows" instance=ExtResource("3_11g6d")]
 armed_only = true
+extra_offset = Vector2(-1, -1)
 folder_name = "res://assets/sprite_sheets/simple_sword/sprites.simpleSword_shadow/"
 
 [node name="Sprites" type="Node2D" parent="."]
