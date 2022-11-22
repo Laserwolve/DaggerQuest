@@ -6,7 +6,7 @@
 >
 >[*Amateur Game Development General*](https://boards.4channel.org/vg/catalog#s=agdg)
 
->“Like if C.S. Lewis made *The Chronicles of Narnia* sexy and violent. A old school ARPG with a focus on replayability.”
+>“Like if C.S. Lewis made *The Chronicles of Narnia* sexy and violent. An old school ARPG with a focus on replayability.”
 >
 >[*Something Awful Forums*](https://forums.somethingawful.com/)
 
