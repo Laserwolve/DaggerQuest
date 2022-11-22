@@ -82,7 +82,7 @@ func _physics_process(delta):
 	if Input.is_action_just_pressed("toggle_legs"): # Enter
 		toggle_legs()
 	
-	if Input.is_action_just_pressed("ui_accept"): # Enter
+	if Input.is_action_just_pressed("ui_accept") && armed: # Enter
 		NAVIGATION.set_target_location(position)
 		forced_animation = "attack"
 	
