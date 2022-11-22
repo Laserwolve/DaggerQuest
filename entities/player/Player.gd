@@ -27,6 +27,7 @@ var look_direction: Vector2 = Vector2(0, 0)
 var animation_players: Array[AnimationPlayer] = []
 var forced_animation: String = ""
 var final_animation: bool = false
+var armed = true
 
 @onready var EQUIPMENT_NODES: Dictionary = {
 	EquipmentSlots.BODY: $Equipment/Body,
@@ -85,6 +86,9 @@ func _physics_process(delta):
 		NAVIGATION.set_target_location(position)
 		forced_animation = "attack"
 	
+	if Input.is_action_just_pressed("toggle_armed"): # A
+		armed = !armed
+	
 	if Input.is_action_just_pressed("die"): # Shift + D
 		NAVIGATION.set_target_location(position)
 		play_animation("die/" + get_look_angle(look_direction))
@@ -100,6 +104,12 @@ func _physics_process(delta):
 	
 	if forced_animation != "":
 		animation_name = forced_animation
+	
+	if !armed && (animation_name == "walk" || animation_name == "idle"):
+		animation_name += "UNARMED"
+	
+	EQUIPMENT_NODES[EquipmentSlots.MAIN_HAND].visible = armed
+	SHADOW_NODES[EquipmentSlots.MAIN_HAND].visible = armed
 	
 	play_animation(animation_name + "/" + get_look_angle(look_direction))
 
