@@ -1,6 +1,7 @@
 extends AnimatedSprite2D
 
 @export var is_body: bool = false
+@export var armed_only: bool = false
 
 const ANIMATONS: Array[String] = [
 	"attack",
@@ -69,6 +70,8 @@ func _ready():
 	# Setup the SpriteFrames
 	var sprite_frame: SpriteFrames = SpriteFrames.new()
 	for animName in ANIMATONS:
+		if armed_only && animName.contains("UNARMED"):
+			continue
 		sprite_frame.add_animation(animName)
 		sprite_frame.set_animation_speed(animName, 12)
 	
@@ -77,6 +80,11 @@ func _ready():
 	
 	# Add all the frames
 	for animName in ANIMATONS:
+		print(animName)
+		print(files.size())
+		
+		if armed_only && animName.contains("UNARMED"):
+			continue
 		for i in range(0, 160):
 			sprite_frame.add_frame(
 			animName,
@@ -93,6 +101,8 @@ func _ready():
 	
 	# Create the animation libraries.
 	for animName in ANIMATONS:
+		if armed_only && animName.contains("UNARMED"):
+			continue
 		var frame_offset = 0
 		var animation_library: AnimationLibrary = AnimationLibrary.new()
 

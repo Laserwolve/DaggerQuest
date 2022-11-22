@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://guxgfcuvaghr"]
+[gd_scene load_steps=5 format=3 uid="uid://guxgfcuvaghr"]
 
 [ext_resource type="Script" path="res://entities/player/Player.gd" id="1_qh42t"]
 [ext_resource type="Script" path="res://entities/shared/load_animations.gd" id="2_kmlx4"]
+[ext_resource type="PackedScene" uid="uid://bh2gtggljamvl" path="res://entities/shared/EquipedItem.tscn" id="3_11g6d"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_th2xk"]
 size = Vector2(154, 202)
@@ -16,6 +17,10 @@ offset = Vector2(0, -50)
 script = ExtResource("2_kmlx4")
 folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalierShadow/"
 
+[node name="SimpleSwordShadow" parent="Shadows" instance=ExtResource("3_11g6d")]
+armed_only = true
+folder_name = "res://assets/sprite_sheets/simple_sword/sprites.simpleSword_shadow/"
+
 [node name="Sprites" type="Node2D" parent="."]
 
 [node name="Body" type="AnimatedSprite2D" parent="Sprites"]
@@ -23,6 +28,10 @@ offset = Vector2(0, -50)
 script = ExtResource("2_kmlx4")
 is_body = true
 folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalier/"
+
+[node name="SimpleSword" parent="Sprites" instance=ExtResource("3_11g6d")]
+armed_only = true
+folder_name = "res://assets/sprite_sheets/simple_sword/sprites.simpleSword/"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(4, 6)

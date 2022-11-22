@@ -36,7 +36,7 @@ func unregister_animation_player(player: AnimationPlayer):
 func _physics_process(delta):
 	last_delta = delta
 	var target_position: Vector2 = NAVIGATION.get_next_location()
-	var animation_name: String = "idleUNARMED"
+	var animation_name: String = "idle"
 	
 	# Get Inputs
 	if Input.is_action_pressed("move") && forced_animation == "":
@@ -63,7 +63,7 @@ func _physics_process(delta):
 	
 	# Decide whether the player should try and walk or just be idle
 	if !NAVIGATION.is_navigation_finished():
-		animation_name = "walkUNARMED"
+		animation_name = "walk"
 		NAVIGATION.set_velocity(position.direction_to(target_position) * move_speed)
 	
 	if forced_animation != "":
@@ -85,7 +85,8 @@ func play_animation(animation_name: String):
 	
 	for player in animation_players:
 		var old_time: float = player.current_animation_position
-		player.play(animation_name)
+		if player.has_animation(animation_name):
+			player.play(animation_name)
 		if same_category:
 			player.seek(old_time, true) 
 
