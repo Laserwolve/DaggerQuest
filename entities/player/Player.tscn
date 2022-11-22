@@ -12,26 +12,62 @@ script = ExtResource("1_qh42t")
 
 [node name="Shadows" type="Node2D" parent="."]
 
-[node name="BodyShadow" type="AnimatedSprite2D" parent="Shadows"]
+[node name="Body" type="Node2D" parent="Shadows"]
+
+[node name="BodyShadow" type="AnimatedSprite2D" parent="Shadows/Body"]
 offset = Vector2(0, -50)
 script = ExtResource("2_kmlx4")
 extra_offset = Vector2(-1, -1)
 folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalierShadow/"
 
-[node name="SimpleSwordShadow" parent="Shadows" instance=ExtResource("3_11g6d")]
+[node name="Legs" type="Node2D" parent="Shadows"]
+
+[node name="Feet" type="Node2D" parent="Shadows"]
+
+[node name="Shirt" type="Node2D" parent="Shadows"]
+
+[node name="Hat" type="Node2D" parent="Shadows"]
+
+[node name="Gloves" type="Node2D" parent="Shadows"]
+
+[node name="Arms" type="Node2D" parent="Shadows"]
+
+[node name="Offhand" type="Node2D" parent="Shadows"]
+
+[node name="MainHand" type="Node2D" parent="Shadows"]
+
+[node name="SimpleSwordShadow" parent="Shadows/MainHand" instance=ExtResource("3_11g6d")]
 armed_only = true
 extra_offset = Vector2(-1, -1)
 folder_name = "res://assets/sprite_sheets/simple_sword/sprites.simpleSword_shadow/"
 
-[node name="Sprites" type="Node2D" parent="."]
+[node name="Equipment" type="Node2D" parent="."]
 
-[node name="Body" type="AnimatedSprite2D" parent="Sprites"]
+[node name="Body" type="Node2D" parent="Equipment"]
+
+[node name="Body" type="AnimatedSprite2D" parent="Equipment/Body"]
 offset = Vector2(0, -50)
 script = ExtResource("2_kmlx4")
 is_body = true
 folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalier/"
 
-[node name="SimpleSword" parent="Sprites" instance=ExtResource("3_11g6d")]
+[node name="Legs" type="Node2D" parent="Equipment"]
+
+[node name="Feet" type="Node2D" parent="Equipment"]
+
+[node name="Shirt" type="Node2D" parent="Equipment"]
+
+[node name="Hat" type="Node2D" parent="Equipment"]
+
+[node name="Gloves" type="Node2D" parent="Equipment"]
+
+[node name="Arms" type="Node2D" parent="Equipment"]
+
+[node name="Offhand" type="Node2D" parent="Equipment"]
+
+[node name="MainHand" type="Node2D" parent="Equipment"]
+
+[node name="SimpleSword" parent="Equipment/MainHand" instance=ExtResource("3_11g6d")]
 armed_only = true
 folder_name = "res://assets/sprite_sheets/simple_sword/sprites.simpleSword/"
 

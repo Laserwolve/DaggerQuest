@@ -131,11 +131,11 @@ func _ready():
 	
 	# Add the animation player to the Player
 	get_parent().call_deferred("add_child", animation_player)
-	get_parent().get_parent().register_animation_player(animation_player)
+	get_parent().get_parent().get_parent().register_animation_player(animation_player)
 	
 	if is_body:
-		animation_player.connect("animation_finished", get_parent().get_parent().animation_finished)
+		animation_player.connect("animation_finished", get_parent().get_parent().get_parent().animation_finished)
 
 func delete():
-	get_parent().get_parent().unregister_animation_player(animation_player)
+	get_parent().get_parent().get_parent().unregister_animation_player(animation_player)
 	queue_free()

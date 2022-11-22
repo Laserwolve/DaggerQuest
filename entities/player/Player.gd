@@ -4,6 +4,19 @@ class_name Player
 # Exported Variables
 @export var move_speed: float = 200
 
+# Enums
+enum EquipmentSlots {
+	BODY,
+	LEGS,
+	FEET,
+	SHIRT,
+	HAT,
+	GLOVES,
+	ARMS,
+	MAIN_HAND,
+	OFFHAND
+}
+
 # OnReady Variables
 @onready var NAVIGATION: NavigationAgent2D = $NavigationAgent2D
 # ALL_CAPS because it's technically constant, feel free to change it.
@@ -15,9 +28,28 @@ var animation_players: Array[AnimationPlayer] = []
 var forced_animation: String = ""
 var final_animation: bool = false
 
-var equipment: Dictionary = {
-	"legs": null,
-	"legs_shadow": null
+@onready var EQUIPMENT_NODES: Dictionary = {
+	EquipmentSlots.BODY: $Equipment/Body,
+	EquipmentSlots.LEGS: $Equipment/Legs,
+	EquipmentSlots.FEET: $Equipment/Feet,
+	EquipmentSlots.SHIRT: $Equipment/Shirt,
+	EquipmentSlots.HAT: $Equipment/Hat,
+	EquipmentSlots.GLOVES: $Equipment/Gloves,
+	EquipmentSlots.ARMS: $Equipment/Arms,
+	EquipmentSlots.MAIN_HAND: $Equipment/MainHand,
+	EquipmentSlots.OFFHAND: $Equipment/Offhand
+}
+
+@onready var SHADOW_NODES: Dictionary = {
+	EquipmentSlots.BODY: $Shadows/Body,
+	EquipmentSlots.LEGS: $Shadows/Legs,
+	EquipmentSlots.FEET: $Shadows/Feet,
+	EquipmentSlots.SHIRT: $Shadows/Shirt,
+	EquipmentSlots.HAT: $Shadows/Hat,
+	EquipmentSlots.GLOVES: $Shadows/Gloves,
+	EquipmentSlots.ARMS: $Shadows/Arms,
+	EquipmentSlots.MAIN_HAND: $Shadows/MainHand,
+	EquipmentSlots.OFFHAND: $Shadows/Offhand
 }
 
 # Constants
@@ -126,17 +158,16 @@ func get_look_angle(look_direction: Vector2) -> String:
 	return string
 
 func toggle_legs():
-	if equipment["legs"] == null:
+	if EQUIPMENT_NODES[EquipmentSlots.LEGS].get_child_count() == 0:
 		var legs = EQUIPED_ITEM.instantiate()
 		var legs_shadow = EQUIPED_ITEM.instantiate()
 		legs.folder_name = Items.items[Items.ItemID.SIMPLE_LEGGINGS].equipment_path
 		legs_shadow.folder_name = Items.items[Items.ItemID.SIMPLE_LEGGINGS].shadow_path
 		
-		equipment["legs"] = legs
-		equipment["legs_shadow"] = legs_shadow
-		
-		$Sprites.add_child(legs)
-		$Shadows.add_child(legs_shadow)
+		EQUIPMENT_NODES[EquipmentSlots.LEGS].add_child(legs)
+		SHADOW_NODES[EquipmentSlots.LEGS].add_child(legs_shadow)
 	else:
-		equipment["legs"].delete()
-		equipment["legs_shadow"].delete()
+		for child in EQUIPMENT_NODES[EquipmentSlots.LEGS].get_children():
+			child.delete()
+		for child in SHADOW_NODES[EquipmentSlots.LEGS].get_children():
+			child.delete()
