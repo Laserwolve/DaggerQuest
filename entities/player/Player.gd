@@ -89,6 +89,8 @@ func play_animation(animation_name: String):
 			player.play(animation_name)
 		if same_category:
 			player.seek(old_time, true) 
+		else:
+			player.seek(0, true)
 
 func damage(amount: float):
 	NAVIGATION.set_target_location(position)
