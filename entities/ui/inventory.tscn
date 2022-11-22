@@ -1,7 +1,259 @@
-[gd_scene format=3 uid="uid://b4m5k4mpymesq"]
+[gd_scene load_steps=2 format=3 uid="uid://b4m5k4mpymesq"]
+
+[ext_resource type="PackedScene" uid="uid://4pp7vmcuvige" path="res://entities/ui/inventory_slot.tscn" id="1_owan1"]
 
 [node name="Inventory" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/h_separation = 78
+theme_override_constants/v_separation = 78
+columns = 5
+
+[node name="Inventory Slot" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+
+[node name="Inventory Slot4" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 78.0
+offset_right = 78.0
+offset_bottom = 0.0
+
+[node name="Inventory Slot5" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 156.0
+offset_right = 156.0
+offset_bottom = 0.0
+
+[node name="Inventory Slot6" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 234.0
+offset_right = 234.0
+offset_bottom = 0.0
+
+[node name="Inventory Slot7" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 312.0
+offset_right = 312.0
+offset_bottom = 0.0
+
+[node name="Inventory Slot8" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_top = 78.0
+offset_right = 0.0
+offset_bottom = 78.0
+
+[node name="Inventory Slot9" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 78.0
+offset_top = 78.0
+offset_right = 78.0
+offset_bottom = 78.0
+
+[node name="Inventory Slot10" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 156.0
+offset_top = 78.0
+offset_right = 156.0
+offset_bottom = 78.0
+
+[node name="Inventory Slot11" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 234.0
+offset_top = 78.0
+offset_right = 234.0
+offset_bottom = 78.0
+
+[node name="Inventory Slot12" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 312.0
+offset_top = 78.0
+offset_right = 312.0
+offset_bottom = 78.0
+
+[node name="Inventory Slot13" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_top = 156.0
+offset_right = 0.0
+offset_bottom = 156.0
+
+[node name="Inventory Slot14" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 78.0
+offset_top = 156.0
+offset_right = 78.0
+offset_bottom = 156.0
+
+[node name="Inventory Slot15" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 156.0
+offset_top = 156.0
+offset_right = 156.0
+offset_bottom = 156.0
+
+[node name="Inventory Slot16" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 234.0
+offset_top = 156.0
+offset_right = 234.0
+offset_bottom = 156.0
+
+[node name="Inventory Slot17" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 312.0
+offset_top = 156.0
+offset_right = 312.0
+offset_bottom = 156.0
+
+[node name="Inventory Slot18" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_top = 234.0
+offset_right = 0.0
+offset_bottom = 234.0
+
+[node name="Inventory Slot19" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 78.0
+offset_top = 234.0
+offset_right = 78.0
+offset_bottom = 234.0
+
+[node name="Inventory Slot20" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 156.0
+offset_top = 234.0
+offset_right = 156.0
+offset_bottom = 234.0
+
+[node name="Inventory Slot21" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 234.0
+offset_top = 234.0
+offset_right = 234.0
+offset_bottom = 234.0
+
+[node name="Inventory Slot22" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 312.0
+offset_top = 234.0
+offset_right = 312.0
+offset_bottom = 234.0
+
+[node name="Inventory Slot23" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_top = 312.0
+offset_right = 0.0
+offset_bottom = 312.0
+
+[node name="Inventory Slot24" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 78.0
+offset_top = 312.0
+offset_right = 78.0
+offset_bottom = 312.0
+
+[node name="Inventory Slot25" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 156.0
+offset_top = 312.0
+offset_right = 156.0
+offset_bottom = 312.0
+
+[node name="Inventory Slot2" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 234.0
+offset_top = 312.0
+offset_right = 234.0
+offset_bottom = 312.0
+
+[node name="Inventory Slot3" parent="GridContainer" instance=ExtResource("1_owan1")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 312.0
+offset_top = 312.0
+offset_right = 312.0
+offset_bottom = 312.0
