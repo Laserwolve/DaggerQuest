@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cr5cqqbh5nw46"
-path="res://.godot/imported/simpleRobe.png-250419114ac3abca82d81cb347a1594f.ctex"
+path="res://.godot/imported/simpleRobe.png-87716f0aa6d5e253edd06ae8def265b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/UI/items/simpleRobe.png"
-dest_files=["res://.godot/imported/simpleRobe.png-250419114ac3abca82d81cb347a1594f.ctex"]
+source_file="res://assets/sprites/ui/items/simpleRobe.png"
+dest_files=["res://.godot/imported/simpleRobe.png-87716f0aa6d5e253edd06ae8def265b1.ctex"]
 
 [params]
 
