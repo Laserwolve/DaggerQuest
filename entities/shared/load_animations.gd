@@ -80,9 +80,6 @@ func _ready():
 	
 	# Add all the frames
 	for animName in ANIMATONS:
-		print(animName)
-		print(files.size())
-		
 		if armed_only && animName.contains("UNARMED"):
 			continue
 		for i in range(0, 160):
@@ -98,6 +95,9 @@ func _ready():
 	frames = sprite_frame
 	
 	var animation_player = AnimationPlayer.new()
+	
+	var animation_speed = 12.0
+	var frame_time = 1 / animation_speed
 	
 	# Create the animation libraries.
 	for animName in ANIMATONS:
@@ -116,9 +116,9 @@ func _ready():
 			ani.track_insert_key(ani_track, 0, animName)
 			
 			for i in range(0, 10):
-				ani.track_insert_key(track_index, 0.08*i, i + (10 * frame_offset))
+				ani.track_insert_key(track_index, frame_time * i, i + (10 * frame_offset))
 			
-			ani.length = 0.72
+			ani.length = frame_time * 9
 			if animName.contains("walk") || animName.contains("idle"):
 				ani.loop_mode = Animation.LOOP_LINEAR
 			
