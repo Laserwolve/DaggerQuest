@@ -6,7 +6,7 @@ extends Control
 var item : ItemManager.Item = null
 var is_filled : bool = false
 var is_mouse_over : bool
-var tool_tip_anchor_corner: int = 1 # TL = 0, TR = 1, BL = 3, BR = 4
+var tool_tip_anchor_offset: Vector2 = Vector2(-1, 0) * Vector2(512, 256) # ToolTip size
 
 func _ready():
 	pass # Replace with function body.
@@ -18,19 +18,20 @@ func set_item(new_item: ItemManager.Item):
 	else:
 		is_filled = true
 		ITEM_TEXTURE_NODE.texture = load(new_item.icon_path)
+		$ToolTip/ItemName.text = new_item.item_name
+		$ToolTip/ItemDescription.text = new_item.item_description
 	
 	item = new_item
 
 func _process(_delta):
-	if is_mouse_over:
+	if is_mouse_over && item != null:
 		TOOL_TIP_NODE.visible = true
+		TOOL_TIP_NODE.global_position = get_global_mouse_position() + tool_tip_anchor_offset
 	else:
 		TOOL_TIP_NODE.visible = false
 
 func _mouse_entered():
-	print("Mouse Entered")
 	is_mouse_over = true
 
 func _mouse_exited():
-	print("Mouse Exited")
 	is_mouse_over = false
