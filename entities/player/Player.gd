@@ -65,17 +65,18 @@ func register_animation_player(player: AnimationPlayer):
 	
 func unregister_animation_player(player: AnimationPlayer):
 	animation_players.erase(player)
-	
+
+func _unhandled_input(input):
+	if input.is_action_pressed("move") && forced_animation == "":
+		look_direction = position.direction_to(get_global_mouse_position())
+		NAVIGATION.set_target_location(get_global_mouse_position())
+
 func _physics_process(delta):
 	last_delta = delta
 	var target_position: Vector2 = NAVIGATION.get_next_location()
 	var animation_name: String = "idle"
 	
 	# Get Inputs
-	if Input.is_action_pressed("move") && forced_animation == "":
-		look_direction = position.direction_to(get_global_mouse_position())
-		NAVIGATION.set_target_location(get_global_mouse_position())
-		target_position = get_global_mouse_position()
 	
 	if Input.is_action_just_pressed("inventory"):
 		$UI/Inventory.visible = !$UI/Inventory.visible
