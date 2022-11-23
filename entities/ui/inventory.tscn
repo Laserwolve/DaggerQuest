@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://b4m5k4mpymesq"]
+[gd_scene load_steps=3 format=3 uid="uid://b4m5k4mpymesq"]
 
 [ext_resource type="PackedScene" uid="uid://4pp7vmcuvige" path="res://entities/ui/inventory_slot.tscn" id="1_owan1"]
+[ext_resource type="Script" path="res://entities/ui/inventory.gd" id="1_qrjow"]
 
 [node name="Inventory" type="Control"]
 layout_mode = 3
@@ -9,6 +10,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_qrjow")
 
 [node name="GridContainer" type="GridContainer" parent="."]
 layout_mode = 0

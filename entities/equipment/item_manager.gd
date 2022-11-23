@@ -4,7 +4,7 @@ class_name ItemManager
 func _ready():
 	pass # Replace with function body.
 
-static func create_equipment(equipment_name : String) -> Item: # Probably don't use string in future but an enum
+static func create_item(item_name : String) -> Item: # Probably don't use string in future but an enum
 	var equipment : Dictionary = {}
 	return null
 
