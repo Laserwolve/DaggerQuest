@@ -13,6 +13,12 @@ signal pick_up_item(item)
 func _ready():
 	pass # Replace with function body.
 
+func _input(event):
+	if event.is_action_pressed("mouse_accept") and is_mouse_over and is_filled:
+		print("hey")
+		pick_up_item.emit(item)
+		call_deferred("set_item", null)
+
 func set_item(new_item: ItemManager.Item):
 	if new_item == null:
 		is_filled = false
