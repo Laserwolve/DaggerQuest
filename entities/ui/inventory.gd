@@ -15,10 +15,11 @@ func add_item_to_first_empty_slot(item : ItemManager.Item) -> void:
 	print(item.item_name)
 	for slot in slots.get_children():
 		if not slot.is_filled:
-			# add item to inventory
-			pass
+			has_found_slot = true
+			slot.set_item(item)
+			break
 	
 	if not has_found_slot:
 		# Display message that inventory is full
-		pass
+		print("Inventory full!")
 

@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://4pp7vmcuvige"]
+[gd_scene load_steps=4 format=3 uid="uid://4pp7vmcuvige"]
 
 [ext_resource type="Texture2D" uid="uid://c1gsc0mhem80l" path="res://assets/sprites/ui/slot.png" id="1_7uy17"]
 [ext_resource type="Script" path="res://entities/ui/inventory_slot.gd" id="1_rhouh"]
+[ext_resource type="Texture2D" uid="uid://barxpjooxdxhu" path="res://assets/sprites/ui/itemTooltip.png" id="3_eyamv"]
 
 [node name="Inventory Slot" type="Control"]
 layout_mode = 3
@@ -28,3 +29,14 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="ToolTip" type="TextureRect" parent="."]
+visible = false
+offset_left = 262.0
+offset_top = 4.0
+offset_right = 1796.0
+offset_bottom = 771.0
+texture = ExtResource("3_eyamv")
+
+[connection signal="mouse_entered" from="." to="." method="_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_mouse_exited"]
