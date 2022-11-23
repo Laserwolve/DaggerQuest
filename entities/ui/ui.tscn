@@ -1,12 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://b4etpwq1543rg"]
+[gd_scene load_steps=4 format=3 uid="uid://b4etpwq1543rg"]
 
 [ext_resource type="PackedScene" uid="uid://b4m5k4mpymesq" path="res://entities/ui/inventory.tscn" id="1_biaw8"]
+[ext_resource type="Script" path="res://entities/ui/ui.gd" id="1_knar8"]
 [ext_resource type="PackedScene" uid="uid://buljv3bucumko" path="res://entities/ui/mouse_item.tscn" id="2_que4x"]
 
 [node name="UI" type="CanvasLayer"]
+script = ExtResource("1_knar8")
 
 [node name="Inventory" parent="." instance=ExtResource("1_biaw8")]
-visible = false
 anchors_preset = 1
 anchor_left = 1.0
 anchor_bottom = 0.0
@@ -18,5 +19,4 @@ grow_horizontal = 0
 grow_vertical = 1
 
 [node name="MouseItem" parent="." instance=ExtResource("2_que4x")]
-grow_horizontal = 2
-grow_vertical = 2
+mouse_filter = 2

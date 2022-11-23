@@ -77,15 +77,17 @@ func _physics_process(delta):
 		NAVIGATION.set_target_location(get_global_mouse_position())
 		target_position = get_global_mouse_position()
 	
-	# Debug Inputs (Will be replaced/removed later
-	
-	if Input.is_action_just_pressed("toggle_legs"): # Enter
-		toggle_legs()
-	
-	if Input.is_action_just_pressed("ui_accept") && armed: # Enter
+	if Input.is_action_just_pressed("inventory"):
+		pass
+		
+	if Input.is_action_just_pressed("character_menu"):
+		pass
+		
+	if Input.is_action_just_pressed("attack") && armed:
 		NAVIGATION.set_target_location(position)
 		forced_animation = "attack"
 	
+	# Debug Inputs (Will be replaced/removed later
 	if Input.is_action_just_pressed("toggle_armed"): # A
 		armed = !armed
 	
@@ -102,12 +104,15 @@ func _physics_process(delta):
 		animation_name = "walk"
 		NAVIGATION.set_velocity(position.direction_to(target_position) * move_speed)
 	
+	# Use a forced animation if one is set.
 	if forced_animation != "":
 		animation_name = forced_animation
 	
+	# Set the walk/idle animations to their UNARMED variant if player is unarmed.
 	if !armed && (animation_name == "walk" || animation_name == "idle"):
 		animation_name += "UNARMED"
 	
+	# Hide/Show main hand and offhand based on armed status.
 	EQUIPMENT_NODES[EquipmentSlots.MAIN_HAND].visible = armed
 	SHADOW_NODES[EquipmentSlots.MAIN_HAND].visible = armed
 	
