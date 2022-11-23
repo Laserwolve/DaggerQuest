@@ -22,6 +22,11 @@ func set_item(new_item: ItemManager.Item):
 		$ToolTip/ItemDescription.text = new_item.item_description
 	
 	item = new_item
+	
+func swap_item(new_item: ItemManager.Item) -> ItemManager.Item:
+	var current_item = item
+	set_item(new_item)
+	return current_item
 
 func _process(_delta):
 	if is_mouse_over && item != null:
