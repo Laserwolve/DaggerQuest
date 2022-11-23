@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://bkq6rcclr0thj"]
+[gd_scene load_steps=5 format=3 uid="uid://guxgfcuvaghr"]
 
 [ext_resource type="Script" path="res://entities/player/Player.gd" id="1_qh42t"]
-[ext_resource type="Script" path="res://scripts/load_animations.gd" id="3_scl5f"]
+[ext_resource type="Script" path="res://entities/shared/load_animations.gd" id="2_kmlx4"]
+[ext_resource type="PackedScene" uid="uid://bh2gtggljamvl" path="res://entities/shared/EquipedItem.tscn" id="3_11g6d"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_th2xk"]
 size = Vector2(154, 202)
@@ -9,13 +10,66 @@ size = Vector2(154, 202)
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_qh42t")
 
-[node name="Body" type="AnimatedSprite2D" parent="."]
-script = ExtResource("3_scl5f")
+[node name="Shadows" type="Node2D" parent="."]
+
+[node name="Body" type="Node2D" parent="Shadows"]
+
+[node name="BodyShadow" type="AnimatedSprite2D" parent="Shadows/Body"]
+offset = Vector2(0, -50)
+script = ExtResource("2_kmlx4")
+extra_offset = Vector2(-1, -1)
+folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalierShadow/"
+
+[node name="Legs" type="Node2D" parent="Shadows"]
+
+[node name="Feet" type="Node2D" parent="Shadows"]
+
+[node name="Shirt" type="Node2D" parent="Shadows"]
+
+[node name="Hat" type="Node2D" parent="Shadows"]
+
+[node name="Gloves" type="Node2D" parent="Shadows"]
+
+[node name="Arms" type="Node2D" parent="Shadows"]
+
+[node name="Offhand" type="Node2D" parent="Shadows"]
+
+[node name="MainHand" type="Node2D" parent="Shadows"]
+
+[node name="SimpleSwordShadow" parent="Shadows/MainHand" instance=ExtResource("3_11g6d")]
+armed_only = true
+extra_offset = Vector2(-1, -1)
+folder_name = "res://assets/sprite_sheets/simple_sword/sprites.simpleSword_shadow/"
+
+[node name="Equipment" type="Node2D" parent="."]
+
+[node name="Body" type="Node2D" parent="Equipment"]
+
+[node name="Body" type="AnimatedSprite2D" parent="Equipment/Body"]
+offset = Vector2(0, -50)
+script = ExtResource("2_kmlx4")
+is_body = true
 folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalier/"
 
-[node name="Legs" type="AnimatedSprite2D" parent="."]
-script = ExtResource("3_scl5f")
-folder_name = "res://assets/sprite_sheets/simple_leggings/sprites.simpleLeggings/"
+[node name="Legs" type="Node2D" parent="Equipment"]
+
+[node name="Feet" type="Node2D" parent="Equipment"]
+
+[node name="Shirt" type="Node2D" parent="Equipment"]
+
+[node name="Hat" type="Node2D" parent="Equipment"]
+
+[node name="Gloves" type="Node2D" parent="Equipment"]
+
+[node name="Arms" type="Node2D" parent="Equipment"]
+
+[node name="Offhand" type="Node2D" parent="Equipment"]
+
+[node name="MainHand" type="Node2D" parent="Equipment"]
+
+[node name="SimpleSword" parent="Equipment/MainHand" instance=ExtResource("3_11g6d")]
+armed_only = true
+folder_name = "res://assets/sprite_sheets/simple_sword/sprites.simpleSword/"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(4, 6)
@@ -23,5 +77,7 @@ shape = SubResource("RectangleShape2D_th2xk")
 
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
 avoidance_enabled = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 
 [connection signal="velocity_computed" from="NavigationAgent2D" to="." method="_safe_velocity_computed"]
