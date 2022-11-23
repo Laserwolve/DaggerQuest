@@ -17,3 +17,10 @@ func _on_drop_item(slot: InventorySlot):
 	slot.set_item(item_contained)
 	item_contained = null
 	item_texture.texture = null
+
+func _unhandled_input(input):
+	if input.is_action_pressed("mouse_accept"):
+		if item_contained != null:
+			print("Drop Item!")
+			item_contained = null
+			item_texture.texture = null
