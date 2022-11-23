@@ -13,11 +13,10 @@ font_size = 12
 
 [node name="Inventory Slot" type="Control"]
 layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -894.0
-offset_bottom = -390.0
+anchor_right = 0.224
+anchor_bottom = 0.398
+offset_right = -0.0480042
+offset_bottom = 0.0959778
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_rhouh")

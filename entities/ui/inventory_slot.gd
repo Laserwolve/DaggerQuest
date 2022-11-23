@@ -8,6 +8,8 @@ var is_filled : bool = false
 var is_mouse_over : bool
 var tool_tip_anchor_offset: Vector2 = Vector2(-1, 0) * Vector2(512, 256) # ToolTip size
 
+signal pick_up_item(item)
+
 func _ready():
 	pass # Replace with function body.
 
