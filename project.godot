@@ -9,12 +9,18 @@
 config_version=5
 
 _global_script_classes=[{
+"base": "Node",
+"class": &"ItemManager",
+"language": &"GDScript",
+"path": "res://entities/equipment/equipment_manager.gd"
+}, {
 "base": "CharacterBody2D",
 "class": &"Player",
 "language": &"GDScript",
 "path": "res://entities/player/Player.gd"
 }]
 _global_script_class_icons={
+"ItemManager": "",
 "Player": ""
 }
 

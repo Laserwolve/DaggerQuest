@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://4pp7vmcuvige"]
+[gd_scene load_steps=3 format=3 uid="uid://4pp7vmcuvige"]
 
 [ext_resource type="Texture2D" uid="uid://c1gsc0mhem80l" path="res://assets/sprites/ui/slot.png" id="1_7uy17"]
+[ext_resource type="Script" path="res://entities/ui/inventory_slot.gd" id="1_rhouh"]
 
 [node name="Inventory Slot" type="Control"]
 layout_mode = 3
@@ -11,6 +12,7 @@ offset_right = -894.0
 offset_bottom = -390.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_rhouh")
 
 [node name="Background" type="TextureRect" parent="."]
 layout_mode = 1
@@ -21,7 +23,7 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_7uy17")
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="ItemTexture" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
