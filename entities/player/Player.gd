@@ -78,7 +78,7 @@ func _physics_process(delta):
 		target_position = get_global_mouse_position()
 	
 	if Input.is_action_just_pressed("inventory"):
-		pass
+		$UI/Inventory.visible = !$UI/Inventory.visible
 		
 	if Input.is_action_just_pressed("character_menu"):
 		pass
@@ -171,18 +171,3 @@ func get_look_angle(look_direction: Vector2) -> String:
 		string = "0"
 	
 	return string
-
-func toggle_legs():
-	if EQUIPMENT_NODES[EquipmentSlots.LEGS].get_child_count() == 0:
-		var legs = EQUIPED_ITEM.instantiate()
-		var legs_shadow = EQUIPED_ITEM.instantiate()
-		legs.folder_name = Items.items[Items.ItemID.SIMPLE_LEGGINGS].equipment_path
-		legs_shadow.folder_name = Items.items[Items.ItemID.SIMPLE_LEGGINGS].shadow_path
-		
-		EQUIPMENT_NODES[EquipmentSlots.LEGS].add_child(legs)
-		SHADOW_NODES[EquipmentSlots.LEGS].add_child(legs_shadow)
-	else:
-		for child in EQUIPMENT_NODES[EquipmentSlots.LEGS].get_children():
-			child.delete()
-		for child in SHADOW_NODES[EquipmentSlots.LEGS].get_children():
-			child.delete()
