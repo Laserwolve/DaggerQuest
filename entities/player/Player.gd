@@ -78,7 +78,7 @@ func _physics_process(delta):
 		target_position = get_global_mouse_position()
 	
 	if Input.is_action_just_pressed("inventory"):
-		pass
+		$UI/Inventory.visible = !$UI/Inventory.visible
 		
 	if Input.is_action_just_pressed("character_menu"):
 		pass

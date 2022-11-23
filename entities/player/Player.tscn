@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://guxgfcuvaghr"]
+[gd_scene load_steps=6 format=3 uid="uid://guxgfcuvaghr"]
 
 [ext_resource type="Script" path="res://entities/player/Player.gd" id="1_qh42t"]
+[ext_resource type="PackedScene" uid="uid://b4etpwq1543rg" path="res://entities/ui/ui.tscn" id="2_4ol65"]
 [ext_resource type="Script" path="res://entities/shared/load_animations.gd" id="2_kmlx4"]
 [ext_resource type="PackedScene" uid="uid://bh2gtggljamvl" path="res://entities/shared/EquipedItem.tscn" id="3_11g6d"]
 
@@ -9,6 +10,8 @@ size = Vector2(154, 202)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_qh42t")
+
+[node name="UI" parent="." instance=ExtResource("2_4ol65")]
 
 [node name="Shadows" type="Node2D" parent="."]
 
