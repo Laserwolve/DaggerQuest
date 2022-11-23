@@ -12,3 +12,8 @@ func _process(delta):
 func _on_pick_up_item(item : ItemManager.Item):
 	item_contained = item
 	item_texture.texture = load(item.icon_path)
+
+func _on_drop_item(slot: InventorySlot):
+	slot.set_item(item_contained)
+	item_contained = null
+	item_texture.texture = null

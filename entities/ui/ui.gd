@@ -11,4 +11,5 @@ func _ready():
 func connect_signals() -> void:
 	for slot in get_node("Inventory/Slots").get_children():
 		slot.pick_up_item.connect(mouse_item._on_pick_up_item)
+		slot.drop_item.connect(mouse_item._on_drop_item)
 		pass

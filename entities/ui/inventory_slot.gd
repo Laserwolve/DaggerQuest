@@ -1,4 +1,5 @@
 extends Control
+class_name InventorySlot
 
 @onready var TOOL_TIP_NODE = $ToolTip
 @onready var ITEM_TEXTURE_NODE = $ItemTexture
@@ -9,15 +10,18 @@ var is_mouse_over : bool
 var tool_tip_anchor_offset: Vector2 = Vector2(-1, 0) * Vector2(512, 256) # ToolTip size
 
 signal pick_up_item(item)
+signal drop_item(slot)
 
 func _ready():
 	pass # Replace with function body.
 
 func _input(event):
-	if event.is_action_pressed("mouse_accept") and is_mouse_over and is_filled:
-		print("hey")
-		pick_up_item.emit(item)
-		call_deferred("set_item", null)
+	if event.is_action_pressed("mouse_accept") and is_mouse_over:
+		if is_filled:
+			pick_up_item.emit(item)
+			call_deferred("set_item", null)
+		else:
+			drop_item.emit(self)
 
 func set_item(new_item: ItemManager.Item):
 	if new_item == null:
