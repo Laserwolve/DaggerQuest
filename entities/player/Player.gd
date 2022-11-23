@@ -77,15 +77,17 @@ func _physics_process(delta):
 		NAVIGATION.set_target_location(get_global_mouse_position())
 		target_position = get_global_mouse_position()
 	
-	# Debug Inputs (Will be replaced/removed later
-	
-	if Input.is_action_just_pressed("toggle_legs"): # Enter
-		toggle_legs()
-	
-	if Input.is_action_just_pressed("ui_accept") && armed: # Enter
+	if Input.is_action_just_pressed("inventory"):
+		pass
+		
+	if Input.is_action_just_pressed("character_menu"):
+		pass
+		
+	if Input.is_action_just_pressed("attack") && armed:
 		NAVIGATION.set_target_location(position)
 		forced_animation = "attack"
 	
+	# Debug Inputs (Will be replaced/removed later
 	if Input.is_action_just_pressed("toggle_armed"): # A
 		armed = !armed
 	
