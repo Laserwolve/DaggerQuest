@@ -18,5 +18,3 @@ grow_horizontal = 0
 grow_vertical = 1
 
 [node name="MouseItem" parent="." instance=ExtResource("2_que4x")]
-grow_horizontal = 2
-grow_vertical = 2
