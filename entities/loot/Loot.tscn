@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cj3vrhcseeq0k"]
+
+[ext_resource type="Script" path="res://entities/loot/Loot.gd" id="1_u4r0l"]
+
+[node name="Loot" type="AnimatedSprite2D"]
+script = ExtResource("1_u4r0l")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[connection signal="mouse_entered" from="Area2D" to="." method="_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="." method="_mouse_exited"]
