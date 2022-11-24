@@ -12,7 +12,7 @@ _global_script_classes=[{
 "base": "Control",
 "class": &"InventorySlot",
 "language": &"GDScript",
-"path": "res://entities/ui/inventory_slot.gd"
+"path": "res://entities/ui/inventory/inventory_slot.gd"
 }, {
 "base": "Node",
 "class": &"ItemManager",

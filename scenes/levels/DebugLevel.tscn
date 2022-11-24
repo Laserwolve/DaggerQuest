@@ -8,7 +8,7 @@ vertices = PackedVector2Array(-1457, -943, 2594, -1003, 2558, 1772, -1463, 1802)
 polygons = [PackedInt32Array(0, 1, 2, 3)]
 outlines = [PackedVector2Array(-1457, -943, 2594, -1003, 2558, 1772, -1463, 1802)]
 
-[node name="DebugLevel" type="Node2D"]
+[node name="World" type="Node2D"]
 
 [node name="Background" type="TextureRect" parent="."]
 texture_repeat = 2
@@ -25,3 +25,5 @@ navpoly = SubResource("NavigationPolygon_76r2n")
 
 [node name="Player" parent="." instance=ExtResource("2_nhiob")]
 position = Vector2(317, 34)
+
+[node name="Loot" type="Node2D" parent="."]

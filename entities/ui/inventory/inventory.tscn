@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://b4m5k4mpymesq"]
+[gd_scene load_steps=3 format=3 uid="uid://c2idhonnql7pj"]
 
-[ext_resource type="PackedScene" uid="uid://4pp7vmcuvige" path="res://entities/ui/inventory_slot.tscn" id="1_owan1"]
-[ext_resource type="Script" path="res://entities/ui/inventory.gd" id="1_qrjow"]
+[ext_resource type="Script" path="res://entities/ui/inventory/inventory.gd" id="1_eyfx5"]
+[ext_resource type="PackedScene" path="res://entities/ui/inventory/inventory_slot.tscn" id="2_6a1ri"]
 
 [node name="Inventory" type="Control"]
 layout_mode = 3
@@ -11,7 +11,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
-script = ExtResource("1_qrjow")
+script = ExtResource("1_eyfx5")
 
 [node name="Slots" type="GridContainer" parent="."]
 offset_right = 40.0
@@ -21,7 +21,7 @@ theme_override_constants/h_separation = 78
 theme_override_constants/v_separation = 78
 columns = 5
 
-[node name="Inventory Slot" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -30,7 +30,7 @@ offset_bottom = 0.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot4" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot4" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -40,7 +40,7 @@ offset_bottom = 0.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot5" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot5" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -50,7 +50,7 @@ offset_bottom = 0.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot6" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot6" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -60,7 +60,7 @@ offset_bottom = 0.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot7" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot7" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -70,7 +70,7 @@ offset_bottom = 0.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot8" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot8" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -80,7 +80,7 @@ offset_bottom = 78.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot9" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot9" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -91,7 +91,7 @@ offset_bottom = 78.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot10" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot10" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -102,7 +102,7 @@ offset_bottom = 78.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot11" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot11" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -113,7 +113,7 @@ offset_bottom = 78.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot12" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot12" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -124,7 +124,7 @@ offset_bottom = 78.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot13" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot13" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -134,7 +134,7 @@ offset_bottom = 156.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot14" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot14" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -145,7 +145,7 @@ offset_bottom = 156.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot15" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot15" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -156,7 +156,7 @@ offset_bottom = 156.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot16" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot16" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -167,7 +167,7 @@ offset_bottom = 156.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot17" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot17" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -178,7 +178,7 @@ offset_bottom = 156.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot18" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot18" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -188,7 +188,7 @@ offset_bottom = 234.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot19" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot19" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -199,7 +199,7 @@ offset_bottom = 234.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot20" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot20" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -210,7 +210,7 @@ offset_bottom = 234.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot21" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot21" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -221,7 +221,7 @@ offset_bottom = 234.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot22" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot22" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -232,7 +232,7 @@ offset_bottom = 234.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot23" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot23" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -242,7 +242,7 @@ offset_bottom = 312.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot24" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot24" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -253,7 +253,7 @@ offset_bottom = 312.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot25" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot25" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -264,7 +264,7 @@ offset_bottom = 312.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot2" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot2" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
@@ -275,7 +275,7 @@ offset_bottom = 312.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="Inventory Slot3" parent="Slots" instance=ExtResource("1_owan1")]
+[node name="Inventory Slot3" parent="Slots" instance=ExtResource("2_6a1ri")]
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0

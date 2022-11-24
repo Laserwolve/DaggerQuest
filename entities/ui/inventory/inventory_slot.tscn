@@ -1,18 +1,18 @@
-[gd_scene load_steps=8 format=3 uid="uid://4pp7vmcuvige"]
+[gd_scene load_steps=8 format=3 uid="uid://chws3isyuni30"]
 
-[ext_resource type="Texture2D" uid="uid://c1gsc0mhem80l" path="res://assets/sprites/ui/slot.png" id="1_7uy17"]
-[ext_resource type="Script" path="res://entities/ui/inventory_slot.gd" id="1_rhouh"]
-[ext_resource type="Texture2D" uid="uid://barxpjooxdxhu" path="res://assets/sprites/ui/itemTooltip.png" id="3_eyamv"]
-[ext_resource type="FontFile" uid="uid://chsup7rvh73ej" path="res://assets/fonts/cinzel-semibold.woff2" id="4_yfdui"]
-[ext_resource type="FontFile" uid="uid://db6hd0d8gv13o" path="res://assets/fonts/grenze-semibold.woff2" id="5_scehv"]
+[ext_resource type="Script" path="res://entities/ui/inventory/inventory_slot.gd" id="1_4be1s"]
+[ext_resource type="Texture2D" uid="uid://c1gsc0mhem80l" path="res://assets/sprites/ui/slot.png" id="2_6ivxp"]
+[ext_resource type="Texture2D" uid="uid://barxpjooxdxhu" path="res://assets/sprites/ui/itemTooltip.png" id="3_cthcd"]
+[ext_resource type="FontFile" uid="uid://chsup7rvh73ej" path="res://assets/fonts/cinzel-semibold.woff2" id="4_i4ojj"]
+[ext_resource type="FontFile" uid="uid://db6hd0d8gv13o" path="res://assets/fonts/grenze-semibold.woff2" id="5_sk62u"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_x1hkg"]
-font = ExtResource("4_yfdui")
+font = ExtResource("4_i4ojj")
 font_size = 22
 outline_size = 2
 
 [sub_resource type="LabelSettings" id="LabelSettings_8hbfu"]
-font = ExtResource("5_scehv")
+font = ExtResource("5_sk62u")
 
 [node name="Inventory Slot" type="Control"]
 layout_mode = 3
@@ -22,19 +22,17 @@ offset_right = -0.0480042
 offset_bottom = 0.0959778
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_rhouh")
+script = ExtResource("1_4be1s")
 
 [node name="Background" type="TextureRect" parent="."]
-layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_7uy17")
+texture = ExtResource("2_6ivxp")
 
 [node name="ItemTexture" type="TextureRect" parent="."]
-layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -43,14 +41,12 @@ grow_vertical = 2
 
 [node name="ToolTip" type="TextureRect" parent="."]
 top_level = true
-layout_mode = 0
 offset_right = 512.0
 offset_bottom = 256.0
 mouse_filter = 2
-texture = ExtResource("3_eyamv")
+texture = ExtResource("3_cthcd")
 
 [node name="ItemName" type="Label" parent="ToolTip"]
-layout_mode = 0
 offset_left = 3.0
 offset_top = 14.0
 offset_right = 255.0
@@ -63,7 +59,6 @@ autowrap_mode = 3
 uppercase = true
 
 [node name="ItemMods" type="Label" parent="ToolTip"]
-layout_mode = 0
 offset_left = 256.0
 offset_top = 14.0
 offset_right = 506.0
@@ -75,7 +70,6 @@ vertical_alignment = 1
 autowrap_mode = 3
 
 [node name="ItemDescription" type="Label" parent="ToolTip"]
-layout_mode = 0
 offset_left = 256.0
 offset_top = 182.0
 offset_right = 506.0
