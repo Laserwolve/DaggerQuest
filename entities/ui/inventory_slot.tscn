@@ -13,7 +13,6 @@ outline_size = 2
 
 [sub_resource type="LabelSettings" id="LabelSettings_8hbfu"]
 font = ExtResource("5_scehv")
-font_size = 12
 
 [node name="Inventory Slot" type="Control"]
 layout_mode = 3
