@@ -39,6 +39,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
+LoadLoot="*res://scripts/load_loot.gd"
 Items="*res://classes/Items.gd"
 
 [editor_plugins]
