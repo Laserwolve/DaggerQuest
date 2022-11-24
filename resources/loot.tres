@@ -1,0 +1,44 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cpfh3x8xwcy4d"]
+
+[resource]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"marauders_bracers",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"marauders_straps",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"simple_boots",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"simple_gloves",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"simple_leggings",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"simple_robe",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"simple_shield",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"simple_sword",
+"speed": 5.0
+}]

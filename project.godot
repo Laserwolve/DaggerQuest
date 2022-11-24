@@ -10,6 +10,11 @@ config_version=5
 
 _global_script_classes=[{
 "base": "Control",
+"class": &"Inventory",
+"language": &"GDScript",
+"path": "res://entities/ui/inventory/inventory.gd"
+}, {
+"base": "Control",
 "class": &"InventorySlot",
 "language": &"GDScript",
 "path": "res://entities/ui/inventory/inventory_slot.gd"
@@ -19,14 +24,21 @@ _global_script_classes=[{
 "language": &"GDScript",
 "path": "res://entities/equipment/item_manager.gd"
 }, {
+"base": "Node2D",
+"class": &"Level",
+"language": &"GDScript",
+"path": "res://scenes/levels/level.gd"
+}, {
 "base": "CharacterBody2D",
 "class": &"Player",
 "language": &"GDScript",
 "path": "res://entities/player/Player.gd"
 }]
 _global_script_class_icons={
+"Inventory": "",
 "InventorySlot": "",
 "ItemManager": "",
+"Level": "",
 "Player": ""
 }
 
@@ -41,6 +53,7 @@ config/icon="res://icon.svg"
 
 LoadLoot="*res://scripts/load_loot.gd"
 Items="*res://classes/Items.gd"
+Global="*res://scripts/global.gd"
 
 [editor_plugins]
 
