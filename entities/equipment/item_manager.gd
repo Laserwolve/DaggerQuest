@@ -11,15 +11,19 @@ enum ItemId {
 }
 
 # Lets you get the string value of an ID
-func get_item_name_from_id(item_id: ItemId) -> String:
+static func get_item_name_from_id(item_id: ItemId) -> String:
 	return ItemId.keys()[item_id]
 
 # Create an item from an ItemId, returns the item from a dictionary value
 static func create_item(item_id : ItemId) -> Item:
 	# TODO this dictionary is kinda rough, lets figure out a json solution that is clean to edit outside of here
+	print(item_id)
 	var equipment : Dictionary = {
 		ItemId.SIMPLE_SWORD : Item.new(ItemId.SIMPLE_SWORD, "Simple Sword", "A sword that kills things", "res://assets/sprites/ui/equipment_icons/sword.png", []), 
-		ItemId.LEGGINGS : Item.new(ItemId.LEGGINGS, "Leggings", "Makes your ass look great", "res://assets/sprites/ui/equipment_icons/pants.png", []) }
+		ItemId.LEGGINGS : Item.new(ItemId.LEGGINGS, "Leggings", "Makes your ass look great", "res://assets/sprites/ui/equipment_icons/pants.png", [])
+	}
+	
+	print(equipment[item_id])
 	return equipment[item_id]
 
 
@@ -30,6 +34,7 @@ class Item:
 		item_description : String,
 		icon_path : String,
 		item_mods : Array[ItemMod]):
+		
 		self.item_id = item_id
 		self.item_name = item_name
 		self.item_description = item_description
