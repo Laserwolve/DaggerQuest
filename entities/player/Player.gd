@@ -58,6 +58,7 @@ const EQUIPED_ITEM = preload("res://entities/shared/EquipedItem.tscn")
 
 func _ready():
 	NAVIGATION.set_target_location(position)
+	Global.player = self
 
 func register_animation_player(player: AnimationPlayer):
 	animation_players.push_back(player)
