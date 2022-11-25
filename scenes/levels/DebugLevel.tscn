@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://ctmso0yccq6mc"]
+[gd_scene load_steps=6 format=3 uid="uid://ctmso0yccq6mc"]
 
 [ext_resource type="Script" path="res://scenes/levels/level.gd" id="1_70tjd"]
 [ext_resource type="Texture2D" uid="uid://cn2girs8w08ug" path="res://assets/sprites/backgrounds/bg.png" id="1_bg6to"]
 [ext_resource type="PackedScene" uid="uid://guxgfcuvaghr" path="res://entities/player/Player.tscn" id="2_nhiob"]
+[ext_resource type="PackedScene" uid="uid://cj3vrhcseeq0k" path="res://entities/loot/Loot.tscn" id="4_jfvk6"]
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_76r2n"]
 vertices = PackedVector2Array(-1457, -943, 2594, -1003, 2558, 1772, -1463, 1802)
@@ -25,7 +26,10 @@ stretch_mode = 1
 [node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
 navpoly = SubResource("NavigationPolygon_76r2n")
 
+[node name="Loot" type="Node2D" parent="."]
+
+[node name="Loot" parent="Loot" instance=ExtResource("4_jfvk6")]
+position = Vector2(568, 390)
+
 [node name="Player" parent="." instance=ExtResource("2_nhiob")]
 position = Vector2(317, 34)
-
-[node name="Loot" type="Node2D" parent="."]
