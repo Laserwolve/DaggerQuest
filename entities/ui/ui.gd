@@ -2,10 +2,13 @@ extends CanvasLayer
 
 @onready var inventory : Control = get_node("Inventory")
 @onready var mouse_item : Control = get_node("MouseItem")
+@onready var FPS_NODE = $FPS
 
 func _ready():
 	connect_signals()
 
+func _process(delta):
+	FPS_NODE.text = "FPS: " + str(Engine.get_frames_per_second())
 
 # connect all the signals together so the various slots can comminicate with each other
 func connect_signals() -> void:
