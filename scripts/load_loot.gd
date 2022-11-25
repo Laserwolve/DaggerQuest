@@ -1,12 +1,11 @@
 extends Node
-
-const LOOT_PATH: String = "res://assets/sprite_sheets/loot/sprites.loot/"
+class_name LootLoader
 
 # Called when the node enters the scene tree for the first time.
-func _ready():
+static func load_loot(loot_path: String) -> SpriteFrames:
 	# Loads all the files in the designated path (should be the frames)
 	var files: Array[String] = []
-	var dir: DirAccess = DirAccess.open(LOOT_PATH)
+	var dir: DirAccess = DirAccess.open(loot_path)
 	if dir:
 		dir.list_dir_begin()
 		var file_name: String = dir.get_next()
@@ -44,15 +43,8 @@ func _ready():
 			ResourceLoader.load(
 				files.pop_back(),
 				"Texture2D",
-				ResourceLoader.CACHE_MODE_IGNORE
+				ResourceLoader.CACHE_MODE_REUSE
 				)
 			)
-	
-	var animated_sprite = AnimatedSprite2D.new()
-	animated_sprite.frames = sprite_frame
-	add_child(animated_sprite)
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+	return sprite_frame
