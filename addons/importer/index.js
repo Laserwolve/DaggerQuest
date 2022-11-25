@@ -25,7 +25,7 @@ for (let i = 0; i < files.length; i++) {
             tres += `region = Rect2( ${sprites[sprite].region.x}, ${sprites[sprite].region.y}, ${sprites[sprite].region.w}, ${sprites[sprite].region.h} )\n`
             // tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${sprites[sprite].margin.w}, ${sprites[sprite].margin.h} )\n`
 
-            if (path.includes("items") || path.includes("loot")) tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${128 - sprites[sprite].region.w}, ${128 - sprites[sprite].region.h} )\n`
+            if (path.includes("items") || path.includes("loot")) tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${64 - sprites[sprite].region.w}, ${64 - sprites[sprite].region.h} )\n`
             else tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${1024 - sprites[sprite].region.w}, ${1024 - sprites[sprite].region.h} )\n`
 
             saveFile(path, tres)
