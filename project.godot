@@ -60,6 +60,10 @@ config/icon="res://icon.svg"
 Items="*res://classes/Items.gd"
 Global="*res://scripts/global.gd"
 
+[display]
+
+window/vsync/vsync_mode=0
+
 [editor_plugins]
 
 enabled=PackedStringArray()
