@@ -40,6 +40,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="ToolTip" type="TextureRect" parent="."]
+visible = false
 top_level = true
 offset_right = 512.0
 offset_bottom = 256.0
