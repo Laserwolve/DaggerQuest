@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://entities/loot/Loot.gd" id="1_u4r0l"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_drd55"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5fcn4"]
 size = Vector2(64, 64)
 
 [node name="Loot" type="AnimatedSprite2D"]
@@ -13,7 +13,7 @@ metadata/_edit_horizontal_guides_ = [-32.0, 32.0]
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-shape = SubResource("RectangleShape2D_drd55")
+shape = SubResource("RectangleShape2D_5fcn4")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
