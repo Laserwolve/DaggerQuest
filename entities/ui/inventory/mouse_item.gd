@@ -21,6 +21,6 @@ func _on_drop_item(slot: InventorySlot):
 func _unhandled_input(input):
 	if input.is_action_pressed("mouse_accept"):
 		if item_contained != null:
-			print("Drop Item!")
+			Global.level.create_loot(item_contained, get_global_mouse_position())
 			item_contained = null
 			item_texture.texture = null
