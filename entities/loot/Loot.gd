@@ -6,13 +6,19 @@ var item: ItemManager.Item = null
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
+	if item == null:
+		queue_free()
+		return
+	
+	frames = Global.loot
+	
+	match item.item_id:
+		0:
+			set_animation("simplesword")
+		1:
+			set_animation("simpleleggings")
+			
+	frame = randi_range(0, 16)
 
 func _input(event):
 	if event.is_action_pressed("mouse_accept") && mouse_over:
