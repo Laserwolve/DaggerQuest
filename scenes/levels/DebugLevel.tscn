@@ -27,5 +27,7 @@ navpoly = SubResource("NavigationPolygon_76r2n")
 
 [node name="Loot" type="Node2D" parent="."]
 
-[node name="Player" parent="." instance=ExtResource("2_nhiob")]
+[node name="Entities" type="Node2D" parent="."]
+
+[node name="Player" parent="Entities" instance=ExtResource("2_nhiob")]
 position = Vector2(317, 34)

@@ -8,7 +8,6 @@ func _ready():
 	Global.level = self
 
 func create_loot(item: ItemManager.Item, pos: Vector2):
-	print("Created item")
 	var loot = LOOT_INSTANCE.instantiate()
 	loot.item = item
 	loot.position = pos
