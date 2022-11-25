@@ -17,13 +17,12 @@ static func get_item_name_from_id(item_id: ItemId) -> String:
 # Create an item from an ItemId, returns the item from a dictionary value
 static func create_item(item_id : ItemId) -> Item:
 	# TODO this dictionary is kinda rough, lets figure out a json solution that is clean to edit outside of here
-	print(item_id)
+	
 	var equipment : Dictionary = {
 		ItemId.SIMPLE_SWORD : Item.new(ItemId.SIMPLE_SWORD, "Simple Sword", "A sword that kills things", "res://assets/sprites/ui/equipment_icons/sword.png", []), 
 		ItemId.LEGGINGS : Item.new(ItemId.LEGGINGS, "Leggings", "Makes your ass look great", "res://assets/sprites/ui/equipment_icons/pants.png", [])
 	}
 	
-	print(equipment[item_id])
 	return equipment[item_id]
 
 
@@ -41,7 +40,7 @@ class Item:
 		self.icon_path = icon_path
 		self.item_mods = item_mods
 
-	var item_id: ItemId = null
+	var item_id: ItemId = -1
 	var item_name : String = ""
 	var item_description : String = ""
 	var icon_path : String = "" # asset path to load texture for item
