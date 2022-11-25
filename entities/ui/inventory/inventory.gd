@@ -37,8 +37,6 @@ func add_item_to_first_empty_slot(item : ItemManager.Item) -> bool:
 	
 	# If no empty slots were found then display a message saying inventory was full
 	if not has_found_slot:
-		# Display message that inventory is full
-		print("Inventory full!")
 		return false
 	
 	return true
