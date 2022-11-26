@@ -32,6 +32,12 @@ func set_item(new_item: ItemManager.Item):
 		ITEM_TEXTURE_NODE.texture = load(new_item.icon_path)
 		$ToolTip/ItemName.text = new_item.item_name
 		$ToolTip/ItemDescription.text = new_item.item_description
+		
+		var mods_node = $ToolTip/ItemMods
+		mods_node.text = ""
+		
+		for mod in new_item.item_mods:
+			mods_node.text += mod.text + "\n"
 	
 	item = new_item
 	
