@@ -7,13 +7,13 @@ class_name InventorySlot
 var item : ItemManager.Item = null
 var is_filled : bool = false
 var is_mouse_over : bool
-var tool_tip_anchor_offset: Vector2 = Vector2(-1, 0) * Vector2(512, 256) # ToolTip size
+var tool_tip_anchor_offset: Vector2 = Vector2(-1, 0)
 
 signal pick_up_item(item)
 signal drop_item(slot)
 
 func _ready():
-	pass # Replace with function body.
+	tool_tip_anchor_offset *= Vector2(512, 256) # Tool Tip Size
 
 func _input(event):
 	if event.is_action_pressed("mouse_accept") and is_mouse_over:

@@ -31,21 +31,25 @@ grow_horizontal = 1
 grow_vertical = 1
 
 [node name="FPS" type="Label" parent="."]
-offset_right = 40.0
-offset_bottom = 23.0
+offset_left = 7.0
+offset_top = -1.0
+offset_right = 87.0
+offset_bottom = 51.0
 text = "FPS: -1"
 label_settings = SubResource("LabelSettings_52n5d")
 
 [node name="ENTITIES" type="Label" parent="."]
-offset_top = 32.0
-offset_right = 80.0
-offset_bottom = 84.0
-text = "FPS: -1"
+offset_left = 7.0
+offset_top = 31.0
+offset_right = 192.0
+offset_bottom = 83.0
+text = "Entity Count: -1"
 label_settings = SubResource("LabelSettings_52n5d")
 
 [node name="LOOT" type="Label" parent="."]
-offset_top = 64.0
-offset_right = 80.0
-offset_bottom = 116.0
-text = "FPS: -1"
+offset_left = 7.0
+offset_top = 63.0
+offset_right = 173.0
+offset_bottom = 115.0
+text = "Loot Count: -1"
 label_settings = SubResource("LabelSettings_52n5d")
