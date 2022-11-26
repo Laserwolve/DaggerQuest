@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://o3r8qhi5sie5"
-path="res://.godot/imported/grenze-semibolditalic.woff2-3949a829cd54d3d4e1817b2523ca0fb4.fontdata"
+uid="uid://bto4f45fsnq8"
+path="res://.godot/imported/Grenze-Regular.ttf-44a59c2054b94dcda7c6930990c2ee94.fontdata"
 
 [deps]
 
-source_file="res://assets/fonts/grenze-semibolditalic.woff2"
-dest_files=["res://.godot/imported/grenze-semibolditalic.woff2-3949a829cd54d3d4e1817b2523ca0fb4.fontdata"]
+source_file="res://assets/fonts/Grenze-Regular.ttf"
+dest_files=["res://.godot/imported/Grenze-Regular.ttf-44a59c2054b94dcda7c6930990c2ee94.fontdata"]
 
 [params]
 

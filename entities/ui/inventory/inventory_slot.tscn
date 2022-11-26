@@ -3,17 +3,17 @@
 [ext_resource type="Script" path="res://entities/ui/inventory/inventory_slot.gd" id="1_4be1s"]
 [ext_resource type="Texture2D" uid="uid://c1gsc0mhem80l" path="res://assets/sprites/ui/slot.png" id="2_6ivxp"]
 [ext_resource type="Texture2D" uid="uid://barxpjooxdxhu" path="res://assets/sprites/ui/itemTooltip.png" id="3_cthcd"]
-[ext_resource type="FontFile" uid="uid://chsup7rvh73ej" path="res://assets/fonts/cinzel-semibold.woff2" id="4_i4ojj"]
-[ext_resource type="FontFile" uid="uid://db6hd0d8gv13o" path="res://assets/fonts/grenze-semibold.woff2" id="5_sk62u"]
+[ext_resource type="FontFile" uid="uid://duyh4i36x3puf" path="res://assets/fonts/Cinzel-SemiBold.ttf" id="4_ck6od"]
+[ext_resource type="FontFile" uid="uid://no8ebbresauu" path="res://assets/fonts/Grenze-SemiBold.ttf" id="5_duqcd"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_x1hkg"]
-font = ExtResource("4_i4ojj")
+font = ExtResource("4_ck6od")
 font_size = 22
 outline_size = 2
 
 [sub_resource type="LabelSettings" id="LabelSettings_8hbfu"]
 line_spacing = -5.0
-font = ExtResource("5_sk62u")
+font = ExtResource("5_duqcd")
 
 [node name="Inventory Slot" type="Control"]
 layout_mode = 3

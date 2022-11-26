@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://db6hd0d8gv13o"
-path="res://.godot/imported/grenze-semibold.woff2-753bad8d8d12785bf7404fe898b1fafa.fontdata"
+uid="uid://cnfshsrcnyunr"
+path="res://.godot/imported/Cinzel-Regular.ttf-1f2482390868c1d57b51169225b76ab4.fontdata"
 
 [deps]
 
-source_file="res://assets/fonts/grenze-semibold.woff2"
-dest_files=["res://.godot/imported/grenze-semibold.woff2-753bad8d8d12785bf7404fe898b1fafa.fontdata"]
+source_file="res://assets/fonts/Cinzel-Regular.ttf"
+dest_files=["res://.godot/imported/Cinzel-Regular.ttf-1f2482390868c1d57b51169225b76ab4.fontdata"]
 
 [params]
 

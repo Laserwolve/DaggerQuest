@@ -1,12 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://b4etpwq1543rg"]
+[gd_scene load_steps=5 format=3 uid="uid://b4etpwq1543rg"]
 
 [ext_resource type="Script" path="res://entities/ui/ui.gd" id="1_knar8"]
 [ext_resource type="PackedScene" uid="uid://c2idhonnql7pj" path="res://entities/ui/inventory/inventory.tscn" id="2_xfjb6"]
 [ext_resource type="PackedScene" uid="uid://201xoqbk45yv" path="res://entities/ui/inventory/mouse_item.tscn" id="3_g53ej"]
-[ext_resource type="FontFile" uid="uid://db6hd0d8gv13o" path="res://assets/fonts/grenze-semibold.woff2" id="4_tq0nw"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_52n5d"]
-font = ExtResource("4_tq0nw")
 font_size = 32
 
 [node name="UI" type="CanvasLayer"]
