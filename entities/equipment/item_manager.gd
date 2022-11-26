@@ -31,9 +31,15 @@ static func get_item_name_from_id(item_id: ItemId) -> String:
 static func create_item(item_id : ItemId) -> Item:
 	# TODO this dictionary is kinda rough, lets figure out a json solution that is clean to edit outside of here
 	
+	var mods: Array[ItemMod] = []
+	
+	for i in range(0, randi_range(1, 8)):
+		var mod = randi_range(0, 5) # 0 - 5
+		mods.push_back(ItemMod.new(mod, randi_range(-10, 10), ModTarget.HOLDER, randf() < .5))
+	
 	var equipment : Dictionary = {
-		ItemId.SIMPLE_SWORD : Item.new(ItemId.SIMPLE_SWORD, ItemType.WEAPON, "Simple Sword", "A sword that kills things", "res://assets/sprites/ui/equipment_icons/sword.png", []), 
-		ItemId.LEGGINGS : Item.new(ItemId.LEGGINGS, ItemType.LEGS, "Leggings", "Makes your ass look great", "res://assets/sprites/ui/equipment_icons/pants.png", [])
+		ItemId.SIMPLE_SWORD : Item.new(ItemId.SIMPLE_SWORD, ItemType.WEAPON, "Simple Sword", "A sword that kills things", "res://assets/sprites/ui/equipment_icons/sword.png", mods), 
+		ItemId.LEGGINGS : Item.new(ItemId.LEGGINGS, ItemType.LEGS, "Leggings", "Makes your ass look great", "res://assets/sprites/ui/equipment_icons/pants.png", mods)
 	}
 	
 	return equipment[item_id]
