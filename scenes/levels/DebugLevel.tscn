@@ -1,5 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://ctmso0yccq6mc"]
+[gd_scene load_steps=5 format=3 uid="uid://ctmso0yccq6mc"]
 
+[ext_resource type="Script" path="res://scenes/levels/level.gd" id="1_70tjd"]
 [ext_resource type="Texture2D" uid="uid://cn2girs8w08ug" path="res://assets/sprites/backgrounds/bg.png" id="1_bg6to"]
 [ext_resource type="PackedScene" uid="uid://guxgfcuvaghr" path="res://entities/player/Player.tscn" id="2_nhiob"]
 
@@ -8,7 +9,8 @@ vertices = PackedVector2Array(-1457, -943, 2594, -1003, 2558, 1772, -1463, 1802)
 polygons = [PackedInt32Array(0, 1, 2, 3)]
 outlines = [PackedVector2Array(-1457, -943, 2594, -1003, 2558, 1772, -1463, 1802)]
 
-[node name="DebugLevel" type="Node2D"]
+[node name="World" type="Node2D"]
+script = ExtResource("1_70tjd")
 
 [node name="Background" type="TextureRect" parent="."]
 texture_repeat = 2
@@ -23,5 +25,9 @@ stretch_mode = 1
 [node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
 navpoly = SubResource("NavigationPolygon_76r2n")
 
-[node name="Player" parent="." instance=ExtResource("2_nhiob")]
+[node name="Loot" type="Node2D" parent="."]
+
+[node name="Entities" type="Node2D" parent="."]
+
+[node name="Player" parent="Entities" instance=ExtResource("2_nhiob")]
 position = Vector2(317, 34)

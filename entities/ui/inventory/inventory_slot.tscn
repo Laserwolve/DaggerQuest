@@ -1,0 +1,93 @@
+[gd_scene load_steps=8 format=3 uid="uid://chws3isyuni30"]
+
+[ext_resource type="Script" path="res://entities/ui/inventory/inventory_slot.gd" id="1_4be1s"]
+[ext_resource type="Texture2D" uid="uid://c1gsc0mhem80l" path="res://assets/sprites/ui/slot.png" id="2_6ivxp"]
+[ext_resource type="Texture2D" uid="uid://barxpjooxdxhu" path="res://assets/sprites/ui/itemTooltip.png" id="3_cthcd"]
+[ext_resource type="FontFile" uid="uid://duyh4i36x3puf" path="res://assets/fonts/Cinzel-SemiBold.ttf" id="4_ck6od"]
+[ext_resource type="FontFile" uid="uid://no8ebbresauu" path="res://assets/fonts/Grenze-SemiBold.ttf" id="5_duqcd"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_x1hkg"]
+font = ExtResource("4_ck6od")
+font_size = 22
+outline_size = 2
+
+[sub_resource type="LabelSettings" id="LabelSettings_8hbfu"]
+line_spacing = -5.0
+font = ExtResource("5_duqcd")
+
+[node name="Inventory Slot" type="Control"]
+layout_mode = 3
+anchor_right = 0.224
+anchor_bottom = 0.398
+offset_right = -0.0480042
+offset_bottom = 0.0959778
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4be1s")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_6ivxp")
+
+[node name="ItemTexture" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ToolTip" type="TextureRect" parent="."]
+top_level = true
+layout_mode = 0
+offset_right = 512.0
+offset_bottom = 256.0
+mouse_filter = 2
+texture = ExtResource("3_cthcd")
+
+[node name="ItemName" type="Label" parent="ToolTip"]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 14.0
+offset_right = 255.0
+offset_bottom = 166.0
+text = "Sample Text"
+label_settings = SubResource("LabelSettings_x1hkg")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+uppercase = true
+
+[node name="ItemMods" type="Label" parent="ToolTip"]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 14.0
+offset_right = 506.0
+offset_bottom = 166.0
+text = "Sample Modifier
+Line2"
+label_settings = SubResource("LabelSettings_8hbfu")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="ItemDescription" type="Label" parent="ToolTip"]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 182.0
+offset_right = 506.0
+offset_bottom = 248.0
+text = "Sample Description"
+label_settings = SubResource("LabelSettings_8hbfu")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[connection signal="mouse_entered" from="." to="." method="_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_mouse_exited"]

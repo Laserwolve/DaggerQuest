@@ -1,20 +1,53 @@
-[gd_scene load_steps=3 format=3 uid="uid://b4etpwq1543rg"]
+[gd_scene load_steps=5 format=3 uid="uid://b4etpwq1543rg"]
 
-[ext_resource type="PackedScene" uid="uid://b4m5k4mpymesq" path="res://entities/ui/inventory.tscn" id="1_biaw8"]
-[ext_resource type="PackedScene" uid="uid://buljv3bucumko" path="res://entities/ui/mouse_item.tscn" id="2_que4x"]
+[ext_resource type="Script" path="res://entities/ui/ui.gd" id="1_knar8"]
+[ext_resource type="PackedScene" uid="uid://c2idhonnql7pj" path="res://entities/ui/inventory/inventory.tscn" id="2_xfjb6"]
+[ext_resource type="PackedScene" uid="uid://201xoqbk45yv" path="res://entities/ui/inventory/mouse_item.tscn" id="3_g53ej"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_52n5d"]
+font_size = 32
 
 [node name="UI" type="CanvasLayer"]
+script = ExtResource("1_knar8")
 
-[node name="Inventory" parent="." instance=ExtResource("1_biaw8")]
-visible = false
+[node name="Inventory" parent="." instance=ExtResource("2_xfjb6")]
 anchors_preset = 1
 anchor_left = 1.0
 anchor_bottom = 0.0
-offset_left = -356.0
-offset_top = 44.0
-offset_right = -356.0
-offset_bottom = 44.0
+offset_left = -352.0
+offset_top = 40.0
+offset_right = -352.0
+offset_bottom = 40.0
 grow_horizontal = 0
 grow_vertical = 1
 
-[node name="MouseItem" parent="." instance=ExtResource("2_que4x")]
+[node name="MouseItem" parent="." instance=ExtResource("3_g53ej")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="FPS" type="Label" parent="."]
+offset_left = 7.0
+offset_top = -1.0
+offset_right = 87.0
+offset_bottom = 51.0
+text = "FPS: -1"
+label_settings = SubResource("LabelSettings_52n5d")
+
+[node name="ENTITIES" type="Label" parent="."]
+offset_left = 7.0
+offset_top = 31.0
+offset_right = 192.0
+offset_bottom = 83.0
+text = "Entity Count: -1"
+label_settings = SubResource("LabelSettings_52n5d")
+
+[node name="LOOT" type="Label" parent="."]
+offset_left = 7.0
+offset_top = 63.0
+offset_right = 173.0
+offset_bottom = 115.0
+text = "Loot Count: -1"
+label_settings = SubResource("LabelSettings_52n5d")
