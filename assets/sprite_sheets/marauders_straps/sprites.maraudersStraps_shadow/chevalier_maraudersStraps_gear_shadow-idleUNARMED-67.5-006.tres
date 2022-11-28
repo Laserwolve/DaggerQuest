@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
+
+[ext_resource path="res://assets/sprite_sheets/marauders_straps/maraudersStraps_shadow.png" type="Texture" id=1]
+
+[resource]
+flags = 7
+atlas = ExtResource( 1 )
+region = Rect2( 1152, 2602, 86, 51 )
+margin = Rect2( 398, 506, 938, 973 )

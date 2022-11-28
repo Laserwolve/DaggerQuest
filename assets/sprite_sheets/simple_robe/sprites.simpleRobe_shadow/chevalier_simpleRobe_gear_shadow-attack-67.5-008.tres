@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
+
+[ext_resource path="res://assets/sprite_sheets/simple_robe/simpleRobe_shadow.png" type="Texture" id=1]
+
+[resource]
+flags = 7
+atlas = ExtResource( 1 )
+region = Rect2( 3850, 2305, 71, 81 )
+margin = Rect2( 438, 485, 953, 943 )

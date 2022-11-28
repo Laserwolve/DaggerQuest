@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
+
+[ext_resource path="res://assets/sprite_sheets/head_default/headDefault.png" type="Texture" id=1]
+
+[resource]
+flags = 7
+atlas = ExtResource( 1 )
+region = Rect2( 369, 1248, 38, 39 )
+margin = Rect2( 513, 428, 986, 985 )

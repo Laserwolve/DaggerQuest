@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
+
+[ext_resource path="res://assets/sprite_sheets/simple_gloves/simpleGloves_shadow.png" type="Texture" id=1]
+
+[resource]
+flags = 7
+atlas = ExtResource( 1 )
+region = Rect2( 255, 1026, 141, 68 )
+margin = Rect2( 419, 495, 883, 956 )
