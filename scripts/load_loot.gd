@@ -26,7 +26,6 @@ static func load_loot(loot_path: String) -> SpriteFrames:
 	var loot_names: Array[String] = []
 	
 	for file_name in files:
-		print(file_name)
 		var loot_name = file_name.split("_")[1].split("/")[3]
 		if !loot_names.has(loot_name):
 			loot_names.push_back(loot_name)
