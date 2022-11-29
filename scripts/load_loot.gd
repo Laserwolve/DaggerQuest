@@ -11,7 +11,11 @@ static func load_loot(loot_path: String) -> SpriteFrames:
 		var file_name: String = dir.get_next()
 		
 		while file_name != "":
-			files.push_back(dir.get_current_dir() + file_name.replace(".remap", ""))
+			# Make sure there's always a trailing slash
+			if dir.get_current_dir().ends_with("/"):
+				files.push_back(dir.get_current_dir() + file_name.replace(".remap", ""))
+			else:
+				files.push_back(dir.get_current_dir() + "/" + file_name.replace(".remap", ""))
 			file_name = dir.get_next()
 	else:
 		print("An error occurred when trying to access the path.")
@@ -22,6 +26,7 @@ static func load_loot(loot_path: String) -> SpriteFrames:
 	var loot_names: Array[String] = []
 	
 	for file_name in files:
+		print(file_name)
 		var loot_name = file_name.split("_")[1].split("/")[3]
 		if !loot_names.has(loot_name):
 			loot_names.push_back(loot_name)

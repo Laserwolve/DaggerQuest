@@ -2,6 +2,7 @@ extends AnimatedSprite2D
 
 @export var is_body: bool = false
 @export var armed_only: bool = false
+@export var default: bool = false
 @export var extra_offset: Vector2 = Vector2(0.0, 0.0)
 
 const ANIMATONS: Array[String] = [
