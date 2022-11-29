@@ -35,7 +35,7 @@ folder_name = "res://assets/sprite_sheets/legs_default/sprites.legsDefault_shado
 [node name="default" parent="Shadows/Shirt" instance=ExtResource("3_11g6d")]
 folder_name = "res://assets/sprite_sheets/chest_default/sprites.chestDefault_shadow/"
 
-[node name="Hat" type="Node2D" parent="Shadows"]
+[node name="Head" type="Node2D" parent="Shadows"]
 
 [node name="default" parent="Shadows/Head" instance=ExtResource("3_11g6d")]
 folder_name = "res://assets/sprite_sheets/head_default/sprites.headDefault_shadow/"
@@ -78,7 +78,7 @@ folder_name = "res://assets/sprite_sheets/legs_default/sprites.legsDefault/"
 [node name="default" parent="Equipment/Shirt" instance=ExtResource("3_11g6d")]
 folder_name = "res://assets/sprite_sheets/chest_default/sprites.chestDefault/"
 
-[node name="Hat" type="Node2D" parent="Equipment"]
+[node name="Head" type="Node2D" parent="Equipment"]
 
 [node name="default" parent="Equipment/Head" instance=ExtResource("3_11g6d")]
 folder_name = "res://assets/sprite_sheets/head_default/sprites.headDefault/"
