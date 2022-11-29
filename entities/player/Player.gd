@@ -128,6 +128,9 @@ func _physics_process(delta):
 	EQUIPMENT_NODES[EquipmentSlots.MAIN_HAND].visible = armed
 	SHADOW_NODES[EquipmentSlots.MAIN_HAND].visible = armed
 	
+	EQUIPMENT_NODES[EquipmentSlots.OFFHAND].visible = armed
+	SHADOW_NODES[EquipmentSlots.OFFHAND].visible = armed
+	
 	play_animation(animation_name + "/" + get_look_angle(look_direction))
 
 func play_animation(animation_name: String):
