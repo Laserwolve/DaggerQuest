@@ -21,24 +21,24 @@ script = ExtResource("1_qh42t")
 offset = Vector2(0, -50)
 script = ExtResource("2_kmlx4")
 extra_offset = Vector2(-1, -1)
-folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalierShadow/"
+folder_name = "res://assets/sprite_sheets/players/chevalier/sprites.chevalierShadow/"
 
 [node name="Legs" type="Node2D" parent="Shadows"]
 
 [node name="default" parent="Shadows/Legs" instance=ExtResource("3_11g6d")]
-folder_name = "res://assets/sprite_sheets/legs_default/sprites.legsDefault_shadow/"
+folder_name = "res://assets/sprite_sheets/players/legs_default/sprites.legsDefault_shadow/"
 
 [node name="Feet" type="Node2D" parent="Shadows"]
 
 [node name="Shirt" type="Node2D" parent="Shadows"]
 
 [node name="default" parent="Shadows/Shirt" instance=ExtResource("3_11g6d")]
-folder_name = "res://assets/sprite_sheets/chest_default/sprites.chestDefault_shadow/"
+folder_name = "res://assets/sprite_sheets/players/chest_default/sprites.chestDefault_shadow/"
 
 [node name="Head" type="Node2D" parent="Shadows"]
 
 [node name="default" parent="Shadows/Head" instance=ExtResource("3_11g6d")]
-folder_name = "res://assets/sprite_sheets/head_default/sprites.headDefault_shadow/"
+folder_name = "res://assets/sprite_sheets/players/head_default/sprites.headDefault_shadow/"
 
 [node name="Gloves" type="Node2D" parent="Shadows"]
 
@@ -48,13 +48,13 @@ folder_name = "res://assets/sprite_sheets/head_default/sprites.headDefault_shado
 
 [node name="EquipedItem2" parent="Shadows/Offhand" instance=ExtResource("3_11g6d")]
 armed_only = true
-folder_name = "res://assets/sprite_sheets/simple_shield/sprites.simpleShield_shadow/"
+folder_name = "res://assets/sprite_sheets/players/simple_shield/sprites.simpleShield_shadow/"
 
 [node name="MainHand" type="Node2D" parent="Shadows"]
 
 [node name="EquipedItem3" parent="Shadows/MainHand" instance=ExtResource("3_11g6d")]
 armed_only = true
-folder_name = "res://assets/sprite_sheets/simple_sword/sprites.simpleSword_shadow/"
+folder_name = "res://assets/sprite_sheets/players/simple_sword/sprites.simpleSword_shadow/"
 
 [node name="Equipment" type="Node2D" parent="."]
 
@@ -64,12 +64,12 @@ folder_name = "res://assets/sprite_sheets/simple_sword/sprites.simpleSword_shado
 offset = Vector2(0, -50)
 script = ExtResource("2_kmlx4")
 is_body = true
-folder_name = "res://assets/sprite_sheets/chevalier/sprites.chevalier/"
+folder_name = "res://assets/sprite_sheets/players/chevalier/sprites.chevalier/"
 
 [node name="Legs" type="Node2D" parent="Equipment"]
 
 [node name="default" parent="Equipment/Legs" instance=ExtResource("3_11g6d")]
-folder_name = "res://assets/sprite_sheets/legs_default/sprites.legsDefault/"
+folder_name = "res://assets/sprite_sheets/players/chest_default/sprites.chestDefault/"
 
 [node name="Feet" type="Node2D" parent="Equipment"]
 
@@ -81,7 +81,7 @@ folder_name = "res://assets/sprite_sheets/chest_default/sprites.chestDefault/"
 [node name="Head" type="Node2D" parent="Equipment"]
 
 [node name="default" parent="Equipment/Head" instance=ExtResource("3_11g6d")]
-folder_name = "res://assets/sprite_sheets/head_default/sprites.headDefault/"
+folder_name = "res://assets/sprite_sheets/players/head_default/sprites.headDefault/"
 
 [node name="Gloves" type="Node2D" parent="Equipment"]
 
@@ -91,13 +91,13 @@ folder_name = "res://assets/sprite_sheets/head_default/sprites.headDefault/"
 
 [node name="EquipedItem" parent="Equipment/Offhand" instance=ExtResource("3_11g6d")]
 armed_only = true
-folder_name = "res://assets/sprite_sheets/simple_shield/sprites.simpleShield/"
+folder_name = "res://assets/sprite_sheets/players/simple_shield/sprites.simpleShield/"
 
 [node name="MainHand" type="Node2D" parent="Equipment"]
 
 [node name="EquipedItem" parent="Equipment/MainHand" instance=ExtResource("3_11g6d")]
 armed_only = true
-folder_name = "res://assets/sprite_sheets/simple_sword/sprites.simpleSword/"
+folder_name = "res://assets/sprite_sheets/players/simple_sword/sprites.simpleSword/"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(4, 6)
