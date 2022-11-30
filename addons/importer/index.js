@@ -5,6 +5,7 @@ const getDirName = require("path").dirname;
 //const textures = sheet.texture
 
 let files = glob.sync("../../assets/**/*.tpsheet", {})
+let tilesets = glob.sync("../../assets/**/*.tpset", {})
 
 for (let i = 0; i < files.length; i++) {
     const file = files[i];
@@ -27,6 +28,33 @@ for (let i = 0; i < files.length; i++) {
 
             if (path.includes("items") || path.includes("loot")) tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${512 - sprites[sprite].region.w}, ${512 - sprites[sprite].region.h} )\n`
             else tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${1024 - sprites[sprite].region.w}, ${1024 - sprites[sprite].region.h} )\n`
+
+            saveFile(path, tres)
+        }
+    }
+}
+
+for (let i = 0; i < tilesets.length; i++) {
+    const file = tilesets[i];
+    const sheet = JSON.parse(fs.readFileSync(file));
+    const textures = sheet.textures
+
+    for (let texture in textures) {
+        const image = textures[texture].image
+        const sprites = textures[texture].sprites;
+        for (let sprite in sprites) {
+            let tempPath = file.split("/")
+            tempPath.pop()
+            let path = tempPath.join("/") + `/sprites.${image.replace(".png", "")}/${sprites[sprite].filename}`
+            let resourcePath = tempPath.join("/") + `/${image}`
+            resourcePath = resourcePath.replace("../..", "res:/");
+            let tres = `[gd_resource type="AtlasTexture" load_steps=2 format=2]\n\n`;
+            tres += `[ext_resource path="${resourcePath}" type="Texture" id=1]\n\n[resource]\nflags = 7\natlas = ExtResource( 1 )\n`
+            tres += `region = Rect2( ${sprites[sprite].region.x}, ${sprites[sprite].region.y}, ${sprites[sprite].region.w}, ${sprites[sprite].region.h} )\n`
+            //tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${sprites[sprite].margin.w}, ${sprites[sprite].margin.h} )\n`
+
+            tres += `margin = Rect2( ${(2048 - sprites[sprite].region.w) / 2}, ${(2048 - sprites[sprite].region.h) / 2}, ${(2048 - sprites[sprite].region.w) / 2}, ${(2048 - sprites[sprite].region.h) / 2} )\n`
+            //tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${2048 - sprites[sprite].region.w}, ${2048 - sprites[sprite].region.h} )\n`
 
             saveFile(path, tres)
         }

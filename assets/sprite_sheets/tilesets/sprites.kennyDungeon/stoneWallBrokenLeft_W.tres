@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
+
+[ext_resource path="res://assets/sprite_sheets/tilesets/kennyDungeon.png" type="Texture" id=1]
+
+[resource]
+flags = 7
+atlas = ExtResource( 1 )
+region = Rect2( 2217, 804, 161, 183 )
+margin = Rect2( 943.5, 932.5, 943.5, 932.5 )
