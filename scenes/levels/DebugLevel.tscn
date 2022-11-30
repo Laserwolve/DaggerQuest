@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://ctmso0yccq6mc"]
+[gd_scene load_steps=6 format=3 uid="uid://ctmso0yccq6mc"]
 
 [ext_resource type="Script" path="res://scenes/levels/level.gd" id="1_70tjd"]
 [ext_resource type="Texture2D" uid="uid://cn2girs8w08ug" path="res://assets/sprites/backgrounds/bg.png" id="1_bg6to"]
@@ -8,6 +8,10 @@
 vertices = PackedVector2Array(-1457, -943, 2594, -1003, 2558, 1772, -1463, 1802)
 polygons = [PackedInt32Array(0, 1, 2, 3)]
 outlines = [PackedVector2Array(-1457, -943, 2594, -1003, 2558, 1772, -1463, 1802)]
+
+[sub_resource type="TileSet" id="TileSet_kqfbc"]
+tile_shape = 1
+tile_size = Vector2i(256, 128)
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_70tjd")
@@ -31,3 +35,7 @@ navpoly = SubResource("NavigationPolygon_76r2n")
 
 [node name="Player" parent="Entities" instance=ExtResource("2_nhiob")]
 position = Vector2(317, 34)
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_kqfbc")
+format = 2
