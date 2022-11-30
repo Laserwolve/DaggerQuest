@@ -5,7 +5,7 @@ extends Control
 var item_contained : ItemManager.Item = null
 const ICON_RADIUS : int = 32
 
-func _process(delta):
+func _process(_delta):
 	item_texture.position = get_viewport().get_mouse_position() - Vector2(ICON_RADIUS, ICON_RADIUS)
 
 

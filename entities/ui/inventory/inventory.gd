@@ -6,7 +6,7 @@ class_name Inventory
 func _ready():
 	Global.player_inventory = self
 
-func _input(event):
+func _input(_event):
 	# Create a random piece of equipment, this is temporary of course
 	if Input.is_action_just_pressed("add_item"):
 		var random_equipment : Array[ItemManager.ItemId] = [

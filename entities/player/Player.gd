@@ -154,7 +154,7 @@ func play_animation(animation_name: String):
 		else:
 			player.seek(0, true)
 
-func damage(amount: float):
+func damage(_amount: float):
 	NAVIGATION.set_target_location(position)
 	forced_animation = "hit"
 	
@@ -162,7 +162,7 @@ func die():
 	NAVIGATION.set_target_location(position)
 	forced_animation = "die"
 
-func animation_finished(animation_name: String):
+func animation_finished(_animation_name: String):
 	if !final_animation:
 		forced_animation = ""
 
@@ -176,7 +176,7 @@ func _safe_velocity_computed(safe_velocity):
 	else:
 		move_and_slide()
 
-func get_look_angle(look_direction: Vector2) -> String:
+func get_look_angle(_look_direction: Vector2) -> String:
 	var angle: float = rad_to_deg(get_angle_to(position + look_direction))
 	var string: String = str(round(angle/22.5)*22.5)
 	

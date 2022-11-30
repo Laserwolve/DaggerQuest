@@ -12,7 +12,7 @@ var level_loot_node = null
 func _ready():
 	connect_signals()
 
-func _process(delta):
+func _process(_delta):
 	FPS_NODE.text = "FPS: " + str(Engine.get_frames_per_second())
 	
 	if level_loot_node != null:

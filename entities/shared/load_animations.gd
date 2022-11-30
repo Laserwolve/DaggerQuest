@@ -97,7 +97,7 @@ func _ready():
 	
 	frames = sprite_frame
 	
-	var animation_player = AnimationPlayer.new()
+	animation_player = AnimationPlayer.new()
 	
 	var animation_speed = 12.0
 	var frame_time = 1 / animation_speed
