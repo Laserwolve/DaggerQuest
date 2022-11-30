@@ -1,0 +1,4338 @@
+{
+	"textures": [
+		{
+			"image": "kennyDungeon.png",
+			"size": {
+				"w": 4517,
+				"h": 2039
+			},
+			"sprites": [
+				{
+					"filename": "stoneWallStructure_E.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 256,
+						"h": 285
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 0,
+						"h": 227
+					}
+				},
+				{
+					"filename": "stoneWallStructure_S.png",
+					"region": {
+						"x": 0,
+						"y": 285,
+						"w": 256,
+						"h": 285
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 0,
+						"h": 227
+					}
+				},
+				{
+					"filename": "stoneWallStructure_N.png",
+					"region": {
+						"x": 256,
+						"y": 0,
+						"w": 256,
+						"h": 282
+					},
+					"margin": {
+						"x": 0,
+						"y": 230,
+						"w": 0,
+						"h": 230
+					}
+				},
+				{
+					"filename": "stoneWallStructure_W.png",
+					"region": {
+						"x": 0,
+						"y": 570,
+						"w": 256,
+						"h": 282
+					},
+					"margin": {
+						"x": 0,
+						"y": 230,
+						"w": 0,
+						"h": 230
+					}
+				},
+				{
+					"filename": "woodenSupportsBlock_E.png",
+					"region": {
+						"x": 256,
+						"y": 282,
+						"w": 256,
+						"h": 282
+					},
+					"margin": {
+						"x": 0,
+						"y": 230,
+						"w": 0,
+						"h": 230
+					}
+				},
+				{
+					"filename": "woodenSupportsBlock_N.png",
+					"region": {
+						"x": 512,
+						"y": 0,
+						"w": 256,
+						"h": 282
+					},
+					"margin": {
+						"x": 0,
+						"y": 230,
+						"w": 0,
+						"h": 230
+					}
+				},
+				{
+					"filename": "woodenSupportsBlock_S.png",
+					"region": {
+						"x": 0,
+						"y": 852,
+						"w": 256,
+						"h": 282
+					},
+					"margin": {
+						"x": 0,
+						"y": 230,
+						"w": 0,
+						"h": 230
+					}
+				},
+				{
+					"filename": "woodenSupportsBlock_W.png",
+					"region": {
+						"x": 256,
+						"y": 564,
+						"w": 256,
+						"h": 282
+					},
+					"margin": {
+						"x": 0,
+						"y": 230,
+						"w": 0,
+						"h": 230
+					}
+				},
+				{
+					"filename": "stoneWallCorner_S.png",
+					"region": {
+						"x": 512,
+						"y": 282,
+						"w": 256,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 224,
+						"w": 0,
+						"h": 272
+					}
+				},
+				{
+					"filename": "stoneWallCorner_N.png",
+					"region": {
+						"x": 768,
+						"y": 0,
+						"w": 256,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 0,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stairsAged_S.png",
+					"region": {
+						"x": 0,
+						"y": 1134,
+						"w": 256,
+						"h": 207
+					},
+					"margin": {
+						"x": 0,
+						"y": 305,
+						"w": 0,
+						"h": 305
+					}
+				},
+				{
+					"filename": "stairsCorner_E.png",
+					"region": {
+						"x": 256,
+						"y": 846,
+						"w": 256,
+						"h": 207
+					},
+					"margin": {
+						"x": 0,
+						"y": 305,
+						"w": 0,
+						"h": 305
+					}
+				},
+				{
+					"filename": "stairs_E.png",
+					"region": {
+						"x": 512,
+						"y": 522,
+						"w": 256,
+						"h": 207
+					},
+					"margin": {
+						"x": 0,
+						"y": 305,
+						"w": 0,
+						"h": 305
+					}
+				},
+				{
+					"filename": "stairs_S.png",
+					"region": {
+						"x": 768,
+						"y": 237,
+						"w": 256,
+						"h": 207
+					},
+					"margin": {
+						"x": 0,
+						"y": 305,
+						"w": 0,
+						"h": 305
+					}
+				},
+				{
+					"filename": "stoneWallRoundBroken_E.png",
+					"region": {
+						"x": 1024,
+						"y": 0,
+						"w": 256,
+						"h": 200
+					},
+					"margin": {
+						"x": 0,
+						"y": 265,
+						"w": 0,
+						"h": 312
+					}
+				},
+				{
+					"filename": "stoneWallRoundBroken_W.png",
+					"region": {
+						"x": 0,
+						"y": 1341,
+						"w": 256,
+						"h": 200
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 0,
+						"h": 312
+					}
+				},
+				{
+					"filename": "stoneWallRound_W.png",
+					"region": {
+						"x": 256,
+						"y": 1053,
+						"w": 256,
+						"h": 200
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 0,
+						"h": 312
+					}
+				},
+				{
+					"filename": "stoneWallRound_E.png",
+					"region": {
+						"x": 512,
+						"y": 729,
+						"w": 256,
+						"h": 199
+					},
+					"margin": {
+						"x": 0,
+						"y": 265,
+						"w": 0,
+						"h": 313
+					}
+				},
+				{
+					"filename": "stairsAged_E.png",
+					"region": {
+						"x": 768,
+						"y": 444,
+						"w": 256,
+						"h": 198
+					},
+					"margin": {
+						"x": 0,
+						"y": 314,
+						"w": 0,
+						"h": 314
+					}
+				},
+				{
+					"filename": "stoneWallCorner_E.png",
+					"region": {
+						"x": 1024,
+						"y": 200,
+						"w": 161,
+						"h": 285
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 227
+					}
+				},
+				{
+					"filename": "stoneWallCorner_W.png",
+					"region": {
+						"x": 0,
+						"y": 1541,
+						"w": 161,
+						"h": 285
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 227
+					}
+				},
+				{
+					"filename": "stairsAged_W.png",
+					"region": {
+						"x": 1280,
+						"y": 0,
+						"w": 256,
+						"h": 159
+					},
+					"margin": {
+						"x": 0,
+						"y": 353,
+						"w": 0,
+						"h": 353
+					}
+				},
+				{
+					"filename": "stairsCorner_N.png",
+					"region": {
+						"x": 256,
+						"y": 1253,
+						"w": 256,
+						"h": 159
+					},
+					"margin": {
+						"x": 0,
+						"y": 353,
+						"w": 0,
+						"h": 353
+					}
+				},
+				{
+					"filename": "stairsCorner_S.png",
+					"region": {
+						"x": 512,
+						"y": 928,
+						"w": 256,
+						"h": 159
+					},
+					"margin": {
+						"x": 0,
+						"y": 353,
+						"w": 0,
+						"h": 353
+					}
+				},
+				{
+					"filename": "stairs_N.png",
+					"region": {
+						"x": 768,
+						"y": 642,
+						"w": 256,
+						"h": 159
+					},
+					"margin": {
+						"x": 0,
+						"y": 353,
+						"w": 0,
+						"h": 353
+					}
+				},
+				{
+					"filename": "stairs_W.png",
+					"region": {
+						"x": 1536,
+						"y": 0,
+						"w": 256,
+						"h": 159
+					},
+					"margin": {
+						"x": 0,
+						"y": 353,
+						"w": 0,
+						"h": 353
+					}
+				},
+				{
+					"filename": "stairsAged_N.png",
+					"region": {
+						"x": 512,
+						"y": 1087,
+						"w": 256,
+						"h": 156
+					},
+					"margin": {
+						"x": 0,
+						"y": 356,
+						"w": 0,
+						"h": 356
+					}
+				},
+				{
+					"filename": "stoneWallDoorOpen_N.png",
+					"region": {
+						"x": 768,
+						"y": 801,
+						"w": 174,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 82,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneUneven_N.png",
+					"region": {
+						"x": 1792,
+						"y": 0,
+						"w": 256,
+						"h": 152
+					},
+					"margin": {
+						"x": 0,
+						"y": 360,
+						"w": 0,
+						"h": 360
+					}
+				},
+				{
+					"filename": "stoneWallDoorOpen_E.png",
+					"region": {
+						"x": 1024,
+						"y": 485,
+						"w": 161,
+						"h": 244
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 268
+					}
+				},
+				{
+					"filename": "stairsCorner_W.png",
+					"region": {
+						"x": 512,
+						"y": 1243,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneWallDoorOpen_S.png",
+					"region": {
+						"x": 768,
+						"y": 1038,
+						"w": 174,
+						"h": 237
+					},
+					"margin": {
+						"x": 82,
+						"y": 227,
+						"w": 82,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneCorner_E.png",
+					"region": {
+						"x": 2048,
+						"y": 0,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneCorner_N.png",
+					"region": {
+						"x": 2304,
+						"y": 0,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneCorner_S.png",
+					"region": {
+						"x": 2560,
+						"y": 0,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneInset_E.png",
+					"region": {
+						"x": 2816,
+						"y": 0,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneInset_N.png",
+					"region": {
+						"x": 3072,
+						"y": 0,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneInset_S.png",
+					"region": {
+						"x": 3328,
+						"y": 0,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneInset_W.png",
+					"region": {
+						"x": 3584,
+						"y": 0,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneLeft_S.png",
+					"region": {
+						"x": 3840,
+						"y": 0,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneMissingTiles_E.png",
+					"region": {
+						"x": 4096,
+						"y": 0,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "dirtTiles_E.png",
+					"region": {
+						"x": 256,
+						"y": 1412,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneMissingTiles_N.png",
+					"region": {
+						"x": 512,
+						"y": 1391,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneWallBroken_E.png",
+					"region": {
+						"x": 768,
+						"y": 1275,
+						"w": 169,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 87,
+						"h": 272
+					}
+				},
+				{
+					"filename": "stoneWallRoundBroken_N.png",
+					"region": {
+						"x": 1185,
+						"y": 200,
+						"w": 88,
+						"h": 285
+					},
+					"margin": {
+						"x": 74,
+						"y": 227,
+						"w": 168,
+						"h": 227
+					}
+				},
+				{
+					"filename": "stoneWallRoundBroken_S.png",
+					"region": {
+						"x": 161,
+						"y": 1541,
+						"w": 88,
+						"h": 285
+					},
+					"margin": {
+						"x": 94,
+						"y": 227,
+						"w": 168,
+						"h": 227
+					}
+				},
+				{
+					"filename": "stairsSpiral_E.png",
+					"region": {
+						"x": 249,
+						"y": 1551,
+						"w": 185,
+						"h": 223
+					},
+					"margin": {
+						"x": 0,
+						"y": 259,
+						"w": 71,
+						"h": 289
+					}
+				},
+				{
+					"filename": "stoneMissingTiles_S.png",
+					"region": {
+						"x": 0,
+						"y": 1826,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneWallRound_N.png",
+					"region": {
+						"x": 942,
+						"y": 801,
+						"w": 87,
+						"h": 285
+					},
+					"margin": {
+						"x": 74,
+						"y": 227,
+						"w": 169,
+						"h": 227
+					}
+				},
+				{
+					"filename": "stoneWallRound_S.png",
+					"region": {
+						"x": 1185,
+						"y": 485,
+						"w": 87,
+						"h": 285
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 169,
+						"h": 227
+					}
+				},
+				{
+					"filename": "stoneWallBroken_W.png",
+					"region": {
+						"x": 256,
+						"y": 1774,
+						"w": 169,
+						"h": 237
+					},
+					"margin": {
+						"x": 87,
+						"y": 275,
+						"w": 87,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallAgedLeft_E.png",
+					"region": {
+						"x": 4352,
+						"y": 0,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallAgedLeft_N.png",
+					"region": {
+						"x": 434,
+						"y": 1551,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallBroken_S.png",
+					"region": {
+						"x": 595,
+						"y": 1539,
+						"w": 166,
+						"h": 242
+					},
+					"margin": {
+						"x": 90,
+						"y": 227,
+						"w": 90,
+						"h": 270
+					}
+				},
+				{
+					"filename": "stoneWallBroken_N.png",
+					"region": {
+						"x": 425,
+						"y": 1788,
+						"w": 166,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 90,
+						"h": 275
+					}
+				},
+				{
+					"filename": "dirtTiles_N.png",
+					"region": {
+						"x": 1280,
+						"y": 159,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneMissingTiles_W.png",
+					"region": {
+						"x": 1273,
+						"y": 298,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "dirtTiles_S.png",
+					"region": {
+						"x": 1536,
+						"y": 159,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneRight_E.png",
+					"region": {
+						"x": 1529,
+						"y": 298,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneSideUneven_E.png",
+					"region": {
+						"x": 1792,
+						"y": 152,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneSideUneven_S.png",
+					"region": {
+						"x": 2048,
+						"y": 148,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneSide_E.png",
+					"region": {
+						"x": 2304,
+						"y": 148,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneSide_S.png",
+					"region": {
+						"x": 2560,
+						"y": 148,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneStep_E.png",
+					"region": {
+						"x": 2816,
+						"y": 148,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneStep_S.png",
+					"region": {
+						"x": 3072,
+						"y": 148,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneSteps_E.png",
+					"region": {
+						"x": 3328,
+						"y": 148,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneSteps_S.png",
+					"region": {
+						"x": 3584,
+						"y": 148,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneTile_E.png",
+					"region": {
+						"x": 3840,
+						"y": 148,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneTile_N.png",
+					"region": {
+						"x": 4096,
+						"y": 148,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stoneTile_S.png",
+					"region": {
+						"x": 1785,
+						"y": 300,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "dirtTiles_W.png",
+					"region": {
+						"x": 1273,
+						"y": 446,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneTile_W.png",
+					"region": {
+						"x": 1272,
+						"y": 585,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "dirt_E.png",
+					"region": {
+						"x": 1529,
+						"y": 446,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneUneven_S.png",
+					"region": {
+						"x": 1528,
+						"y": 585,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "dirt_N.png",
+					"region": {
+						"x": 1785,
+						"y": 448,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stone_E.png",
+					"region": {
+						"x": 1784,
+						"y": 587,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "woodenSupportBeams_E.png",
+					"region": {
+						"x": 1029,
+						"y": 729,
+						"w": 141,
+						"h": 225
+					},
+					"margin": {
+						"x": 0,
+						"y": 230,
+						"w": 115,
+						"h": 287
+					}
+				},
+				{
+					"filename": "dirt_S.png",
+					"region": {
+						"x": 1272,
+						"y": 733,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "dirt_W.png",
+					"region": {
+						"x": 1528,
+						"y": 733,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneCorner_W.png",
+					"region": {
+						"x": 1784,
+						"y": 735,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stairsSpiral_S.png",
+					"region": {
+						"x": 942,
+						"y": 1086,
+						"w": 160,
+						"h": 218
+					},
+					"margin": {
+						"x": 45,
+						"y": 248,
+						"w": 96,
+						"h": 294
+					}
+				},
+				{
+					"filename": "stoneWallAgedRight_E.png",
+					"region": {
+						"x": 937,
+						"y": 1304,
+						"w": 161,
+						"h": 215
+					},
+					"margin": {
+						"x": 0,
+						"y": 249,
+						"w": 95,
+						"h": 297
+					}
+				},
+				{
+					"filename": "planksBroken_N.png",
+					"region": {
+						"x": 1029,
+						"y": 954,
+						"w": 256,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 377,
+						"w": 0,
+						"h": 380
+					}
+				},
+				{
+					"filename": "stoneWallAgedRight_S.png",
+					"region": {
+						"x": 1102,
+						"y": 1086,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallAgedLeft_S.png",
+					"region": {
+						"x": 1098,
+						"y": 1323,
+						"w": 161,
+						"h": 200
+					},
+					"margin": {
+						"x": 95,
+						"y": 264,
+						"w": 95,
+						"h": 312
+					}
+				},
+				{
+					"filename": "stone_N.png",
+					"region": {
+						"x": 1285,
+						"y": 872,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "stairsSpiral_N.png",
+					"region": {
+						"x": 1541,
+						"y": 872,
+						"w": 195,
+						"h": 170
+					},
+					"margin": {
+						"x": 0,
+						"y": 296,
+						"w": 61,
+						"h": 342
+					}
+				},
+				{
+					"filename": "stone_S.png",
+					"region": {
+						"x": 1736,
+						"y": 874,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "planksBroken_E.png",
+					"region": {
+						"x": 1285,
+						"y": 1020,
+						"w": 256,
+						"h": 133
+					},
+					"margin": {
+						"x": 0,
+						"y": 377,
+						"w": 0,
+						"h": 379
+					}
+				},
+				{
+					"filename": "stone_W.png",
+					"region": {
+						"x": 1263,
+						"y": 1153,
+						"w": 256,
+						"h": 148
+					},
+					"margin": {
+						"x": 0,
+						"y": 364,
+						"w": 0,
+						"h": 364
+					}
+				},
+				{
+					"filename": "planksBroken_S.png",
+					"region": {
+						"x": 1541,
+						"y": 1042,
+						"w": 256,
+						"h": 133
+					},
+					"margin": {
+						"x": 0,
+						"y": 377,
+						"w": 0,
+						"h": 379
+					}
+				},
+				{
+					"filename": "planksBroken_W.png",
+					"region": {
+						"x": 1519,
+						"y": 1175,
+						"w": 256,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 377,
+						"w": 0,
+						"h": 380
+					}
+				},
+				{
+					"filename": "stoneUneven_E.png",
+					"region": {
+						"x": 1797,
+						"y": 1022,
+						"w": 256,
+						"h": 145
+					},
+					"margin": {
+						"x": 0,
+						"y": 367,
+						"w": 0,
+						"h": 367
+					}
+				},
+				{
+					"filename": "planksHole_E.png",
+					"region": {
+						"x": 1263,
+						"y": 1301,
+						"w": 256,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 377,
+						"w": 0,
+						"h": 380
+					}
+				},
+				{
+					"filename": "planksHole_N.png",
+					"region": {
+						"x": 1519,
+						"y": 1307,
+						"w": 256,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 377,
+						"w": 0,
+						"h": 380
+					}
+				},
+				{
+					"filename": "planksHole_S.png",
+					"region": {
+						"x": 1259,
+						"y": 1433,
+						"w": 256,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 377,
+						"w": 0,
+						"h": 380
+					}
+				},
+				{
+					"filename": "planksHole_W.png",
+					"region": {
+						"x": 1515,
+						"y": 1439,
+						"w": 256,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 377,
+						"w": 0,
+						"h": 380
+					}
+				},
+				{
+					"filename": "planks_E.png",
+					"region": {
+						"x": 1797,
+						"y": 1167,
+						"w": 256,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 377,
+						"w": 0,
+						"h": 380
+					}
+				},
+				{
+					"filename": "stoneUneven_W.png",
+					"region": {
+						"x": 1775,
+						"y": 1299,
+						"w": 256,
+						"h": 145
+					},
+					"margin": {
+						"x": 0,
+						"y": 367,
+						"w": 0,
+						"h": 367
+					}
+				},
+				{
+					"filename": "planks_N.png",
+					"region": {
+						"x": 1771,
+						"y": 1444,
+						"w": 256,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 377,
+						"w": 0,
+						"h": 380
+					}
+				},
+				{
+					"filename": "planks_S.png",
+					"region": {
+						"x": 2048,
+						"y": 296,
+						"w": 256,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 377,
+						"w": 0,
+						"h": 380
+					}
+				},
+				{
+					"filename": "planks_W.png",
+					"region": {
+						"x": 2304,
+						"y": 296,
+						"w": 256,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 377,
+						"w": 0,
+						"h": 380
+					}
+				},
+				{
+					"filename": "stoneLeft_E.png",
+					"region": {
+						"x": 2041,
+						"y": 428,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneLeft_N.png",
+					"region": {
+						"x": 2297,
+						"y": 428,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneLeft_W.png",
+					"region": {
+						"x": 2560,
+						"y": 296,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneRight_N.png",
+					"region": {
+						"x": 2816,
+						"y": 296,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneRight_S.png",
+					"region": {
+						"x": 3072,
+						"y": 296,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneRight_W.png",
+					"region": {
+						"x": 3328,
+						"y": 296,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneSideUneven_N.png",
+					"region": {
+						"x": 3584,
+						"y": 296,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneSideUneven_W.png",
+					"region": {
+						"x": 3840,
+						"y": 296,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneSide_N.png",
+					"region": {
+						"x": 4096,
+						"y": 296,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneSide_W.png",
+					"region": {
+						"x": 2553,
+						"y": 435,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneStep_N.png",
+					"region": {
+						"x": 2809,
+						"y": 435,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneStep_W.png",
+					"region": {
+						"x": 3065,
+						"y": 435,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneSteps_N.png",
+					"region": {
+						"x": 3321,
+						"y": 435,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneSteps_W.png",
+					"region": {
+						"x": 3577,
+						"y": 435,
+						"w": 256,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 373,
+						"w": 0,
+						"h": 373
+					}
+				},
+				{
+					"filename": "stoneWallAgedRight_N.png",
+					"region": {
+						"x": 4352,
+						"y": 237,
+						"w": 161,
+						"h": 211
+					},
+					"margin": {
+						"x": 0,
+						"y": 301,
+						"w": 95,
+						"h": 301
+					}
+				},
+				{
+					"filename": "barrelsStacked_E.png",
+					"region": {
+						"x": 3833,
+						"y": 435,
+						"w": 179,
+						"h": 146
+					},
+					"margin": {
+						"x": 32,
+						"y": 336,
+						"w": 77,
+						"h": 366
+					}
+				},
+				{
+					"filename": "barrelsStacked_N.png",
+					"region": {
+						"x": 4012,
+						"y": 435,
+						"w": 177,
+						"h": 146
+					},
+					"margin": {
+						"x": 33,
+						"y": 336,
+						"w": 79,
+						"h": 366
+					}
+				},
+				{
+					"filename": "stoneWallAgedLeft_W.png",
+					"region": {
+						"x": 4189,
+						"y": 435,
+						"w": 161,
+						"h": 195
+					},
+					"margin": {
+						"x": 95,
+						"y": 317,
+						"w": 95,
+						"h": 317
+					}
+				},
+				{
+					"filename": "stairsSpiral_W.png",
+					"region": {
+						"x": 4350,
+						"y": 448,
+						"w": 167,
+						"h": 170
+					},
+					"margin": {
+						"x": 46,
+						"y": 281,
+						"w": 89,
+						"h": 342
+					}
+				},
+				{
+					"filename": "stoneWallGateBars_E.png",
+					"region": {
+						"x": 761,
+						"y": 1539,
+						"w": 161,
+						"h": 238
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 274
+					}
+				},
+				{
+					"filename": "stoneWallAgedRight_W.png",
+					"region": {
+						"x": 922,
+						"y": 1519,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallAged_E.png",
+					"region": {
+						"x": 1083,
+						"y": 1523,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallAged_N.png",
+					"region": {
+						"x": 1244,
+						"y": 1565,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallAged_S.png",
+					"region": {
+						"x": 591,
+						"y": 1802,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallAged_W.png",
+					"region": {
+						"x": 752,
+						"y": 1802,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallArchway_E.png",
+					"region": {
+						"x": 913,
+						"y": 1802,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallArchway_N.png",
+					"region": {
+						"x": 1074,
+						"y": 1802,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallArchway_S.png",
+					"region": {
+						"x": 1235,
+						"y": 1802,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallArchway_W.png",
+					"region": {
+						"x": 1396,
+						"y": 1802,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "woodenSupportBeams_S.png",
+					"region": {
+						"x": 1405,
+						"y": 1571,
+						"w": 141,
+						"h": 225
+					},
+					"margin": {
+						"x": 115,
+						"y": 230,
+						"w": 115,
+						"h": 287
+					}
+				},
+				{
+					"filename": "woodenSupportsBeam_E.png",
+					"region": {
+						"x": 1546,
+						"y": 1571,
+						"w": 141,
+						"h": 225
+					},
+					"margin": {
+						"x": 0,
+						"y": 230,
+						"w": 115,
+						"h": 287
+					}
+				},
+				{
+					"filename": "stoneWallBrokenLeft_E.png",
+					"region": {
+						"x": 1557,
+						"y": 1796,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallBrokenLeft_S.png",
+					"region": {
+						"x": 1687,
+						"y": 1576,
+						"w": 161,
+						"h": 187
+					},
+					"margin": {
+						"x": 95,
+						"y": 277,
+						"w": 95,
+						"h": 325
+					}
+				},
+				{
+					"filename": "stoneWallBrokenLeft_N.png",
+					"region": {
+						"x": 1848,
+						"y": 1576,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallBrokenRight_S.png",
+					"region": {
+						"x": 2009,
+						"y": 1576,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "tableChairsBroken_E.png",
+					"region": {
+						"x": 1718,
+						"y": 1763,
+						"w": 130,
+						"h": 100
+					},
+					"margin": {
+						"x": 61,
+						"y": 379,
+						"w": 126,
+						"h": 412
+					}
+				},
+				{
+					"filename": "stoneWallHalf_E.png",
+					"region": {
+						"x": 1718,
+						"y": 1863,
+						"w": 161,
+						"h": 158
+					},
+					"margin": {
+						"x": 0,
+						"y": 306,
+						"w": 95,
+						"h": 354
+					}
+				},
+				{
+					"filename": "woodenSupportBeams_N.png",
+					"region": {
+						"x": 1879,
+						"y": 1813,
+						"w": 141,
+						"h": 224
+					},
+					"margin": {
+						"x": 0,
+						"y": 288,
+						"w": 115,
+						"h": 288
+					}
+				},
+				{
+					"filename": "woodenSupportBeams_W.png",
+					"region": {
+						"x": 2020,
+						"y": 1813,
+						"w": 141,
+						"h": 224
+					},
+					"margin": {
+						"x": 115,
+						"y": 288,
+						"w": 115,
+						"h": 288
+					}
+				},
+				{
+					"filename": "stoneWallBrokenRight_W.png",
+					"region": {
+						"x": 2040,
+						"y": 587,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallColumnIn_E.png",
+					"region": {
+						"x": 2201,
+						"y": 567,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallColumnIn_N.png",
+					"region": {
+						"x": 2362,
+						"y": 567,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallColumnIn_S.png",
+					"region": {
+						"x": 2523,
+						"y": 574,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallColumnIn_W.png",
+					"region": {
+						"x": 2684,
+						"y": 574,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallDoorBars_E.png",
+					"region": {
+						"x": 2845,
+						"y": 574,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallDoorBars_N.png",
+					"region": {
+						"x": 3006,
+						"y": 574,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallDoorBars_S.png",
+					"region": {
+						"x": 3167,
+						"y": 574,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallDoorBars_W.png",
+					"region": {
+						"x": 3328,
+						"y": 574,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallDoorClosed_E.png",
+					"region": {
+						"x": 3489,
+						"y": 574,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallDoorClosed_N.png",
+					"region": {
+						"x": 3650,
+						"y": 574,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallDoorClosed_S.png",
+					"region": {
+						"x": 3811,
+						"y": 581,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallDoorClosed_W.png",
+					"region": {
+						"x": 3972,
+						"y": 581,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallDoorOpen_W.png",
+					"region": {
+						"x": 4133,
+						"y": 630,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallDoor_E.png",
+					"region": {
+						"x": 4294,
+						"y": 630,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "woodenSupportsBeam_N.png",
+					"region": {
+						"x": 2161,
+						"y": 1813,
+						"w": 141,
+						"h": 224
+					},
+					"margin": {
+						"x": 0,
+						"y": 288,
+						"w": 115,
+						"h": 288
+					}
+				},
+				{
+					"filename": "barrelsStacked_S.png",
+					"region": {
+						"x": 2040,
+						"y": 824,
+						"w": 177,
+						"h": 146
+					},
+					"margin": {
+						"x": 33,
+						"y": 336,
+						"w": 79,
+						"h": 366
+					}
+				},
+				{
+					"filename": "stoneWallDoor_N.png",
+					"region": {
+						"x": 2053,
+						"y": 970,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallBrokenLeft_W.png",
+					"region": {
+						"x": 2217,
+						"y": 804,
+						"w": 161,
+						"h": 183
+					},
+					"margin": {
+						"x": 95,
+						"y": 329,
+						"w": 95,
+						"h": 329
+					}
+				},
+				{
+					"filename": "stoneWallDoor_S.png",
+					"region": {
+						"x": 2214,
+						"y": 987,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "woodenSupportsBeam_S.png",
+					"region": {
+						"x": 2378,
+						"y": 804,
+						"w": 141,
+						"h": 225
+					},
+					"margin": {
+						"x": 115,
+						"y": 230,
+						"w": 115,
+						"h": 287
+					}
+				},
+				{
+					"filename": "stoneWallDoor_W.png",
+					"region": {
+						"x": 2519,
+						"y": 811,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGateBars_N.png",
+					"region": {
+						"x": 2680,
+						"y": 811,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGateBars_S.png",
+					"region": {
+						"x": 2841,
+						"y": 811,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGateBars_W.png",
+					"region": {
+						"x": 3002,
+						"y": 811,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGateClosed_E.png",
+					"region": {
+						"x": 3163,
+						"y": 811,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGateClosed_N.png",
+					"region": {
+						"x": 3324,
+						"y": 811,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGateClosed_S.png",
+					"region": {
+						"x": 3485,
+						"y": 811,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGateClosed_W.png",
+					"region": {
+						"x": 3646,
+						"y": 811,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGateOpen_E.png",
+					"region": {
+						"x": 3807,
+						"y": 818,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGateOpen_N.png",
+					"region": {
+						"x": 3968,
+						"y": 818,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGateOpen_S.png",
+					"region": {
+						"x": 4129,
+						"y": 867,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGateOpen_W.png",
+					"region": {
+						"x": 4290,
+						"y": 867,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallColumn_N.png",
+					"region": {
+						"x": 4451,
+						"y": 867,
+						"w": 66,
+						"h": 187
+					},
+					"margin": {
+						"x": 95,
+						"y": 325,
+						"w": 190,
+						"h": 325
+					}
+				},
+				{
+					"filename": "woodenSupportsBeam_W.png",
+					"region": {
+						"x": 2375,
+						"y": 1029,
+						"w": 141,
+						"h": 224
+					},
+					"margin": {
+						"x": 115,
+						"y": 288,
+						"w": 115,
+						"h": 288
+					}
+				},
+				{
+					"filename": "stoneWallGate_E.png",
+					"region": {
+						"x": 2516,
+						"y": 1048,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGate_N.png",
+					"region": {
+						"x": 2677,
+						"y": 1048,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGate_S.png",
+					"region": {
+						"x": 2838,
+						"y": 1048,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallGate_W.png",
+					"region": {
+						"x": 2999,
+						"y": 1048,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallHole_E.png",
+					"region": {
+						"x": 3160,
+						"y": 1048,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallHole_N.png",
+					"region": {
+						"x": 3321,
+						"y": 1048,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallHole_S.png",
+					"region": {
+						"x": 3482,
+						"y": 1048,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallHole_W.png",
+					"region": {
+						"x": 3643,
+						"y": 1048,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallRoundWindow_E.png",
+					"region": {
+						"x": 3804,
+						"y": 1055,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallRoundWindow_N.png",
+					"region": {
+						"x": 3965,
+						"y": 1055,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallRoundWindow_S.png",
+					"region": {
+						"x": 4126,
+						"y": 1104,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallRoundWindow_W.png",
+					"region": {
+						"x": 4287,
+						"y": 1104,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallColumn_S.png",
+					"region": {
+						"x": 4451,
+						"y": 1054,
+						"w": 66,
+						"h": 187
+					},
+					"margin": {
+						"x": 95,
+						"y": 229,
+						"w": 190,
+						"h": 325
+					}
+				},
+				{
+					"filename": "stoneWallBrokenRight_E.png",
+					"region": {
+						"x": 2053,
+						"y": 1207,
+						"w": 161,
+						"h": 187
+					},
+					"margin": {
+						"x": 0,
+						"y": 277,
+						"w": 95,
+						"h": 325
+					}
+				},
+				{
+					"filename": "stoneWallBrokenRight_N.png",
+					"region": {
+						"x": 2214,
+						"y": 1224,
+						"w": 161,
+						"h": 186
+					},
+					"margin": {
+						"x": 0,
+						"y": 326,
+						"w": 95,
+						"h": 326
+					}
+				},
+				{
+					"filename": "woodenSupports_E.png",
+					"region": {
+						"x": 2375,
+						"y": 1253,
+						"w": 141,
+						"h": 225
+					},
+					"margin": {
+						"x": 0,
+						"y": 230,
+						"w": 115,
+						"h": 287
+					}
+				},
+				{
+					"filename": "stoneWallWindowBars_E.png",
+					"region": {
+						"x": 2516,
+						"y": 1285,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallWindowBars_N.png",
+					"region": {
+						"x": 2677,
+						"y": 1285,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallWindowBars_S.png",
+					"region": {
+						"x": 2838,
+						"y": 1285,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallWindowBars_W.png",
+					"region": {
+						"x": 2999,
+						"y": 1285,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallWindow_E.png",
+					"region": {
+						"x": 3160,
+						"y": 1285,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallWindow_N.png",
+					"region": {
+						"x": 3321,
+						"y": 1285,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallWindow_S.png",
+					"region": {
+						"x": 3482,
+						"y": 1285,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWallWindow_W.png",
+					"region": {
+						"x": 3643,
+						"y": 1285,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWall_E.png",
+					"region": {
+						"x": 3804,
+						"y": 1292,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWall_N.png",
+					"region": {
+						"x": 3965,
+						"y": 1292,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 0,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWall_S.png",
+					"region": {
+						"x": 4126,
+						"y": 1341,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 227,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneWall_W.png",
+					"region": {
+						"x": 4287,
+						"y": 1341,
+						"w": 161,
+						"h": 237
+					},
+					"margin": {
+						"x": 95,
+						"y": 275,
+						"w": 95,
+						"h": 275
+					}
+				},
+				{
+					"filename": "stoneColumnWood_E.png",
+					"region": {
+						"x": 4448,
+						"y": 1241,
+						"w": 64,
+						"h": 188
+					},
+					"margin": {
+						"x": 96,
+						"y": 276,
+						"w": 192,
+						"h": 324
+					}
+				},
+				{
+					"filename": "woodenSupports_S.png",
+					"region": {
+						"x": 2170,
+						"y": 1578,
+						"w": 141,
+						"h": 225
+					},
+					"margin": {
+						"x": 115,
+						"y": 230,
+						"w": 115,
+						"h": 287
+					}
+				},
+				{
+					"filename": "woodenSupports_N.png",
+					"region": {
+						"x": 2311,
+						"y": 1578,
+						"w": 141,
+						"h": 224
+					},
+					"margin": {
+						"x": 0,
+						"y": 288,
+						"w": 115,
+						"h": 288
+					}
+				},
+				{
+					"filename": "woodenSupports_W.png",
+					"region": {
+						"x": 2452,
+						"y": 1522,
+						"w": 141,
+						"h": 224
+					},
+					"margin": {
+						"x": 115,
+						"y": 288,
+						"w": 115,
+						"h": 288
+					}
+				},
+				{
+					"filename": "barrelsStacked_W.png",
+					"region": {
+						"x": 2593,
+						"y": 1522,
+						"w": 177,
+						"h": 146
+					},
+					"margin": {
+						"x": 33,
+						"y": 336,
+						"w": 79,
+						"h": 366
+					}
+				},
+				{
+					"filename": "stoneWallHalf_N.png",
+					"region": {
+						"x": 2770,
+						"y": 1522,
+						"w": 161,
+						"h": 158
+					},
+					"margin": {
+						"x": 0,
+						"y": 354,
+						"w": 95,
+						"h": 354
+					}
+				},
+				{
+					"filename": "stoneWallHalf_S.png",
+					"region": {
+						"x": 2931,
+						"y": 1522,
+						"w": 161,
+						"h": 158
+					},
+					"margin": {
+						"x": 95,
+						"y": 306,
+						"w": 95,
+						"h": 354
+					}
+				},
+				{
+					"filename": "stoneWallHalf_W.png",
+					"region": {
+						"x": 3092,
+						"y": 1522,
+						"w": 161,
+						"h": 158
+					},
+					"margin": {
+						"x": 95,
+						"y": 354,
+						"w": 95,
+						"h": 354
+					}
+				},
+				{
+					"filename": "stoneWallTop_W.png",
+					"region": {
+						"x": 3253,
+						"y": 1522,
+						"w": 161,
+						"h": 153
+					},
+					"margin": {
+						"x": 93,
+						"y": 358,
+						"w": 95,
+						"h": 359
+					}
+				},
+				{
+					"filename": "stoneWallTop_S.png",
+					"region": {
+						"x": 3414,
+						"y": 1522,
+						"w": 161,
+						"h": 151
+					},
+					"margin": {
+						"x": 93,
+						"y": 312,
+						"w": 95,
+						"h": 361
+					}
+				},
+				{
+					"filename": "stoneWallTop_N.png",
+					"region": {
+						"x": 3575,
+						"y": 1522,
+						"w": 161,
+						"h": 137
+					},
+					"margin": {
+						"x": 2,
+						"y": 374,
+						"w": 95,
+						"h": 375
+					}
+				},
+				{
+					"filename": "stoneWallTop_E.png",
+					"region": {
+						"x": 2593,
+						"y": 1668,
+						"w": 161,
+						"h": 135
+					},
+					"margin": {
+						"x": 2,
+						"y": 328,
+						"w": 95,
+						"h": 377
+					}
+				},
+				{
+					"filename": "bridgeBroken_S.png",
+					"region": {
+						"x": 2754,
+						"y": 1680,
+						"w": 190,
+						"h": 103
+					},
+					"margin": {
+						"x": 33,
+						"y": 400,
+						"w": 66,
+						"h": 409
+					}
+				},
+				{
+					"filename": "bridge_S.png",
+					"region": {
+						"x": 2944,
+						"y": 1680,
+						"w": 190,
+						"h": 103
+					},
+					"margin": {
+						"x": 33,
+						"y": 400,
+						"w": 66,
+						"h": 409
+					}
+				},
+				{
+					"filename": "bridgeBroken_E.png",
+					"region": {
+						"x": 3736,
+						"y": 1529,
+						"w": 190,
+						"h": 102
+					},
+					"margin": {
+						"x": 33,
+						"y": 400,
+						"w": 66,
+						"h": 410
+					}
+				},
+				{
+					"filename": "bridge_E.png",
+					"region": {
+						"x": 3926,
+						"y": 1529,
+						"w": 190,
+						"h": 102
+					},
+					"margin": {
+						"x": 33,
+						"y": 400,
+						"w": 66,
+						"h": 410
+					}
+				},
+				{
+					"filename": "bridgeBroken_N.png",
+					"region": {
+						"x": 4116,
+						"y": 1578,
+						"w": 190,
+						"h": 101
+					},
+					"margin": {
+						"x": 33,
+						"y": 402,
+						"w": 66,
+						"h": 411
+					}
+				},
+				{
+					"filename": "barrels_E.png",
+					"region": {
+						"x": 4306,
+						"y": 1578,
+						"w": 151,
+						"h": 109
+					},
+					"margin": {
+						"x": 37,
+						"y": 363,
+						"w": 105,
+						"h": 403
+					}
+				},
+				{
+					"filename": "barrels_N.png",
+					"region": {
+						"x": 3134,
+						"y": 1680,
+						"w": 142,
+						"h": 115
+					},
+					"margin": {
+						"x": 48,
+						"y": 368,
+						"w": 114,
+						"h": 397
+					}
+				},
+				{
+					"filename": "woodenPile_W.png",
+					"region": {
+						"x": 3276,
+						"y": 1675,
+						"w": 138,
+						"h": 122
+					},
+					"margin": {
+						"x": 54,
+						"y": 365,
+						"w": 118,
+						"h": 390
+					}
+				},
+				{
+					"filename": "bridge_N.png",
+					"region": {
+						"x": 3414,
+						"y": 1673,
+						"w": 190,
+						"h": 101
+					},
+					"margin": {
+						"x": 33,
+						"y": 402,
+						"w": 66,
+						"h": 411
+					}
+				},
+				{
+					"filename": "barrels_S.png",
+					"region": {
+						"x": 3604,
+						"y": 1659,
+						"w": 137,
+						"h": 117
+					},
+					"margin": {
+						"x": 53,
+						"y": 357,
+						"w": 119,
+						"h": 395
+					}
+				},
+				{
+					"filename": "bridgeBroken_W.png",
+					"region": {
+						"x": 3741,
+						"y": 1631,
+						"w": 190,
+						"h": 100
+					},
+					"margin": {
+						"x": 33,
+						"y": 402,
+						"w": 66,
+						"h": 412
+					}
+				},
+				{
+					"filename": "woodenPile_S.png",
+					"region": {
+						"x": 3931,
+						"y": 1631,
+						"w": 155,
+						"h": 103
+					},
+					"margin": {
+						"x": 52,
+						"y": 378,
+						"w": 101,
+						"h": 409
+					}
+				},
+				{
+					"filename": "bridge_W.png",
+					"region": {
+						"x": 3741,
+						"y": 1731,
+						"w": 190,
+						"h": 100
+					},
+					"margin": {
+						"x": 33,
+						"y": 402,
+						"w": 66,
+						"h": 412
+					}
+				},
+				{
+					"filename": "woodenPile_N.png",
+					"region": {
+						"x": 3931,
+						"y": 1734,
+						"w": 152,
+						"h": 106
+					},
+					"margin": {
+						"x": 34,
+						"y": 372,
+						"w": 104,
+						"h": 406
+					}
+				},
+				{
+					"filename": "chair_E.png",
+					"region": {
+						"x": 4455,
+						"y": 618,
+						"w": 62,
+						"h": 74
+					},
+					"margin": {
+						"x": 86,
+						"y": 384,
+						"w": 194,
+						"h": 438
+					}
+				},
+				{
+					"filename": "chair_N.png",
+					"region": {
+						"x": 4455,
+						"y": 692,
+						"w": 62,
+						"h": 67
+					},
+					"margin": {
+						"x": 86,
+						"y": 391,
+						"w": 194,
+						"h": 445
+					}
+				},
+				{
+					"filename": "tableChairsBroken_W.png",
+					"region": {
+						"x": 2452,
+						"y": 1746,
+						"w": 136,
+						"h": 96
+					},
+					"margin": {
+						"x": 50,
+						"y": 378,
+						"w": 120,
+						"h": 416
+					}
+				},
+				{
+					"filename": "stoneColumnWood_N.png",
+					"region": {
+						"x": 2302,
+						"y": 1842,
+						"w": 64,
+						"h": 188
+					},
+					"margin": {
+						"x": 96,
+						"y": 276,
+						"w": 192,
+						"h": 324
+					}
+				},
+				{
+					"filename": "stoneColumnWood_S.png",
+					"region": {
+						"x": 2366,
+						"y": 1802,
+						"w": 64,
+						"h": 188
+					},
+					"margin": {
+						"x": 96,
+						"y": 276,
+						"w": 192,
+						"h": 324
+					}
+				},
+				{
+					"filename": "barrels_W.png",
+					"region": {
+						"x": 2430,
+						"y": 1842,
+						"w": 151,
+						"h": 102
+					},
+					"margin": {
+						"x": 50,
+						"y": 374,
+						"w": 105,
+						"h": 410
+					}
+				},
+				{
+					"filename": "chestOpen_E.png",
+					"region": {
+						"x": 2430,
+						"y": 1944,
+						"w": 97,
+						"h": 95
+					},
+					"margin": {
+						"x": 65,
+						"y": 370,
+						"w": 159,
+						"h": 417
+					}
+				},
+				{
+					"filename": "chestOpen_S.png",
+					"region": {
+						"x": 2527,
+						"y": 1944,
+						"w": 88,
+						"h": 95
+					},
+					"margin": {
+						"x": 81,
+						"y": 370,
+						"w": 168,
+						"h": 417
+					}
+				},
+				{
+					"filename": "woodenCrates_N.png",
+					"region": {
+						"x": 1170,
+						"y": 770,
+						"w": 90,
+						"h": 100
+					},
+					"margin": {
+						"x": 75,
+						"y": 375,
+						"w": 166,
+						"h": 412
+					}
+				},
+				{
+					"filename": "barrel_N.png",
+					"region": {
+						"x": 1170,
+						"y": 870,
+						"w": 80,
+						"h": 84
+					},
+					"margin": {
+						"x": 79,
+						"y": 378,
+						"w": 176,
+						"h": 428
+					}
+				},
+				{
+					"filename": "tableRoundItemsChairs_E.png",
+					"region": {
+						"x": 2588,
+						"y": 1803,
+						"w": 136,
+						"h": 106
+					},
+					"margin": {
+						"x": 48,
+						"y": 368,
+						"w": 120,
+						"h": 406
+					}
+				},
+				{
+					"filename": "tableRoundItemsChairs_N.png",
+					"region": {
+						"x": 2615,
+						"y": 1909,
+						"w": 125,
+						"h": 111
+					},
+					"margin": {
+						"x": 54,
+						"y": 366,
+						"w": 131,
+						"h": 401
+					}
+				},
+				{
+					"filename": "tableRoundItemsChairs_W.png",
+					"region": {
+						"x": 2031,
+						"y": 1394,
+						"w": 135,
+						"h": 107
+					},
+					"margin": {
+						"x": 51,
+						"y": 368,
+						"w": 121,
+						"h": 405
+					}
+				},
+				{
+					"filename": "tableChairsBroken_S.png",
+					"region": {
+						"x": 2166,
+						"y": 1410,
+						"w": 133,
+						"h": 88
+					},
+					"margin": {
+						"x": 49,
+						"y": 391,
+						"w": 123,
+						"h": 424
+					}
+				},
+				{
+					"filename": "tableChairsBroken_N.png",
+					"region": {
+						"x": 4086,
+						"y": 1679,
+						"w": 129,
+						"h": 106
+					},
+					"margin": {
+						"x": 62,
+						"y": 367,
+						"w": 127,
+						"h": 406
+					}
+				},
+				{
+					"filename": "woodenCrates_S.png",
+					"region": {
+						"x": 4215,
+						"y": 1679,
+						"w": 90,
+						"h": 97
+					},
+					"margin": {
+						"x": 78,
+						"y": 374,
+						"w": 166,
+						"h": 415
+					}
+				},
+				{
+					"filename": "woodenPile_E.png",
+					"region": {
+						"x": 4305,
+						"y": 1687,
+						"w": 128,
+						"h": 104
+					},
+					"margin": {
+						"x": 64,
+						"y": 370,
+						"w": 128,
+						"h": 408
+					}
+				},
+				{
+					"filename": "tableRoundChairs_E.png",
+					"region": {
+						"x": 4083,
+						"y": 1785,
+						"w": 127,
+						"h": 107
+					},
+					"margin": {
+						"x": 57,
+						"y": 368,
+						"w": 129,
+						"h": 405
+					}
+				},
+				{
+					"filename": "tableRoundChairs_N.png",
+					"region": {
+						"x": 2724,
+						"y": 1803,
+						"w": 125,
+						"h": 106
+					},
+					"margin": {
+						"x": 55,
+						"y": 366,
+						"w": 131,
+						"h": 406
+					}
+				},
+				{
+					"filename": "tableRoundItemsChairs_S.png",
+					"region": {
+						"x": 2740,
+						"y": 1909,
+						"w": 125,
+						"h": 111
+					},
+					"margin": {
+						"x": 55,
+						"y": 365,
+						"w": 131,
+						"h": 401
+					}
+				},
+				{
+					"filename": "tableRoundChairs_W.png",
+					"region": {
+						"x": 2849,
+						"y": 1783,
+						"w": 126,
+						"h": 106
+					},
+					"margin": {
+						"x": 50,
+						"y": 368,
+						"w": 130,
+						"h": 406
+					}
+				},
+				{
+					"filename": "tableRoundChairs_S.png",
+					"region": {
+						"x": 2975,
+						"y": 1783,
+						"w": 125,
+						"h": 106
+					},
+					"margin": {
+						"x": 54,
+						"y": 370,
+						"w": 131,
+						"h": 406
+					}
+				},
+				{
+					"filename": "tableShortChairs_S.png",
+					"region": {
+						"x": 2865,
+						"y": 1889,
+						"w": 123,
+						"h": 105
+					},
+					"margin": {
+						"x": 57,
+						"y": 369,
+						"w": 133,
+						"h": 407
+					}
+				},
+				{
+					"filename": "tableShortChairs_E.png",
+					"region": {
+						"x": 2988,
+						"y": 1889,
+						"w": 123,
+						"h": 104
+					},
+					"margin": {
+						"x": 56,
+						"y": 369,
+						"w": 133,
+						"h": 408
+					}
+				},
+				{
+					"filename": "woodenCrates_E.png",
+					"region": {
+						"x": 3100,
+						"y": 1795,
+						"w": 113,
+						"h": 94
+					},
+					"margin": {
+						"x": 61,
+						"y": 372,
+						"w": 143,
+						"h": 418
+					}
+				},
+				{
+					"filename": "tableShortChairs_N.png",
+					"region": {
+						"x": 3111,
+						"y": 1889,
+						"w": 121,
+						"h": 104
+					},
+					"margin": {
+						"x": 56,
+						"y": 369,
+						"w": 135,
+						"h": 408
+					}
+				},
+				{
+					"filename": "chestClosed_E.png",
+					"region": {
+						"x": 2027,
+						"y": 1501,
+						"w": 81,
+						"h": 68
+					},
+					"margin": {
+						"x": 81,
+						"y": 397,
+						"w": 175,
+						"h": 444
+					}
+				},
+				{
+					"filename": "tableShortChairs_W.png",
+					"region": {
+						"x": 3414,
+						"y": 1774,
+						"w": 121,
+						"h": 104
+					},
+					"margin": {
+						"x": 57,
+						"y": 369,
+						"w": 135,
+						"h": 408
+					}
+				},
+				{
+					"filename": "stoneColumnWood_W.png",
+					"region": {
+						"x": 3535,
+						"y": 1774,
+						"w": 64,
+						"h": 188
+					},
+					"margin": {
+						"x": 96,
+						"y": 276,
+						"w": 192,
+						"h": 324
+					}
+				},
+				{
+					"filename": "stoneColumn_E.png",
+					"region": {
+						"x": 3599,
+						"y": 1776,
+						"w": 64,
+						"h": 188
+					},
+					"margin": {
+						"x": 96,
+						"y": 276,
+						"w": 192,
+						"h": 324
+					}
+				},
+				{
+					"filename": "stoneColumn_N.png",
+					"region": {
+						"x": 3663,
+						"y": 1776,
+						"w": 64,
+						"h": 188
+					},
+					"margin": {
+						"x": 96,
+						"y": 276,
+						"w": 192,
+						"h": 324
+					}
+				},
+				{
+					"filename": "tableShort_S.png",
+					"region": {
+						"x": 3727,
+						"y": 1831,
+						"w": 118,
+						"h": 89
+					},
+					"margin": {
+						"x": 61,
+						"y": 381,
+						"w": 138,
+						"h": 423
+					}
+				},
+				{
+					"filename": "barrel_S.png",
+					"region": {
+						"x": 3845,
+						"y": 1831,
+						"w": 80,
+						"h": 84
+					},
+					"margin": {
+						"x": 79,
+						"y": 378,
+						"w": 176,
+						"h": 428
+					}
+				},
+				{
+					"filename": "tableShort_N.png",
+					"region": {
+						"x": 3925,
+						"y": 1840,
+						"w": 118,
+						"h": 87
+					},
+					"margin": {
+						"x": 60,
+						"y": 379,
+						"w": 138,
+						"h": 425
+					}
+				},
+				{
+					"filename": "tableShort_E.png",
+					"region": {
+						"x": 3727,
+						"y": 1920,
+						"w": 117,
+						"h": 88
+					},
+					"margin": {
+						"x": 63,
+						"y": 380,
+						"w": 139,
+						"h": 424
+					}
+				},
+				{
+					"filename": "tableShort_W.png",
+					"region": {
+						"x": 3213,
+						"y": 1797,
+						"w": 117,
+						"h": 89
+					},
+					"margin": {
+						"x": 59,
+						"y": 380,
+						"w": 139,
+						"h": 423
+					}
+				},
+				{
+					"filename": "woodenCrates_W.png",
+					"region": {
+						"x": 3232,
+						"y": 1886,
+						"w": 112,
+						"h": 91
+					},
+					"margin": {
+						"x": 70,
+						"y": 377,
+						"w": 144,
+						"h": 421
+					}
+				},
+				{
+					"filename": "barrel_W.png",
+					"region": {
+						"x": 3330,
+						"y": 1797,
+						"w": 80,
+						"h": 84
+					},
+					"margin": {
+						"x": 79,
+						"y": 378,
+						"w": 176,
+						"h": 428
+					}
+				},
+				{
+					"filename": "barrel_E.png",
+					"region": {
+						"x": 3344,
+						"y": 1881,
+						"w": 80,
+						"h": 83
+					},
+					"margin": {
+						"x": 79,
+						"y": 378,
+						"w": 176,
+						"h": 429
+					}
+				},
+				{
+					"filename": "chestOpen_N.png",
+					"region": {
+						"x": 3424,
+						"y": 1878,
+						"w": 97,
+						"h": 78
+					},
+					"margin": {
+						"x": 65,
+						"y": 387,
+						"w": 159,
+						"h": 434
+					}
+				},
+				{
+					"filename": "stoneColumn_S.png",
+					"region": {
+						"x": 4433,
+						"y": 1687,
+						"w": 64,
+						"h": 188
+					},
+					"margin": {
+						"x": 96,
+						"y": 276,
+						"w": 192,
+						"h": 324
+					}
+				},
+				{
+					"filename": "chestClosed_N.png",
+					"region": {
+						"x": 2108,
+						"y": 1501,
+						"w": 81,
+						"h": 68
+					},
+					"margin": {
+						"x": 81,
+						"y": 397,
+						"w": 175,
+						"h": 444
+					}
+				},
+				{
+					"filename": "tableRound_E.png",
+					"region": {
+						"x": 2189,
+						"y": 1498,
+						"w": 94,
+						"h": 76
+					},
+					"margin": {
+						"x": 74,
+						"y": 388,
+						"w": 162,
+						"h": 436
+					}
+				},
+				{
+					"filename": "chair_S.png",
+					"region": {
+						"x": 4448,
+						"y": 1429,
+						"w": 51,
+						"h": 74
+					},
+					"margin": {
+						"x": 97,
+						"y": 384,
+						"w": 205,
+						"h": 438
+					}
+				},
+				{
+					"filename": "chair_W.png",
+					"region": {
+						"x": 4455,
+						"y": 759,
+						"w": 51,
+						"h": 67
+					},
+					"margin": {
+						"x": 97,
+						"y": 391,
+						"w": 205,
+						"h": 445
+					}
+				},
+				{
+					"filename": "stoneColumn_W.png",
+					"region": {
+						"x": 4210,
+						"y": 1785,
+						"w": 64,
+						"h": 188
+					},
+					"margin": {
+						"x": 96,
+						"y": 276,
+						"w": 192,
+						"h": 324
+					}
+				},
+				{
+					"filename": "stoneWallColumn_E.png",
+					"region": {
+						"x": 4274,
+						"y": 1791,
+						"w": 64,
+						"h": 187
+					},
+					"margin": {
+						"x": 0,
+						"y": 277,
+						"w": 192,
+						"h": 325
+					}
+				},
+				{
+					"filename": "stoneWallColumn_W.png",
+					"region": {
+						"x": 4338,
+						"y": 1791,
+						"w": 64,
+						"h": 187
+					},
+					"margin": {
+						"x": 192,
+						"y": 277,
+						"w": 192,
+						"h": 325
+					}
+				},
+				{
+					"filename": "tableRound_W.png",
+					"region": {
+						"x": 4402,
+						"y": 1875,
+						"w": 94,
+						"h": 78
+					},
+					"margin": {
+						"x": 72,
+						"y": 386,
+						"w": 162,
+						"h": 434
+					}
+				},
+				{
+					"filename": "tableRound_S.png",
+					"region": {
+						"x": 4402,
+						"y": 1953,
+						"w": 94,
+						"h": 77
+					},
+					"margin": {
+						"x": 71,
+						"y": 388,
+						"w": 162,
+						"h": 435
+					}
+				},
+				{
+					"filename": "tableRound_N.png",
+					"region": {
+						"x": 3424,
+						"y": 1956,
+						"w": 93,
+						"h": 77
+					},
+					"margin": {
+						"x": 75,
+						"y": 387,
+						"w": 163,
+						"h": 435
+					}
+				},
+				{
+					"filename": "chestClosed_W.png",
+					"region": {
+						"x": 3344,
+						"y": 1964,
+						"w": 80,
+						"h": 68
+					},
+					"margin": {
+						"x": 82,
+						"y": 397,
+						"w": 176,
+						"h": 444
+					}
+				},
+				{
+					"filename": "chestClosed_S.png",
+					"region": {
+						"x": 3517,
+						"y": 1962,
+						"w": 81,
+						"h": 68
+					},
+					"margin": {
+						"x": 81,
+						"y": 397,
+						"w": 175,
+						"h": 444
+					}
+				},
+				{
+					"filename": "chestOpen_W.png",
+					"region": {
+						"x": 2283,
+						"y": 1498,
+						"w": 87,
+						"h": 78
+					},
+					"margin": {
+						"x": 82,
+						"y": 387,
+						"w": 169,
+						"h": 434
+					}
+				},
+				{
+					"filename": "woodenCrate_E.png",
+					"region": {
+						"x": 3844,
+						"y": 1927,
+						"w": 87,
+						"h": 78
+					},
+					"margin": {
+						"x": 76,
+						"y": 388,
+						"w": 169,
+						"h": 434
+					}
+				},
+				{
+					"filename": "woodenCrate_N.png",
+					"region": {
+						"x": 3931,
+						"y": 1927,
+						"w": 87,
+						"h": 78
+					},
+					"margin": {
+						"x": 76,
+						"y": 388,
+						"w": 169,
+						"h": 434
+					}
+				},
+				{
+					"filename": "woodenCrate_S.png",
+					"region": {
+						"x": 4018,
+						"y": 1927,
+						"w": 87,
+						"h": 78
+					},
+					"margin": {
+						"x": 76,
+						"y": 388,
+						"w": 169,
+						"h": 434
+					}
+				},
+				{
+					"filename": "woodenCrate_W.png",
+					"region": {
+						"x": 4105,
+						"y": 1892,
+						"w": 87,
+						"h": 78
+					},
+					"margin": {
+						"x": 76,
+						"y": 388,
+						"w": 169,
+						"h": 434
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:484ada88180812ba6e1bc904906d9d8f:ef45a8d4203665d6df8a2d2cfd3295f6:9f103ba55373b1ec88cafecee48f6eb3$"
+	}
+}
