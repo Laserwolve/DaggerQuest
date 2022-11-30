@@ -1,17 +1,25 @@
-[gd_scene load_steps=6 format=3 uid="uid://ctmso0yccq6mc"]
+[gd_scene load_steps=8 format=3 uid="uid://ctmso0yccq6mc"]
 
 [ext_resource type="Script" path="res://scenes/levels/level.gd" id="1_70tjd"]
 [ext_resource type="Texture2D" uid="uid://cn2girs8w08ug" path="res://assets/sprites/backgrounds/bg.png" id="1_bg6to"]
 [ext_resource type="PackedScene" uid="uid://guxgfcuvaghr" path="res://entities/player/Player.tscn" id="2_nhiob"]
+[ext_resource type="Texture2D" uid="uid://dm2n8qfn0jauh" path="res://assets/tiles/stone_N.png" id="4_oqpgi"]
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_76r2n"]
 vertices = PackedVector2Array(-1457, -943, 2594, -1003, 2558, 1772, -1463, 1802)
 polygons = [PackedInt32Array(0, 1, 2, 3)]
 outlines = [PackedVector2Array(-1457, -943, 2594, -1003, 2558, 1772, -1463, 1802)]
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xl2ib"]
+texture = ExtResource("4_oqpgi")
+texture_region_size = Vector2i(256, 512)
+0:0/0 = 0
+0:0/0/texture_offset = Vector2i(0, 256)
+
 [sub_resource type="TileSet" id="TileSet_kqfbc"]
 tile_shape = 1
 tile_size = Vector2i(256, 128)
+sources/0 = SubResource("TileSetAtlasSource_xl2ib")
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_70tjd")
@@ -33,9 +41,10 @@ navpoly = SubResource("NavigationPolygon_76r2n")
 
 [node name="Entities" type="Node2D" parent="."]
 
-[node name="Player" parent="Entities" instance=ExtResource("2_nhiob")]
-position = Vector2(317, 34)
-
-[node name="TileMap" type="TileMap" parent="."]
+[node name="TileMap" type="TileMap" parent="Entities"]
 tile_set = SubResource("TileSet_kqfbc")
 format = 2
+layer_0/tile_data = PackedInt32Array(-65533, 0, 0, 3, 0, 0, 65538, 0, 0, 131075, 0, 0, 196610, 0, 0, 262146, 0, 0, 327681, 0, 0, 393217, 0, 0, 327680, 0, 0, 262145, 0, 0, 196609, 0, 0, 131074, 0, 0, 393216, 0, 0, 458752, 0, 0, 458753, 0, 0, 393218, 0, 0, 327682, 0, 0, 262147, 0, 0, 196611, 0, 0, 65539, 0, 0, 4, 0, 0, 65540, 0, 0, 131076, 0, 0, 524289, 0, 0, 589825, 0, 0, 524290, 0, 0, 458754, 0, 0, 393219, 0, 0, 327683, 0, 0, 262148, 0, 0, 196612, 0, 0, 131077, 0, 0, 196613, 0, 0, 262150, 0, 0, 327686, 0, 0, 393223, 0, 0, 458758, 0, 0, 524295, 0, 0, 589831, 0, 0, 655368, 0, 0, 589832, 0, 0, 524296, 0, 0, 458759, 0, 0, 393222, 0, 0, 327685, 0, 0, 393221, 0, 0, 327684, 0, 0, 393220, 0, 0, 589826, 0, 0, 655363, 0, 0, 524291, 0, 0, 458755, 0, 0, 262149, 0, 0, 655362, 0, 0, 720898, 0, 0, 589827, 0, 0, 524292, 0, 0, 458756, 0, 0, 458757, 0, 0, 524294, 0, 0, 720903, 0, 0, 786440, 0, 0, 655367, 0, 0, 589830, 0, 0, 589829, 0, 0, 589828, 0, 0, 655364, 0, 0, 720899, 0, 0, 786435, 0, 0, 524293, 0, 0, 655366, 0, 0, 720902, 0, 0, 786439, 0, 0, 851975, 0, 0, 720904, 0, 0, 655369, 0, 0, 917511, 0, 0, 851974, 0, 0, 786438, 0, 0, 720901, 0, 0, 655365, 0, 0, 720900, 0, 0, 786436, 0, 0, 851971, 0, 0, 917508, 0, 0, 983044, 0, 0, 917509, 0, 0, 851973, 0, 0, 786437, 0, 0, 851972, 0, 0, 983045, 0, 0, 917510, 0, 0, 983046, 0, 0, 1048582, 0, 0, 1048581, 0, 0, 1114117, 0, 0)
+
+[node name="Player" parent="Entities" instance=ExtResource("2_nhiob")]
+position = Vector2(317, 34)
