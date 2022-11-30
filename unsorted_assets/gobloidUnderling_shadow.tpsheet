@@ -1,0 +1,9618 @@
+{
+	"textures": [
+		{
+			"image": "gobloidUnderling_shadow.png",
+			"size": {
+				"w": 2045,
+				"h": 4557
+			},
+			"sprites": [
+				{
+					"filename": "gobloidUnderling_shadow-die-135-006.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 136,
+						"h": 65
+					},
+					"margin": {
+						"x": 453,
+						"y": 574,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-157.5-006.png",
+					"region": {
+						"x": 136,
+						"y": 0,
+						"w": 150,
+						"h": 66
+					},
+					"margin": {
+						"x": 460,
+						"y": 560,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die90-001.png",
+					"region": {
+						"x": 286,
+						"y": 0,
+						"w": 123,
+						"h": 66
+					},
+					"margin": {
+						"x": 435,
+						"y": 561,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack180-005.png",
+					"region": {
+						"x": 409,
+						"y": 0,
+						"w": 190,
+						"h": 67
+					},
+					"margin": {
+						"x": 315,
+						"y": 565,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die90-002.png",
+					"region": {
+						"x": 599,
+						"y": 0,
+						"w": 125,
+						"h": 67
+					},
+					"margin": {
+						"x": 433,
+						"y": 560,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die67.5-001.png",
+					"region": {
+						"x": 724,
+						"y": 0,
+						"w": 110,
+						"h": 70
+					},
+					"margin": {
+						"x": 455,
+						"y": 562,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die67.5-002.png",
+					"region": {
+						"x": 834,
+						"y": 0,
+						"w": 116,
+						"h": 70
+					},
+					"margin": {
+						"x": 450,
+						"y": 561,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-112.5-006.png",
+					"region": {
+						"x": 950,
+						"y": 0,
+						"w": 120,
+						"h": 71
+					},
+					"margin": {
+						"x": 440,
+						"y": 577,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-135-005.png",
+					"region": {
+						"x": 1070,
+						"y": 0,
+						"w": 143,
+						"h": 71
+					},
+					"margin": {
+						"x": 408,
+						"y": 551,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die112.5-001.png",
+					"region": {
+						"x": 1213,
+						"y": 0,
+						"w": 130,
+						"h": 72
+					},
+					"margin": {
+						"x": 416,
+						"y": 560,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-112.5-005.png",
+					"region": {
+						"x": 1343,
+						"y": 0,
+						"w": 154,
+						"h": 73
+					},
+					"margin": {
+						"x": 392,
+						"y": 554,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die112.5-002.png",
+					"region": {
+						"x": 1497,
+						"y": 0,
+						"w": 128,
+						"h": 73
+					},
+					"margin": {
+						"x": 418,
+						"y": 559,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die90-003.png",
+					"region": {
+						"x": 1625,
+						"y": 0,
+						"w": 129,
+						"h": 73
+					},
+					"margin": {
+						"x": 430,
+						"y": 554,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-157.5-005.png",
+					"region": {
+						"x": 1754,
+						"y": 0,
+						"w": 222,
+						"h": 74
+					},
+					"margin": {
+						"x": 276,
+						"y": 552,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack157.5-007.png",
+					"region": {
+						"x": 0,
+						"y": 65,
+						"w": 135,
+						"h": 74
+					},
+					"margin": {
+						"x": 380,
+						"y": 562,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack90-000.png",
+					"region": {
+						"x": 135,
+						"y": 66,
+						"w": 136,
+						"h": 74
+					},
+					"margin": {
+						"x": 422,
+						"y": 553,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-90-006.png",
+					"region": {
+						"x": 271,
+						"y": 66,
+						"w": 126,
+						"h": 74
+					},
+					"margin": {
+						"x": 426,
+						"y": 577,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-22.5-006.png",
+					"region": {
+						"x": 397,
+						"y": 67,
+						"w": 195,
+						"h": 74
+					},
+					"margin": {
+						"x": 350,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die45-001.png",
+					"region": {
+						"x": 592,
+						"y": 67,
+						"w": 115,
+						"h": 74
+					},
+					"margin": {
+						"x": 463,
+						"y": 560,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle90-000.png",
+					"region": {
+						"x": 707,
+						"y": 70,
+						"w": 136,
+						"h": 74
+					},
+					"margin": {
+						"x": 422,
+						"y": 553,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle90-001.png",
+					"region": {
+						"x": 843,
+						"y": 71,
+						"w": 135,
+						"h": 74
+					},
+					"margin": {
+						"x": 423,
+						"y": 553,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle90-002.png",
+					"region": {
+						"x": 978,
+						"y": 71,
+						"w": 135,
+						"h": 74
+					},
+					"margin": {
+						"x": 423,
+						"y": 553,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle90-009.png",
+					"region": {
+						"x": 1113,
+						"y": 72,
+						"w": 135,
+						"h": 74
+					},
+					"margin": {
+						"x": 423,
+						"y": 553,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack90-009.png",
+					"region": {
+						"x": 1248,
+						"y": 73,
+						"w": 133,
+						"h": 75
+					},
+					"margin": {
+						"x": 425,
+						"y": 553,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-45-006.png",
+					"region": {
+						"x": 1381,
+						"y": 73,
+						"w": 187,
+						"h": 75
+					},
+					"margin": {
+						"x": 367,
+						"y": 560,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-90-005.png",
+					"region": {
+						"x": 1568,
+						"y": 73,
+						"w": 170,
+						"h": 75
+					},
+					"margin": {
+						"x": 387,
+						"y": 554,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die45-002.png",
+					"region": {
+						"x": 1738,
+						"y": 74,
+						"w": 120,
+						"h": 75
+					},
+					"margin": {
+						"x": 462,
+						"y": 559,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die90-000.png",
+					"region": {
+						"x": 1858,
+						"y": 74,
+						"w": 136,
+						"h": 75
+					},
+					"margin": {
+						"x": 422,
+						"y": 552,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle90-008.png",
+					"region": {
+						"x": 0,
+						"y": 139,
+						"w": 135,
+						"h": 75
+					},
+					"margin": {
+						"x": 423,
+						"y": 552,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle90-003.png",
+					"region": {
+						"x": 135,
+						"y": 140,
+						"w": 137,
+						"h": 75
+					},
+					"margin": {
+						"x": 421,
+						"y": 552,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die67.5-003.png",
+					"region": {
+						"x": 272,
+						"y": 140,
+						"w": 123,
+						"h": 76
+					},
+					"margin": {
+						"x": 443,
+						"y": 555,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle90-006.png",
+					"region": {
+						"x": 395,
+						"y": 141,
+						"w": 137,
+						"h": 75
+					},
+					"margin": {
+						"x": 421,
+						"y": 552,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle90-007.png",
+					"region": {
+						"x": 532,
+						"y": 141,
+						"w": 136,
+						"h": 75
+					},
+					"margin": {
+						"x": 422,
+						"y": 552,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack112.5-008.png",
+					"region": {
+						"x": 668,
+						"y": 144,
+						"w": 129,
+						"h": 76
+					},
+					"margin": {
+						"x": 418,
+						"y": 556,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die180-006.png",
+					"region": {
+						"x": 797,
+						"y": 145,
+						"w": 149,
+						"h": 76
+					},
+					"margin": {
+						"x": 472,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle90-004.png",
+					"region": {
+						"x": 946,
+						"y": 145,
+						"w": 137,
+						"h": 76
+					},
+					"margin": {
+						"x": 421,
+						"y": 551,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle90-005.png",
+					"region": {
+						"x": 1083,
+						"y": 146,
+						"w": 137,
+						"h": 76
+					},
+					"margin": {
+						"x": 421,
+						"y": 551,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack45-003.png",
+					"region": {
+						"x": 1220,
+						"y": 148,
+						"w": 248,
+						"h": 77
+					},
+					"margin": {
+						"x": 318,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die135-001.png",
+					"region": {
+						"x": 1468,
+						"y": 148,
+						"w": 130,
+						"h": 77
+					},
+					"margin": {
+						"x": 402,
+						"y": 558,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk90-005.png",
+					"region": {
+						"x": 1598,
+						"y": 148,
+						"w": 133,
+						"h": 77
+					},
+					"margin": {
+						"x": 406,
+						"y": 545,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die112.5-003.png",
+					"region": {
+						"x": 1731,
+						"y": 149,
+						"w": 126,
+						"h": 78
+					},
+					"margin": {
+						"x": 421,
+						"y": 554,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die135-002.png",
+					"region": {
+						"x": 1857,
+						"y": 149,
+						"w": 126,
+						"h": 78
+					},
+					"margin": {
+						"x": 407,
+						"y": 557,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack112.5-009.png",
+					"region": {
+						"x": 0,
+						"y": 214,
+						"w": 135,
+						"h": 79
+					},
+					"margin": {
+						"x": 412,
+						"y": 552,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack135-007.png",
+					"region": {
+						"x": 135,
+						"y": 215,
+						"w": 132,
+						"h": 79
+					},
+					"margin": {
+						"x": 403,
+						"y": 568,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack180-007.png",
+					"region": {
+						"x": 267,
+						"y": 216,
+						"w": 137,
+						"h": 79
+					},
+					"margin": {
+						"x": 367,
+						"y": 553,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack90-001.png",
+					"region": {
+						"x": 404,
+						"y": 216,
+						"w": 129,
+						"h": 79
+					},
+					"margin": {
+						"x": 429,
+						"y": 549,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-157.5-005.png",
+					"region": {
+						"x": 533,
+						"y": 216,
+						"w": 131,
+						"h": 79
+					},
+					"margin": {
+						"x": 432,
+						"y": 547,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die45-003.png",
+					"region": {
+						"x": 664,
+						"y": 220,
+						"w": 115,
+						"h": 79
+					},
+					"margin": {
+						"x": 455,
+						"y": 554,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-67.5-006.png",
+					"region": {
+						"x": 779,
+						"y": 221,
+						"w": 162,
+						"h": 79
+					},
+					"margin": {
+						"x": 394,
+						"y": 568,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die90-007.png",
+					"region": {
+						"x": 941,
+						"y": 222,
+						"w": 190,
+						"h": 79
+					},
+					"margin": {
+						"x": 408,
+						"y": 505,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack22.5-003.png",
+					"region": {
+						"x": 1131,
+						"y": 225,
+						"w": 240,
+						"h": 80
+					},
+					"margin": {
+						"x": 322,
+						"y": 536,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die112.5-007.png",
+					"region": {
+						"x": 1371,
+						"y": 225,
+						"w": 206,
+						"h": 80
+					},
+					"margin": {
+						"x": 434,
+						"y": 509,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk112.5-005.png",
+					"region": {
+						"x": 1577,
+						"y": 225,
+						"w": 139,
+						"h": 80
+					},
+					"margin": {
+						"x": 399,
+						"y": 538,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk67.5-009.png",
+					"region": {
+						"x": 1716,
+						"y": 227,
+						"w": 119,
+						"h": 80
+					},
+					"margin": {
+						"x": 432,
+						"y": 546,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk90-004.png",
+					"region": {
+						"x": 1835,
+						"y": 227,
+						"w": 132,
+						"h": 80
+					},
+					"margin": {
+						"x": 406,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack135-008.png",
+					"region": {
+						"x": 0,
+						"y": 293,
+						"w": 128,
+						"h": 81
+					},
+					"margin": {
+						"x": 405,
+						"y": 554,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack67.5-000.png",
+					"region": {
+						"x": 128,
+						"y": 294,
+						"w": 128,
+						"h": 81
+					},
+					"margin": {
+						"x": 438,
+						"y": 551,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack90-008.png",
+					"region": {
+						"x": 256,
+						"y": 295,
+						"w": 124,
+						"h": 81
+					},
+					"margin": {
+						"x": 436,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die157.5-001.png",
+					"region": {
+						"x": 380,
+						"y": 295,
+						"w": 140,
+						"h": 81
+					},
+					"margin": {
+						"x": 382,
+						"y": 553,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die67.5-000.png",
+					"region": {
+						"x": 520,
+						"y": 295,
+						"w": 128,
+						"h": 81
+					},
+					"margin": {
+						"x": 437,
+						"y": 551,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle67.5-000.png",
+					"region": {
+						"x": 648,
+						"y": 299,
+						"w": 128,
+						"h": 81
+					},
+					"margin": {
+						"x": 438,
+						"y": 551,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle67.5-001.png",
+					"region": {
+						"x": 776,
+						"y": 300,
+						"w": 127,
+						"h": 81
+					},
+					"margin": {
+						"x": 438,
+						"y": 551,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle67.5-009.png",
+					"region": {
+						"x": 903,
+						"y": 301,
+						"w": 128,
+						"h": 81
+					},
+					"margin": {
+						"x": 438,
+						"y": 551,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk112.5-004.png",
+					"region": {
+						"x": 1031,
+						"y": 305,
+						"w": 163,
+						"h": 81
+					},
+					"margin": {
+						"x": 388,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk45-009.png",
+					"region": {
+						"x": 1194,
+						"y": 305,
+						"w": 112,
+						"h": 81
+					},
+					"margin": {
+						"x": 447,
+						"y": 538,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk90-009.png",
+					"region": {
+						"x": 1306,
+						"y": 305,
+						"w": 121,
+						"h": 81
+					},
+					"margin": {
+						"x": 418,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-157.5-006.png",
+					"region": {
+						"x": 1427,
+						"y": 305,
+						"w": 144,
+						"h": 82
+					},
+					"margin": {
+						"x": 353,
+						"y": 544,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack112.5-000.png",
+					"region": {
+						"x": 1571,
+						"y": 305,
+						"w": 134,
+						"h": 82
+					},
+					"margin": {
+						"x": 412,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die0-006.png",
+					"region": {
+						"x": 1705,
+						"y": 307,
+						"w": 195,
+						"h": 82
+					},
+					"margin": {
+						"x": 339,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die112.5-000.png",
+					"region": {
+						"x": 1900,
+						"y": 307,
+						"w": 134,
+						"h": 82
+					},
+					"margin": {
+						"x": 412,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die135-003.png",
+					"region": {
+						"x": 0,
+						"y": 374,
+						"w": 122,
+						"h": 82
+					},
+					"margin": {
+						"x": 412,
+						"y": 553,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die90-004.png",
+					"region": {
+						"x": 122,
+						"y": 375,
+						"w": 131,
+						"h": 82
+					},
+					"margin": {
+						"x": 428,
+						"y": 545,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle112.5-000.png",
+					"region": {
+						"x": 253,
+						"y": 376,
+						"w": 134,
+						"h": 82
+					},
+					"margin": {
+						"x": 412,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle112.5-001.png",
+					"region": {
+						"x": 387,
+						"y": 376,
+						"w": 134,
+						"h": 82
+					},
+					"margin": {
+						"x": 412,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack67.5-009.png",
+					"region": {
+						"x": 521,
+						"y": 376,
+						"w": 122,
+						"h": 83
+					},
+					"margin": {
+						"x": 442,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle112.5-009.png",
+					"region": {
+						"x": 643,
+						"y": 380,
+						"w": 133,
+						"h": 82
+					},
+					"margin": {
+						"x": 413,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle67.5-008.png",
+					"region": {
+						"x": 776,
+						"y": 382,
+						"w": 129,
+						"h": 82
+					},
+					"margin": {
+						"x": 437,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk45-007.png",
+					"region": {
+						"x": 905,
+						"y": 382,
+						"w": 122,
+						"h": 83
+					},
+					"margin": {
+						"x": 444,
+						"y": 537,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk90-000.png",
+					"region": {
+						"x": 1027,
+						"y": 386,
+						"w": 128,
+						"h": 82
+					},
+					"margin": {
+						"x": 411,
+						"y": 539,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die135-007.png",
+					"region": {
+						"x": 1155,
+						"y": 386,
+						"w": 208,
+						"h": 83
+					},
+					"margin": {
+						"x": 455,
+						"y": 512,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die157.5-002.png",
+					"region": {
+						"x": 1363,
+						"y": 387,
+						"w": 138,
+						"h": 83
+					},
+					"margin": {
+						"x": 385,
+						"y": 552,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle112.5-002.png",
+					"region": {
+						"x": 1501,
+						"y": 387,
+						"w": 134,
+						"h": 83
+					},
+					"margin": {
+						"x": 412,
+						"y": 549,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle112.5-008.png",
+					"region": {
+						"x": 1635,
+						"y": 389,
+						"w": 134,
+						"h": 83
+					},
+					"margin": {
+						"x": 412,
+						"y": 549,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle67.5-002.png",
+					"region": {
+						"x": 1769,
+						"y": 389,
+						"w": 128,
+						"h": 83
+					},
+					"margin": {
+						"x": 437,
+						"y": 549,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle67.5-007.png",
+					"region": {
+						"x": 1897,
+						"y": 389,
+						"w": 131,
+						"h": 83
+					},
+					"margin": {
+						"x": 435,
+						"y": 549,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk45-008.png",
+					"region": {
+						"x": 0,
+						"y": 456,
+						"w": 119,
+						"h": 83
+					},
+					"margin": {
+						"x": 451,
+						"y": 542,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk67.5-006.png",
+					"region": {
+						"x": 119,
+						"y": 457,
+						"w": 129,
+						"h": 83
+					},
+					"margin": {
+						"x": 421,
+						"y": 539,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk90-006.png",
+					"region": {
+						"x": 248,
+						"y": 458,
+						"w": 126,
+						"h": 83
+					},
+					"margin": {
+						"x": 409,
+						"y": 544,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack180-006.png",
+					"region": {
+						"x": 374,
+						"y": 458,
+						"w": 144,
+						"h": 84
+					},
+					"margin": {
+						"x": 359,
+						"y": 548,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk67.5-005.png",
+					"region": {
+						"x": 518,
+						"y": 459,
+						"w": 119,
+						"h": 84
+					},
+					"margin": {
+						"x": 419,
+						"y": 541,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle112.5-007.png",
+					"region": {
+						"x": 637,
+						"y": 462,
+						"w": 134,
+						"h": 84
+					},
+					"margin": {
+						"x": 412,
+						"y": 548,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle67.5-003.png",
+					"region": {
+						"x": 771,
+						"y": 464,
+						"w": 129,
+						"h": 84
+					},
+					"margin": {
+						"x": 436,
+						"y": 548,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk67.5-007.png",
+					"region": {
+						"x": 900,
+						"y": 465,
+						"w": 123,
+						"h": 84
+					},
+					"margin": {
+						"x": 429,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle67.5-006.png",
+					"region": {
+						"x": 1023,
+						"y": 468,
+						"w": 131,
+						"h": 84
+					},
+					"margin": {
+						"x": 435,
+						"y": 548,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack0-003.png",
+					"region": {
+						"x": 1154,
+						"y": 469,
+						"w": 205,
+						"h": 84
+					},
+					"margin": {
+						"x": 347,
+						"y": 540,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-135-005.png",
+					"region": {
+						"x": 1359,
+						"y": 470,
+						"w": 228,
+						"h": 84
+					},
+					"margin": {
+						"x": 266,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack157.5-005.png",
+					"region": {
+						"x": 1587,
+						"y": 472,
+						"w": 150,
+						"h": 84
+					},
+					"margin": {
+						"x": 364,
+						"y": 569,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk135-004.png",
+					"region": {
+						"x": 1737,
+						"y": 472,
+						"w": 199,
+						"h": 84
+					},
+					"margin": {
+						"x": 361,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die180-005.png",
+					"region": {
+						"x": 1936,
+						"y": 472,
+						"w": 109,
+						"h": 88
+					},
+					"margin": {
+						"x": 460,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk22.5-009.png",
+					"region": {
+						"x": 0,
+						"y": 539,
+						"w": 115,
+						"h": 85
+					},
+					"margin": {
+						"x": 456,
+						"y": 531,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack112.5-001.png",
+					"region": {
+						"x": 115,
+						"y": 540,
+						"w": 127,
+						"h": 85
+					},
+					"margin": {
+						"x": 419,
+						"y": 547,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle67.5-004.png",
+					"region": {
+						"x": 242,
+						"y": 541,
+						"w": 132,
+						"h": 85
+					},
+					"margin": {
+						"x": 433,
+						"y": 547,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die67.5-004.png",
+					"region": {
+						"x": 374,
+						"y": 542,
+						"w": 134,
+						"h": 85
+					},
+					"margin": {
+						"x": 432,
+						"y": 547,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk67.5-008.png",
+					"region": {
+						"x": 508,
+						"y": 543,
+						"w": 120,
+						"h": 85
+					},
+					"margin": {
+						"x": 436,
+						"y": 548,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle112.5-003.png",
+					"region": {
+						"x": 628,
+						"y": 546,
+						"w": 135,
+						"h": 85
+					},
+					"margin": {
+						"x": 411,
+						"y": 547,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle112.5-006.png",
+					"region": {
+						"x": 763,
+						"y": 548,
+						"w": 134,
+						"h": 85
+					},
+					"margin": {
+						"x": 412,
+						"y": 547,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk90-007.png",
+					"region": {
+						"x": 897,
+						"y": 549,
+						"w": 116,
+						"h": 85
+					},
+					"margin": {
+						"x": 416,
+						"y": 546,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle67.5-005.png",
+					"region": {
+						"x": 1013,
+						"y": 552,
+						"w": 131,
+						"h": 85
+					},
+					"margin": {
+						"x": 434,
+						"y": 547,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack45-002.png",
+					"region": {
+						"x": 1144,
+						"y": 553,
+						"w": 146,
+						"h": 85
+					},
+					"margin": {
+						"x": 421,
+						"y": 525,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-135-004.png",
+					"region": {
+						"x": 1290,
+						"y": 554,
+						"w": 174,
+						"h": 85
+					},
+					"margin": {
+						"x": 360,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk67.5-000.png",
+					"region": {
+						"x": 1464,
+						"y": 554,
+						"w": 123,
+						"h": 86
+					},
+					"margin": {
+						"x": 420,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk22.5-008.png",
+					"region": {
+						"x": 1587,
+						"y": 556,
+						"w": 130,
+						"h": 85
+					},
+					"margin": {
+						"x": 447,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-135-006.png",
+					"region": {
+						"x": 1717,
+						"y": 556,
+						"w": 130,
+						"h": 86
+					},
+					"margin": {
+						"x": 363,
+						"y": 532,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-112.5-004.png",
+					"region": {
+						"x": 1847,
+						"y": 560,
+						"w": 176,
+						"h": 86
+					},
+					"margin": {
+						"x": 368,
+						"y": 528,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-22.5-008.png",
+					"region": {
+						"x": 0,
+						"y": 625,
+						"w": 189,
+						"h": 86
+					},
+					"margin": {
+						"x": 332,
+						"y": 575,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die67.5-007.png",
+					"region": {
+						"x": 189,
+						"y": 626,
+						"w": 176,
+						"h": 86
+					},
+					"margin": {
+						"x": 369,
+						"y": 507,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle112.5-004.png",
+					"region": {
+						"x": 365,
+						"y": 627,
+						"w": 135,
+						"h": 86
+					},
+					"margin": {
+						"x": 411,
+						"y": 546,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die112.5-004.png",
+					"region": {
+						"x": 500,
+						"y": 628,
+						"w": 125,
+						"h": 87
+					},
+					"margin": {
+						"x": 423,
+						"y": 545,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle112.5-005.png",
+					"region": {
+						"x": 625,
+						"y": 631,
+						"w": 135,
+						"h": 86
+					},
+					"margin": {
+						"x": 411,
+						"y": 546,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack157.5-006.png",
+					"region": {
+						"x": 760,
+						"y": 633,
+						"w": 132,
+						"h": 87
+					},
+					"margin": {
+						"x": 382,
+						"y": 549,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk112.5-009.png",
+					"region": {
+						"x": 892,
+						"y": 634,
+						"w": 117,
+						"h": 87
+					},
+					"margin": {
+						"x": 408,
+						"y": 545,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die45-004.png",
+					"region": {
+						"x": 1009,
+						"y": 637,
+						"w": 127,
+						"h": 87
+					},
+					"margin": {
+						"x": 440,
+						"y": 547,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk45-006.png",
+					"region": {
+						"x": 1136,
+						"y": 638,
+						"w": 123,
+						"h": 87
+					},
+					"margin": {
+						"x": 436,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-67.5-005.png",
+					"region": {
+						"x": 1259,
+						"y": 639,
+						"w": 169,
+						"h": 87
+					},
+					"margin": {
+						"x": 395,
+						"y": 540,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack67.5-001.png",
+					"region": {
+						"x": 1428,
+						"y": 640,
+						"w": 125,
+						"h": 88
+					},
+					"margin": {
+						"x": 441,
+						"y": 544,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die0-008.png",
+					"region": {
+						"x": 1553,
+						"y": 642,
+						"w": 186,
+						"h": 87
+					},
+					"margin": {
+						"x": 324,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk135-002.png",
+					"region": {
+						"x": 1739,
+						"y": 646,
+						"w": 167,
+						"h": 87
+					},
+					"margin": {
+						"x": 383,
+						"y": 528,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die22.5-001.png",
+					"region": {
+						"x": 1906,
+						"y": 646,
+						"w": 117,
+						"h": 88
+					},
+					"margin": {
+						"x": 467,
+						"y": 545,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk112.5-002.png",
+					"region": {
+						"x": 0,
+						"y": 711,
+						"w": 151,
+						"h": 88
+					},
+					"margin": {
+						"x": 394,
+						"y": 535,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk157.5-003.png",
+					"region": {
+						"x": 151,
+						"y": 712,
+						"w": 174,
+						"h": 88
+					},
+					"margin": {
+						"x": 389,
+						"y": 525,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk90-003.png",
+					"region": {
+						"x": 325,
+						"y": 713,
+						"w": 133,
+						"h": 88
+					},
+					"margin": {
+						"x": 406,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk90-008.png",
+					"region": {
+						"x": 458,
+						"y": 715,
+						"w": 117,
+						"h": 88
+					},
+					"margin": {
+						"x": 422,
+						"y": 551,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack135-009.png",
+					"region": {
+						"x": 575,
+						"y": 717,
+						"w": 128,
+						"h": 89
+					},
+					"margin": {
+						"x": 405,
+						"y": 545,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack157.5-008.png",
+					"region": {
+						"x": 703,
+						"y": 720,
+						"w": 121,
+						"h": 89
+					},
+					"margin": {
+						"x": 396,
+						"y": 546,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die0-007.png",
+					"region": {
+						"x": 824,
+						"y": 721,
+						"w": 150,
+						"h": 89
+					},
+					"margin": {
+						"x": 335,
+						"y": 548,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die157.5-003.png",
+					"region": {
+						"x": 974,
+						"y": 724,
+						"w": 124,
+						"h": 89
+					},
+					"margin": {
+						"x": 400,
+						"y": 546,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-22.5-003.png",
+					"region": {
+						"x": 1098,
+						"y": 725,
+						"w": 151,
+						"h": 89
+					},
+					"margin": {
+						"x": 450,
+						"y": 528,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die45-007.png",
+					"region": {
+						"x": 1249,
+						"y": 726,
+						"w": 173,
+						"h": 89
+					},
+					"margin": {
+						"x": 339,
+						"y": 517,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk112.5-000.png",
+					"region": {
+						"x": 1422,
+						"y": 728,
+						"w": 127,
+						"h": 89
+					},
+					"margin": {
+						"x": 406,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die0-009.png",
+					"region": {
+						"x": 1549,
+						"y": 729,
+						"w": 180,
+						"h": 89
+					},
+					"margin": {
+						"x": 332,
+						"y": 556,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk112.5-003.png",
+					"region": {
+						"x": 1729,
+						"y": 733,
+						"w": 160,
+						"h": 89
+					},
+					"margin": {
+						"x": 391,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk90-001.png",
+					"region": {
+						"x": 1889,
+						"y": 734,
+						"w": 131,
+						"h": 89
+					},
+					"margin": {
+						"x": 408,
+						"y": 538,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk90-002.png",
+					"region": {
+						"x": 0,
+						"y": 799,
+						"w": 132,
+						"h": 89
+					},
+					"margin": {
+						"x": 407,
+						"y": 540,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die157.5-009.png",
+					"region": {
+						"x": 132,
+						"y": 800,
+						"w": 188,
+						"h": 89
+					},
+					"margin": {
+						"x": 486,
+						"y": 538,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-157.5-007.png",
+					"region": {
+						"x": 320,
+						"y": 801,
+						"w": 135,
+						"h": 90
+					},
+					"margin": {
+						"x": 362,
+						"y": 536,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die135-004.png",
+					"region": {
+						"x": 455,
+						"y": 803,
+						"w": 120,
+						"h": 90
+					},
+					"margin": {
+						"x": 415,
+						"y": 545,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die22.5-002.png",
+					"region": {
+						"x": 575,
+						"y": 806,
+						"w": 121,
+						"h": 90
+					},
+					"margin": {
+						"x": 465,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk135-003.png",
+					"region": {
+						"x": 696,
+						"y": 810,
+						"w": 177,
+						"h": 89
+					},
+					"margin": {
+						"x": 383,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk157.5-004.png",
+					"region": {
+						"x": 873,
+						"y": 813,
+						"w": 208,
+						"h": 89
+					},
+					"margin": {
+						"x": 353,
+						"y": 524,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-22.5-003.png",
+					"region": {
+						"x": 1081,
+						"y": 814,
+						"w": 147,
+						"h": 90
+					},
+					"margin": {
+						"x": 389,
+						"y": 541,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack67.5-002.png",
+					"region": {
+						"x": 1228,
+						"y": 815,
+						"w": 144,
+						"h": 90
+					},
+					"margin": {
+						"x": 421,
+						"y": 529,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die180-001.png",
+					"region": {
+						"x": 1372,
+						"y": 817,
+						"w": 155,
+						"h": 90
+					},
+					"margin": {
+						"x": 357,
+						"y": 541,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die157.5-008.png",
+					"region": {
+						"x": 1527,
+						"y": 818,
+						"w": 182,
+						"h": 90
+					},
+					"margin": {
+						"x": 488,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die180-002.png",
+					"region": {
+						"x": 1709,
+						"y": 822,
+						"w": 157,
+						"h": 90
+					},
+					"margin": {
+						"x": 356,
+						"y": 541,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die45-000.png",
+					"region": {
+						"x": 1866,
+						"y": 823,
+						"w": 130,
+						"h": 90
+					},
+					"margin": {
+						"x": 452,
+						"y": 544,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk0-002.png",
+					"region": {
+						"x": 0,
+						"y": 888,
+						"w": 131,
+						"h": 90
+					},
+					"margin": {
+						"x": 438,
+						"y": 527,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-90-006.png",
+					"region": {
+						"x": 131,
+						"y": 889,
+						"w": 145,
+						"h": 90
+					},
+					"margin": {
+						"x": 411,
+						"y": 517,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-90-007.png",
+					"region": {
+						"x": 276,
+						"y": 891,
+						"w": 148,
+						"h": 90
+					},
+					"margin": {
+						"x": 408,
+						"y": 517,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-90-008.png",
+					"region": {
+						"x": 424,
+						"y": 893,
+						"w": 148,
+						"h": 90
+					},
+					"margin": {
+						"x": 408,
+						"y": 517,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk45-005.png",
+					"region": {
+						"x": 572,
+						"y": 896,
+						"w": 115,
+						"h": 90
+					},
+					"margin": {
+						"x": 436,
+						"y": 536,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-90-009.png",
+					"region": {
+						"x": 687,
+						"y": 899,
+						"w": 149,
+						"h": 90
+					},
+					"margin": {
+						"x": 407,
+						"y": 517,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-157.5-007.png",
+					"region": {
+						"x": 836,
+						"y": 902,
+						"w": 214,
+						"h": 90
+					},
+					"margin": {
+						"x": 341,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-22.5-002.png",
+					"region": {
+						"x": 1050,
+						"y": 904,
+						"w": 139,
+						"h": 90
+					},
+					"margin": {
+						"x": 449,
+						"y": 524,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk112.5-001.png",
+					"region": {
+						"x": 1189,
+						"y": 905,
+						"w": 134,
+						"h": 90
+					},
+					"margin": {
+						"x": 405,
+						"y": 532,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack45-000.png",
+					"region": {
+						"x": 1323,
+						"y": 907,
+						"w": 114,
+						"h": 91
+					},
+					"margin": {
+						"x": 453,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-157.5-008.png",
+					"region": {
+						"x": 1437,
+						"y": 908,
+						"w": 225,
+						"h": 90
+					},
+					"margin": {
+						"x": 337,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-135-001.png",
+					"region": {
+						"x": 1662,
+						"y": 912,
+						"w": 185,
+						"h": 91
+					},
+					"margin": {
+						"x": 348,
+						"y": 526,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-135-003.png",
+					"region": {
+						"x": 1847,
+						"y": 913,
+						"w": 183,
+						"h": 91
+					},
+					"margin": {
+						"x": 351,
+						"y": 527,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle45-000.png",
+					"region": {
+						"x": 0,
+						"y": 978,
+						"w": 114,
+						"h": 91
+					},
+					"margin": {
+						"x": 453,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die157.5-006.png",
+					"region": {
+						"x": 114,
+						"y": 979,
+						"w": 149,
+						"h": 91
+					},
+					"margin": {
+						"x": 462,
+						"y": 529,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-90-000.png",
+					"region": {
+						"x": 263,
+						"y": 981,
+						"w": 149,
+						"h": 91
+					},
+					"margin": {
+						"x": 407,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-90-001.png",
+					"region": {
+						"x": 412,
+						"y": 983,
+						"w": 149,
+						"h": 91
+					},
+					"margin": {
+						"x": 407,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle45-001.png",
+					"region": {
+						"x": 561,
+						"y": 986,
+						"w": 113,
+						"h": 91
+					},
+					"margin": {
+						"x": 454,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-90-002.png",
+					"region": {
+						"x": 674,
+						"y": 989,
+						"w": 147,
+						"h": 91
+					},
+					"margin": {
+						"x": 409,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-90-004.png",
+					"region": {
+						"x": 821,
+						"y": 992,
+						"w": 145,
+						"h": 91
+					},
+					"margin": {
+						"x": 411,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle45-009.png",
+					"region": {
+						"x": 966,
+						"y": 994,
+						"w": 114,
+						"h": 91
+					},
+					"margin": {
+						"x": 453,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk67.5-004.png",
+					"region": {
+						"x": 1080,
+						"y": 994,
+						"w": 105,
+						"h": 91
+					},
+					"margin": {
+						"x": 419,
+						"y": 547,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-22.5-001.png",
+					"region": {
+						"x": 1185,
+						"y": 995,
+						"w": 129,
+						"h": 91
+					},
+					"margin": {
+						"x": 445,
+						"y": 520,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk112.5-007.png",
+					"region": {
+						"x": 1314,
+						"y": 998,
+						"w": 113,
+						"h": 91
+					},
+					"margin": {
+						"x": 407,
+						"y": 542,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk135-005.png",
+					"region": {
+						"x": 1427,
+						"y": 998,
+						"w": 149,
+						"h": 91
+					},
+					"margin": {
+						"x": 385,
+						"y": 529,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack135-000.png",
+					"region": {
+						"x": 1576,
+						"y": 1003,
+						"w": 125,
+						"h": 92
+					},
+					"margin": {
+						"x": 407,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack45-009.png",
+					"region": {
+						"x": 1701,
+						"y": 1003,
+						"w": 112,
+						"h": 92
+					},
+					"margin": {
+						"x": 453,
+						"y": 542,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack90-002.png",
+					"region": {
+						"x": 1813,
+						"y": 1004,
+						"w": 133,
+						"h": 92
+					},
+					"margin": {
+						"x": 425,
+						"y": 535,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk45-004.png",
+					"region": {
+						"x": 1946,
+						"y": 1004,
+						"w": 94,
+						"h": 93
+					},
+					"margin": {
+						"x": 437,
+						"y": 542,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die157.5-005.png",
+					"region": {
+						"x": 0,
+						"y": 1069,
+						"w": 103,
+						"h": 92
+					},
+					"margin": {
+						"x": 461,
+						"y": 541,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-112.5-000.png",
+					"region": {
+						"x": 103,
+						"y": 1070,
+						"w": 135,
+						"h": 92
+					},
+					"margin": {
+						"x": 409,
+						"y": 520,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-157.5-004.png",
+					"region": {
+						"x": 238,
+						"y": 1072,
+						"w": 156,
+						"h": 92
+					},
+					"margin": {
+						"x": 368,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-45-005.png",
+					"region": {
+						"x": 394,
+						"y": 1074,
+						"w": 152,
+						"h": 92
+					},
+					"margin": {
+						"x": 413,
+						"y": 529,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die135-000.png",
+					"region": {
+						"x": 546,
+						"y": 1077,
+						"w": 125,
+						"h": 92
+					},
+					"margin": {
+						"x": 407,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-90-003.png",
+					"region": {
+						"x": 671,
+						"y": 1080,
+						"w": 146,
+						"h": 92
+					},
+					"margin": {
+						"x": 410,
+						"y": 515,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-90-005.png",
+					"region": {
+						"x": 817,
+						"y": 1083,
+						"w": 147,
+						"h": 92
+					},
+					"margin": {
+						"x": 409,
+						"y": 515,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-112.5-003.png",
+					"region": {
+						"x": 964,
+						"y": 1085,
+						"w": 178,
+						"h": 92
+					},
+					"margin": {
+						"x": 366,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-112.5-008.png",
+					"region": {
+						"x": 1142,
+						"y": 1086,
+						"w": 160,
+						"h": 92
+					},
+					"margin": {
+						"x": 383,
+						"y": 520,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-135-002.png",
+					"region": {
+						"x": 1302,
+						"y": 1089,
+						"w": 184,
+						"h": 92
+					},
+					"margin": {
+						"x": 349,
+						"y": 526,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die22.5-009.png",
+					"region": {
+						"x": 1486,
+						"y": 1095,
+						"w": 187,
+						"h": 92
+					},
+					"margin": {
+						"x": 344,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle135-000.png",
+					"region": {
+						"x": 1673,
+						"y": 1095,
+						"w": 125,
+						"h": 92
+					},
+					"margin": {
+						"x": 407,
+						"y": 543,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle45-008.png",
+					"region": {
+						"x": 1798,
+						"y": 1096,
+						"w": 115,
+						"h": 92
+					},
+					"margin": {
+						"x": 452,
+						"y": 542,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk112.5-006.png",
+					"region": {
+						"x": 1913,
+						"y": 1097,
+						"w": 118,
+						"h": 92
+					},
+					"margin": {
+						"x": 401,
+						"y": 538,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-112.5-009.png",
+					"region": {
+						"x": 0,
+						"y": 1162,
+						"w": 159,
+						"h": 92
+					},
+					"margin": {
+						"x": 384,
+						"y": 520,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-22.5-004.png",
+					"region": {
+						"x": 159,
+						"y": 1164,
+						"w": 161,
+						"h": 92
+					},
+					"margin": {
+						"x": 451,
+						"y": 525,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk0-004.png",
+					"region": {
+						"x": 320,
+						"y": 1166,
+						"w": 150,
+						"h": 92
+					},
+					"margin": {
+						"x": 450,
+						"y": 531,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk112.5-008.png",
+					"region": {
+						"x": 470,
+						"y": 1169,
+						"w": 118,
+						"h": 92
+					},
+					"margin": {
+						"x": 412,
+						"y": 547,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk135-001.png",
+					"region": {
+						"x": 588,
+						"y": 1172,
+						"w": 156,
+						"h": 92
+					},
+					"margin": {
+						"x": 383,
+						"y": 526,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk22.5-007.png",
+					"region": {
+						"x": 744,
+						"y": 1175,
+						"w": 120,
+						"h": 92
+					},
+					"margin": {
+						"x": 452,
+						"y": 528,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk45-000.png",
+					"region": {
+						"x": 864,
+						"y": 1177,
+						"w": 112,
+						"h": 92
+					},
+					"margin": {
+						"x": 433,
+						"y": 529,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk67.5-003.png",
+					"region": {
+						"x": 976,
+						"y": 1177,
+						"w": 105,
+						"h": 92
+					},
+					"margin": {
+						"x": 419,
+						"y": 548,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-157.5-001.png",
+					"region": {
+						"x": 1081,
+						"y": 1178,
+						"w": 175,
+						"h": 93
+					},
+					"margin": {
+						"x": 348,
+						"y": 532,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-157.5-002.png",
+					"region": {
+						"x": 1256,
+						"y": 1181,
+						"w": 178,
+						"h": 93
+					},
+					"margin": {
+						"x": 345,
+						"y": 532,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die180-008.png",
+					"region": {
+						"x": 1434,
+						"y": 1187,
+						"w": 187,
+						"h": 93
+					},
+					"margin": {
+						"x": 497,
+						"y": 555,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die90-005.png",
+					"region": {
+						"x": 1621,
+						"y": 1187,
+						"w": 124,
+						"h": 93
+					},
+					"margin": {
+						"x": 435,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-112.5-000.png",
+					"region": {
+						"x": 1745,
+						"y": 1188,
+						"w": 159,
+						"h": 93
+					},
+					"margin": {
+						"x": 384,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle135-001.png",
+					"region": {
+						"x": 1904,
+						"y": 1189,
+						"w": 125,
+						"h": 93
+					},
+					"margin": {
+						"x": 407,
+						"y": 542,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-112.5-007.png",
+					"region": {
+						"x": 0,
+						"y": 1254,
+						"w": 159,
+						"h": 93
+					},
+					"margin": {
+						"x": 384,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-112.5-001.png",
+					"region": {
+						"x": 159,
+						"y": 1256,
+						"w": 161,
+						"h": 93
+					},
+					"margin": {
+						"x": 382,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle135-009.png",
+					"region": {
+						"x": 320,
+						"y": 1258,
+						"w": 125,
+						"h": 93
+					},
+					"margin": {
+						"x": 407,
+						"y": 542,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle45-002.png",
+					"region": {
+						"x": 445,
+						"y": 1261,
+						"w": 114,
+						"h": 93
+					},
+					"margin": {
+						"x": 453,
+						"y": 541,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-112.5-006.png",
+					"region": {
+						"x": 559,
+						"y": 1264,
+						"w": 160,
+						"h": 93
+					},
+					"margin": {
+						"x": 383,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle45-003.png",
+					"region": {
+						"x": 719,
+						"y": 1267,
+						"w": 116,
+						"h": 93
+					},
+					"margin": {
+						"x": 451,
+						"y": 541,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle45-007.png",
+					"region": {
+						"x": 835,
+						"y": 1269,
+						"w": 116,
+						"h": 93
+					},
+					"margin": {
+						"x": 451,
+						"y": 541,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk22.5-004.png",
+					"region": {
+						"x": 951,
+						"y": 1269,
+						"w": 116,
+						"h": 93
+					},
+					"margin": {
+						"x": 455,
+						"y": 536,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-45-004.png",
+					"region": {
+						"x": 1067,
+						"y": 1271,
+						"w": 155,
+						"h": 93
+					},
+					"margin": {
+						"x": 448,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk135-009.png",
+					"region": {
+						"x": 1222,
+						"y": 1274,
+						"w": 138,
+						"h": 93
+					},
+					"margin": {
+						"x": 382,
+						"y": 537,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-112.5-006.png",
+					"region": {
+						"x": 1360,
+						"y": 1280,
+						"w": 111,
+						"h": 94
+					},
+					"margin": {
+						"x": 385,
+						"y": 515,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-22.5-006.png",
+					"region": {
+						"x": 1471,
+						"y": 1280,
+						"w": 175,
+						"h": 94
+					},
+					"margin": {
+						"x": 443,
+						"y": 505,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack135-001.png",
+					"region": {
+						"x": 1646,
+						"y": 1281,
+						"w": 119,
+						"h": 94
+					},
+					"margin": {
+						"x": 413,
+						"y": 541,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack22.5-002.png",
+					"region": {
+						"x": 1765,
+						"y": 1281,
+						"w": 136,
+						"h": 94
+					},
+					"margin": {
+						"x": 427,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack67.5-008.png",
+					"region": {
+						"x": 1901,
+						"y": 1282,
+						"w": 109,
+						"h": 94
+					},
+					"margin": {
+						"x": 457,
+						"y": 541,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die180-003.png",
+					"region": {
+						"x": 0,
+						"y": 1347,
+						"w": 143,
+						"h": 94
+					},
+					"margin": {
+						"x": 371,
+						"y": 538,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-112.5-002.png",
+					"region": {
+						"x": 143,
+						"y": 1349,
+						"w": 162,
+						"h": 94
+					},
+					"margin": {
+						"x": 381,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle135-002.png",
+					"region": {
+						"x": 305,
+						"y": 1351,
+						"w": 127,
+						"h": 94
+					},
+					"margin": {
+						"x": 406,
+						"y": 541,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle135-008.png",
+					"region": {
+						"x": 432,
+						"y": 1354,
+						"w": 124,
+						"h": 94
+					},
+					"margin": {
+						"x": 408,
+						"y": 541,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle45-006.png",
+					"region": {
+						"x": 556,
+						"y": 1357,
+						"w": 116,
+						"h": 94
+					},
+					"margin": {
+						"x": 451,
+						"y": 540,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-45-006.png",
+					"region": {
+						"x": 672,
+						"y": 1360,
+						"w": 158,
+						"h": 95
+					},
+					"margin": {
+						"x": 437,
+						"y": 503,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die157.5-007.png",
+					"region": {
+						"x": 830,
+						"y": 1362,
+						"w": 189,
+						"h": 94
+					},
+					"margin": {
+						"x": 475,
+						"y": 527,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-157.5-003.png",
+					"region": {
+						"x": 1019,
+						"y": 1364,
+						"w": 172,
+						"h": 95
+					},
+					"margin": {
+						"x": 352,
+						"y": 531,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die22.5-007.png",
+					"region": {
+						"x": 1191,
+						"y": 1367,
+						"w": 169,
+						"h": 95
+					},
+					"margin": {
+						"x": 328,
+						"y": 528,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk180-007.png",
+					"region": {
+						"x": 1360,
+						"y": 1374,
+						"w": 205,
+						"h": 94
+					},
+					"margin": {
+						"x": 346,
+						"y": 520,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-112.5-005.png",
+					"region": {
+						"x": 1565,
+						"y": 1375,
+						"w": 209,
+						"h": 95
+					},
+					"margin": {
+						"x": 288,
+						"y": 514,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle135-003.png",
+					"region": {
+						"x": 1774,
+						"y": 1375,
+						"w": 126,
+						"h": 95
+					},
+					"margin": {
+						"x": 406,
+						"y": 540,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die67.5-005.png",
+					"region": {
+						"x": 1900,
+						"y": 1376,
+						"w": 140,
+						"h": 95
+					},
+					"margin": {
+						"x": 424,
+						"y": 536,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle135-007.png",
+					"region": {
+						"x": 0,
+						"y": 1441,
+						"w": 124,
+						"h": 95
+					},
+					"margin": {
+						"x": 408,
+						"y": 540,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-112.5-003.png",
+					"region": {
+						"x": 124,
+						"y": 1443,
+						"w": 160,
+						"h": 95
+					},
+					"margin": {
+						"x": 383,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle45-004.png",
+					"region": {
+						"x": 284,
+						"y": 1445,
+						"w": 117,
+						"h": 95
+					},
+					"margin": {
+						"x": 450,
+						"y": 539,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle45-005.png",
+					"region": {
+						"x": 401,
+						"y": 1448,
+						"w": 117,
+						"h": 95
+					},
+					"margin": {
+						"x": 450,
+						"y": 539,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-45-001.png",
+					"region": {
+						"x": 518,
+						"y": 1451,
+						"w": 124,
+						"h": 95
+					},
+					"margin": {
+						"x": 437,
+						"y": 520,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-112.5-004.png",
+					"region": {
+						"x": 642,
+						"y": 1455,
+						"w": 162,
+						"h": 95
+					},
+					"margin": {
+						"x": 381,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die180-009.png",
+					"region": {
+						"x": 804,
+						"y": 1456,
+						"w": 195,
+						"h": 95
+					},
+					"margin": {
+						"x": 492,
+						"y": 559,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-112.5-005.png",
+					"region": {
+						"x": 999,
+						"y": 1459,
+						"w": 160,
+						"h": 95
+					},
+					"margin": {
+						"x": 383,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-45-003.png",
+					"region": {
+						"x": 1159,
+						"y": 1462,
+						"w": 154,
+						"h": 95
+					},
+					"margin": {
+						"x": 456,
+						"y": 525,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk0-001.png",
+					"region": {
+						"x": 1313,
+						"y": 1468,
+						"w": 129,
+						"h": 95
+					},
+					"margin": {
+						"x": 443,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk67.5-001.png",
+					"region": {
+						"x": 1442,
+						"y": 1468,
+						"w": 122,
+						"h": 95
+					},
+					"margin": {
+						"x": 415,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk22.5-002.png",
+					"region": {
+						"x": 1564,
+						"y": 1470,
+						"w": 128,
+						"h": 95
+					},
+					"margin": {
+						"x": 425,
+						"y": 530,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk67.5-002.png",
+					"region": {
+						"x": 1692,
+						"y": 1470,
+						"w": 122,
+						"h": 95
+					},
+					"margin": {
+						"x": 409,
+						"y": 537,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-135-001.png",
+					"region": {
+						"x": 1814,
+						"y": 1471,
+						"w": 178,
+						"h": 96
+					},
+					"margin": {
+						"x": 354,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die157.5-004.png",
+					"region": {
+						"x": 0,
+						"y": 1536,
+						"w": 115,
+						"h": 96
+					},
+					"margin": {
+						"x": 410,
+						"y": 539,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack180-008.png",
+					"region": {
+						"x": 115,
+						"y": 1538,
+						"w": 135,
+						"h": 96
+					},
+					"margin": {
+						"x": 374,
+						"y": 536,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-90-000.png",
+					"region": {
+						"x": 250,
+						"y": 1540,
+						"w": 134,
+						"h": 96
+					},
+					"margin": {
+						"x": 422,
+						"y": 511,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die180-004.png",
+					"region": {
+						"x": 384,
+						"y": 1543,
+						"w": 130,
+						"h": 96
+					},
+					"margin": {
+						"x": 388,
+						"y": 536,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle135-004.png",
+					"region": {
+						"x": 514,
+						"y": 1546,
+						"w": 127,
+						"h": 96
+					},
+					"margin": {
+						"x": 406,
+						"y": 539,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-67.5-007.png",
+					"region": {
+						"x": 641,
+						"y": 1550,
+						"w": 129,
+						"h": 96
+					},
+					"margin": {
+						"x": 435,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-45-008.png",
+					"region": {
+						"x": 770,
+						"y": 1551,
+						"w": 200,
+						"h": 96
+					},
+					"margin": {
+						"x": 341,
+						"y": 580,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-90-004.png",
+					"region": {
+						"x": 970,
+						"y": 1554,
+						"w": 168,
+						"h": 96
+					},
+					"margin": {
+						"x": 388,
+						"y": 513,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle135-005.png",
+					"region": {
+						"x": 1138,
+						"y": 1557,
+						"w": 125,
+						"h": 96
+					},
+					"margin": {
+						"x": 407,
+						"y": 539,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle135-006.png",
+					"region": {
+						"x": 1263,
+						"y": 1563,
+						"w": 125,
+						"h": 96
+					},
+					"margin": {
+						"x": 407,
+						"y": 539,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk135-000.png",
+					"region": {
+						"x": 1388,
+						"y": 1563,
+						"w": 151,
+						"h": 96
+					},
+					"margin": {
+						"x": 377,
+						"y": 528,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk135-007.png",
+					"region": {
+						"x": 1539,
+						"y": 1565,
+						"w": 135,
+						"h": 96
+					},
+					"margin": {
+						"x": 393,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk22.5-005.png",
+					"region": {
+						"x": 1674,
+						"y": 1565,
+						"w": 117,
+						"h": 96
+					},
+					"margin": {
+						"x": 452,
+						"y": 530,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk135-008.png",
+					"region": {
+						"x": 1791,
+						"y": 1567,
+						"w": 155,
+						"h": 96
+					},
+					"margin": {
+						"x": 376,
+						"y": 540,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-67.5-003.png",
+					"region": {
+						"x": 1946,
+						"y": 1567,
+						"w": 97,
+						"h": 102
+					},
+					"margin": {
+						"x": 433,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-45-003.png",
+					"region": {
+						"x": 0,
+						"y": 1632,
+						"w": 102,
+						"h": 97
+					},
+					"margin": {
+						"x": 416,
+						"y": 538,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-135-007.png",
+					"region": {
+						"x": 102,
+						"y": 1634,
+						"w": 147,
+						"h": 97
+					},
+					"margin": {
+						"x": 347,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack112.5-007.png",
+					"region": {
+						"x": 249,
+						"y": 1636,
+						"w": 116,
+						"h": 97
+					},
+					"margin": {
+						"x": 435,
+						"y": 562,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack112.5-002.png",
+					"region": {
+						"x": 365,
+						"y": 1639,
+						"w": 140,
+						"h": 97
+					},
+					"margin": {
+						"x": 406,
+						"y": 535,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die22.5-003.png",
+					"region": {
+						"x": 505,
+						"y": 1642,
+						"w": 113,
+						"h": 97
+					},
+					"margin": {
+						"x": 456,
+						"y": 536,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk0-009.png",
+					"region": {
+						"x": 618,
+						"y": 1646,
+						"w": 118,
+						"h": 97
+					},
+					"margin": {
+						"x": 456,
+						"y": 524,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk157.5-002.png",
+					"region": {
+						"x": 736,
+						"y": 1647,
+						"w": 166,
+						"h": 96
+					},
+					"margin": {
+						"x": 390,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk180-008.png",
+					"region": {
+						"x": 902,
+						"y": 1650,
+						"w": 225,
+						"h": 96
+					},
+					"margin": {
+						"x": 333,
+						"y": 525,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk22.5-000.png",
+					"region": {
+						"x": 1127,
+						"y": 1653,
+						"w": 117,
+						"h": 97
+					},
+					"margin": {
+						"x": 445,
+						"y": 524,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-112.5-009.png",
+					"region": {
+						"x": 1244,
+						"y": 1659,
+						"w": 159,
+						"h": 97
+					},
+					"margin": {
+						"x": 384,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk45-002.png",
+					"region": {
+						"x": 1403,
+						"y": 1659,
+						"w": 120,
+						"h": 97
+					},
+					"margin": {
+						"x": 415,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die112.5-009.png",
+					"region": {
+						"x": 1523,
+						"y": 1661,
+						"w": 193,
+						"h": 97
+					},
+					"margin": {
+						"x": 455,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die135-009.png",
+					"region": {
+						"x": 1716,
+						"y": 1663,
+						"w": 204,
+						"h": 97
+					},
+					"margin": {
+						"x": 468,
+						"y": 524,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack45-001.png",
+					"region": {
+						"x": 1920,
+						"y": 1669,
+						"w": 113,
+						"h": 98
+					},
+					"margin": {
+						"x": 454,
+						"y": 536,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die135-005.png",
+					"region": {
+						"x": 0,
+						"y": 1729,
+						"w": 102,
+						"h": 98
+					},
+					"margin": {
+						"x": 452,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack157.5-009.png",
+					"region": {
+						"x": 102,
+						"y": 1731,
+						"w": 134,
+						"h": 98
+					},
+					"margin": {
+						"x": 389,
+						"y": 536,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die112.5-005.png",
+					"region": {
+						"x": 236,
+						"y": 1733,
+						"w": 107,
+						"h": 98
+					},
+					"margin": {
+						"x": 443,
+						"y": 531,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-135-000.png",
+					"region": {
+						"x": 343,
+						"y": 1736,
+						"w": 161,
+						"h": 98
+					},
+					"margin": {
+						"x": 372,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack22.5-000.png",
+					"region": {
+						"x": 504,
+						"y": 1739,
+						"w": 106,
+						"h": 99
+					},
+					"margin": {
+						"x": 457,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-157.5-009.png",
+					"region": {
+						"x": 610,
+						"y": 1743,
+						"w": 205,
+						"h": 97
+					},
+					"margin": {
+						"x": 342,
+						"y": 517,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk157.5-007.png",
+					"region": {
+						"x": 815,
+						"y": 1746,
+						"w": 178,
+						"h": 97
+					},
+					"margin": {
+						"x": 363,
+						"y": 527,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-67.5-001.png",
+					"region": {
+						"x": 993,
+						"y": 1746,
+						"w": 126,
+						"h": 98
+					},
+					"margin": {
+						"x": 437,
+						"y": 514,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk0-008.png",
+					"region": {
+						"x": 1119,
+						"y": 1750,
+						"w": 125,
+						"h": 98
+					},
+					"margin": {
+						"x": 450,
+						"y": 527,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk157.5-008.png",
+					"region": {
+						"x": 1244,
+						"y": 1756,
+						"w": 200,
+						"h": 97
+					},
+					"margin": {
+						"x": 347,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-135-000.png",
+					"region": {
+						"x": 1444,
+						"y": 1758,
+						"w": 168,
+						"h": 98
+					},
+					"margin": {
+						"x": 364,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle22.5-001.png",
+					"region": {
+						"x": 1612,
+						"y": 1758,
+						"w": 104,
+						"h": 99
+					},
+					"margin": {
+						"x": 458,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-157.5-004.png",
+					"region": {
+						"x": 1716,
+						"y": 1760,
+						"w": 183,
+						"h": 98
+					},
+					"margin": {
+						"x": 384,
+						"y": 527,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die135-006.png",
+					"region": {
+						"x": 1899,
+						"y": 1767,
+						"w": 140,
+						"h": 98
+					},
+					"margin": {
+						"x": 456,
+						"y": 520,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack180-004.png",
+					"region": {
+						"x": 0,
+						"y": 1829,
+						"w": 181,
+						"h": 98
+					},
+					"margin": {
+						"x": 381,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die22.5-000.png",
+					"region": {
+						"x": 181,
+						"y": 1831,
+						"w": 140,
+						"h": 98
+					},
+					"margin": {
+						"x": 457,
+						"y": 535,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-135-000.png",
+					"region": {
+						"x": 321,
+						"y": 1834,
+						"w": 161,
+						"h": 98
+					},
+					"margin": {
+						"x": 371,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-67.5-009.png",
+					"region": {
+						"x": 482,
+						"y": 1838,
+						"w": 128,
+						"h": 98
+					},
+					"margin": {
+						"x": 436,
+						"y": 514,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-22.5-009.png",
+					"region": {
+						"x": 610,
+						"y": 1840,
+						"w": 184,
+						"h": 98
+					},
+					"margin": {
+						"x": 338,
+						"y": 570,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die22.5-006.png",
+					"region": {
+						"x": 794,
+						"y": 1843,
+						"w": 185,
+						"h": 98
+					},
+					"margin": {
+						"x": 350,
+						"y": 529,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk0-003.png",
+					"region": {
+						"x": 979,
+						"y": 1844,
+						"w": 126,
+						"h": 98
+					},
+					"margin": {
+						"x": 449,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-90-006.png",
+					"region": {
+						"x": 1105,
+						"y": 1848,
+						"w": 135,
+						"h": 99
+					},
+					"margin": {
+						"x": 398,
+						"y": 504,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die45-009.png",
+					"region": {
+						"x": 1240,
+						"y": 1853,
+						"w": 195,
+						"h": 98
+					},
+					"margin": {
+						"x": 351,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-135-001.png",
+					"region": {
+						"x": 1435,
+						"y": 1856,
+						"w": 163,
+						"h": 98
+					},
+					"margin": {
+						"x": 369,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-135-006.png",
+					"region": {
+						"x": 1598,
+						"y": 1858,
+						"w": 162,
+						"h": 98
+					},
+					"margin": {
+						"x": 371,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-67.5-000.png",
+					"region": {
+						"x": 1760,
+						"y": 1858,
+						"w": 127,
+						"h": 99
+					},
+					"margin": {
+						"x": 437,
+						"y": 513,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-45-002.png",
+					"region": {
+						"x": 1887,
+						"y": 1865,
+						"w": 147,
+						"h": 98
+					},
+					"margin": {
+						"x": 443,
+						"y": 523,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-135-007.png",
+					"region": {
+						"x": 0,
+						"y": 1927,
+						"w": 161,
+						"h": 98
+					},
+					"margin": {
+						"x": 372,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-135-008.png",
+					"region": {
+						"x": 161,
+						"y": 1929,
+						"w": 160,
+						"h": 98
+					},
+					"margin": {
+						"x": 372,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-135-009.png",
+					"region": {
+						"x": 321,
+						"y": 1932,
+						"w": 161,
+						"h": 98
+					},
+					"margin": {
+						"x": 371,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle157.5-001.png",
+					"region": {
+						"x": 482,
+						"y": 1936,
+						"w": 119,
+						"h": 99
+					},
+					"margin": {
+						"x": 403,
+						"y": 535,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk157.5-009.png",
+					"region": {
+						"x": 601,
+						"y": 1938,
+						"w": 181,
+						"h": 98
+					},
+					"margin": {
+						"x": 352,
+						"y": 529,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-135-006.png",
+					"region": {
+						"x": 782,
+						"y": 1941,
+						"w": 195,
+						"h": 98
+					},
+					"margin": {
+						"x": 348,
+						"y": 511,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle22.5-000.png",
+					"region": {
+						"x": 977,
+						"y": 1942,
+						"w": 105,
+						"h": 99
+					},
+					"margin": {
+						"x": 457,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-112.5-000.png",
+					"region": {
+						"x": 1082,
+						"y": 1947,
+						"w": 155,
+						"h": 99
+					},
+					"margin": {
+						"x": 388,
+						"y": 513,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-112.5-008.png",
+					"region": {
+						"x": 1237,
+						"y": 1951,
+						"w": 189,
+						"h": 99
+					},
+					"margin": {
+						"x": 351,
+						"y": 511,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-67.5-006.png",
+					"region": {
+						"x": 1426,
+						"y": 1954,
+						"w": 151,
+						"h": 99
+					},
+					"margin": {
+						"x": 416,
+						"y": 501,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die157.5-000.png",
+					"region": {
+						"x": 1577,
+						"y": 1956,
+						"w": 141,
+						"h": 99
+					},
+					"margin": {
+						"x": 381,
+						"y": 535,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-135-002.png",
+					"region": {
+						"x": 1718,
+						"y": 1957,
+						"w": 164,
+						"h": 99
+					},
+					"margin": {
+						"x": 369,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-135-003.png",
+					"region": {
+						"x": 1882,
+						"y": 1963,
+						"w": 163,
+						"h": 99
+					},
+					"margin": {
+						"x": 369,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-67.5-006.png",
+					"region": {
+						"x": 0,
+						"y": 2025,
+						"w": 130,
+						"h": 99
+					},
+					"margin": {
+						"x": 434,
+						"y": 513,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die22.5-008.png",
+					"region": {
+						"x": 130,
+						"y": 2027,
+						"w": 185,
+						"h": 99
+					},
+					"margin": {
+						"x": 338,
+						"y": 528,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-135-004.png",
+					"region": {
+						"x": 315,
+						"y": 2030,
+						"w": 164,
+						"h": 99
+					},
+					"margin": {
+						"x": 369,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle22.5-008.png",
+					"region": {
+						"x": 479,
+						"y": 2035,
+						"w": 105,
+						"h": 99
+					},
+					"margin": {
+						"x": 457,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-135-005.png",
+					"region": {
+						"x": 584,
+						"y": 2036,
+						"w": 163,
+						"h": 99
+					},
+					"margin": {
+						"x": 370,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-157.5-006.png",
+					"region": {
+						"x": 747,
+						"y": 2039,
+						"w": 199,
+						"h": 98
+					},
+					"margin": {
+						"x": 343,
+						"y": 511,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle22.5-009.png",
+					"region": {
+						"x": 946,
+						"y": 2041,
+						"w": 105,
+						"h": 99
+					},
+					"margin": {
+						"x": 457,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-135-009.png",
+					"region": {
+						"x": 1051,
+						"y": 2046,
+						"w": 185,
+						"h": 99
+					},
+					"margin": {
+						"x": 364,
+						"y": 510,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk0-000.png",
+					"region": {
+						"x": 1236,
+						"y": 2050,
+						"w": 121,
+						"h": 99
+					},
+					"margin": {
+						"x": 450,
+						"y": 520,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk135-006.png",
+					"region": {
+						"x": 1357,
+						"y": 2053,
+						"w": 119,
+						"h": 99
+					},
+					"margin": {
+						"x": 399,
+						"y": 530,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk180-009.png",
+					"region": {
+						"x": 1476,
+						"y": 2055,
+						"w": 204,
+						"h": 99
+					},
+					"margin": {
+						"x": 337,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk22.5-001.png",
+					"region": {
+						"x": 1680,
+						"y": 2056,
+						"w": 124,
+						"h": 99
+					},
+					"margin": {
+						"x": 429,
+						"y": 525,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk45-001.png",
+					"region": {
+						"x": 1804,
+						"y": 2062,
+						"w": 114,
+						"h": 99
+					},
+					"margin": {
+						"x": 420,
+						"y": 529,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack22.5-009.png",
+					"region": {
+						"x": 1918,
+						"y": 2062,
+						"w": 107,
+						"h": 100
+					},
+					"margin": {
+						"x": 457,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-67.5-008.png",
+					"region": {
+						"x": 0,
+						"y": 2124,
+						"w": 128,
+						"h": 100
+					},
+					"margin": {
+						"x": 436,
+						"y": 512,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-135-009.png",
+					"region": {
+						"x": 128,
+						"y": 2126,
+						"w": 168,
+						"h": 100
+					},
+					"margin": {
+						"x": 362,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-157.5-008.png",
+					"region": {
+						"x": 296,
+						"y": 2129,
+						"w": 163,
+						"h": 100
+					},
+					"margin": {
+						"x": 352,
+						"y": 526,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle157.5-000.png",
+					"region": {
+						"x": 459,
+						"y": 2134,
+						"w": 118,
+						"h": 100
+					},
+					"margin": {
+						"x": 404,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack157.5-000.png",
+					"region": {
+						"x": 577,
+						"y": 2135,
+						"w": 137,
+						"h": 100
+					},
+					"margin": {
+						"x": 385,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack157.5-001.png",
+					"region": {
+						"x": 714,
+						"y": 2137,
+						"w": 143,
+						"h": 100
+					},
+					"margin": {
+						"x": 379,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-112.5-001.png",
+					"region": {
+						"x": 857,
+						"y": 2140,
+						"w": 178,
+						"h": 100
+					},
+					"margin": {
+						"x": 366,
+						"y": 512,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-112.5-002.png",
+					"region": {
+						"x": 1035,
+						"y": 2145,
+						"w": 178,
+						"h": 100
+					},
+					"margin": {
+						"x": 366,
+						"y": 513,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle157.5-009.png",
+					"region": {
+						"x": 1213,
+						"y": 2149,
+						"w": 118,
+						"h": 100
+					},
+					"margin": {
+						"x": 404,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle22.5-002.png",
+					"region": {
+						"x": 1331,
+						"y": 2152,
+						"w": 104,
+						"h": 100
+					},
+					"margin": {
+						"x": 458,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-112.5-008.png",
+					"region": {
+						"x": 1435,
+						"y": 2154,
+						"w": 168,
+						"h": 100
+					},
+					"margin": {
+						"x": 461,
+						"y": 588,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die112.5-008.png",
+					"region": {
+						"x": 1603,
+						"y": 2155,
+						"w": 192,
+						"h": 100
+					},
+					"margin": {
+						"x": 451,
+						"y": 513,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle22.5-007.png",
+					"region": {
+						"x": 1795,
+						"y": 2161,
+						"w": 106,
+						"h": 100
+					},
+					"margin": {
+						"x": 456,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-22.5-000.png",
+					"region": {
+						"x": 1901,
+						"y": 2162,
+						"w": 119,
+						"h": 100
+					},
+					"margin": {
+						"x": 446,
+						"y": 517,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk0-005.png",
+					"region": {
+						"x": 0,
+						"y": 2224,
+						"w": 118,
+						"h": 100
+					},
+					"margin": {
+						"x": 453,
+						"y": 524,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk157.5-001.png",
+					"region": {
+						"x": 118,
+						"y": 2226,
+						"w": 172,
+						"h": 100
+					},
+					"margin": {
+						"x": 370,
+						"y": 520,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-112.5-007.png",
+					"region": {
+						"x": 290,
+						"y": 2229,
+						"w": 154,
+						"h": 101
+					},
+					"margin": {
+						"x": 347,
+						"y": 508,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die135-008.png",
+					"region": {
+						"x": 444,
+						"y": 2235,
+						"w": 201,
+						"h": 100
+					},
+					"margin": {
+						"x": 467,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die90-009.png",
+					"region": {
+						"x": 645,
+						"y": 2237,
+						"w": 181,
+						"h": 100
+					},
+					"margin": {
+						"x": 424,
+						"y": 507,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk157.5-005.png",
+					"region": {
+						"x": 826,
+						"y": 2240,
+						"w": 174,
+						"h": 100
+					},
+					"margin": {
+						"x": 355,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-135-008.png",
+					"region": {
+						"x": 1000,
+						"y": 2245,
+						"w": 183,
+						"h": 101
+					},
+					"margin": {
+						"x": 343,
+						"y": 517,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-67.5-002.png",
+					"region": {
+						"x": 1183,
+						"y": 2249,
+						"w": 128,
+						"h": 101
+					},
+					"margin": {
+						"x": 435,
+						"y": 511,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle157.5-002.png",
+					"region": {
+						"x": 1311,
+						"y": 2252,
+						"w": 119,
+						"h": 101
+					},
+					"margin": {
+						"x": 403,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-90-007.png",
+					"region": {
+						"x": 1430,
+						"y": 2254,
+						"w": 172,
+						"h": 101
+					},
+					"margin": {
+						"x": 363,
+						"y": 502,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-157.5-001.png",
+					"region": {
+						"x": 1602,
+						"y": 2255,
+						"w": 175,
+						"h": 101
+					},
+					"margin": {
+						"x": 347,
+						"y": 524,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle157.5-007.png",
+					"region": {
+						"x": 1777,
+						"y": 2261,
+						"w": 118,
+						"h": 101
+					},
+					"margin": {
+						"x": 404,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-67.5-003.png",
+					"region": {
+						"x": 1895,
+						"y": 2262,
+						"w": 128,
+						"h": 101
+					},
+					"margin": {
+						"x": 435,
+						"y": 511,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle157.5-008.png",
+					"region": {
+						"x": 0,
+						"y": 2324,
+						"w": 118,
+						"h": 101
+					},
+					"margin": {
+						"x": 404,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle22.5-003.png",
+					"region": {
+						"x": 118,
+						"y": 2326,
+						"w": 105,
+						"h": 101
+					},
+					"margin": {
+						"x": 457,
+						"y": 532,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-112.5-009.png",
+					"region": {
+						"x": 223,
+						"y": 2330,
+						"w": 185,
+						"h": 101
+					},
+					"margin": {
+						"x": 451,
+						"y": 587,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-157.5-008.png",
+					"region": {
+						"x": 408,
+						"y": 2335,
+						"w": 191,
+						"h": 101
+					},
+					"margin": {
+						"x": 482,
+						"y": 569,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die180-007.png",
+					"region": {
+						"x": 599,
+						"y": 2337,
+						"w": 183,
+						"h": 101
+					},
+					"margin": {
+						"x": 486,
+						"y": 546,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle22.5-006.png",
+					"region": {
+						"x": 782,
+						"y": 2340,
+						"w": 105,
+						"h": 101
+					},
+					"margin": {
+						"x": 457,
+						"y": 532,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk22.5-006.png",
+					"region": {
+						"x": 887,
+						"y": 2340,
+						"w": 111,
+						"h": 101
+					},
+					"margin": {
+						"x": 451,
+						"y": 523,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-67.5-001.png",
+					"region": {
+						"x": 998,
+						"y": 2346,
+						"w": 121,
+						"h": 101
+					},
+					"margin": {
+						"x": 429,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-90-000.png",
+					"region": {
+						"x": 1119,
+						"y": 2350,
+						"w": 134,
+						"h": 102
+					},
+					"margin": {
+						"x": 422,
+						"y": 505,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack0-000.png",
+					"region": {
+						"x": 1253,
+						"y": 2353,
+						"w": 95,
+						"h": 102
+					},
+					"margin": {
+						"x": 460,
+						"y": 527,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack0-002.png",
+					"region": {
+						"x": 1348,
+						"y": 2355,
+						"w": 115,
+						"h": 102
+					},
+					"margin": {
+						"x": 436,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack135-005.png",
+					"region": {
+						"x": 1463,
+						"y": 2355,
+						"w": 129,
+						"h": 102
+					},
+					"margin": {
+						"x": 403,
+						"y": 564,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-22.5-000.png",
+					"region": {
+						"x": 1592,
+						"y": 2356,
+						"w": 116,
+						"h": 102
+					},
+					"margin": {
+						"x": 457,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die0-000.png",
+					"region": {
+						"x": 1708,
+						"y": 2362,
+						"w": 134,
+						"h": 102
+					},
+					"margin": {
+						"x": 459,
+						"y": 527,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-67.5-004.png",
+					"region": {
+						"x": 1842,
+						"y": 2363,
+						"w": 129,
+						"h": 102
+					},
+					"margin": {
+						"x": 434,
+						"y": 510,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle157.5-006.png",
+					"region": {
+						"x": 0,
+						"y": 2425,
+						"w": 118,
+						"h": 102
+					},
+					"margin": {
+						"x": 404,
+						"y": 532,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle22.5-004.png",
+					"region": {
+						"x": 118,
+						"y": 2427,
+						"w": 105,
+						"h": 102
+					},
+					"margin": {
+						"x": 457,
+						"y": 531,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-67.5-005.png",
+					"region": {
+						"x": 223,
+						"y": 2431,
+						"w": 130,
+						"h": 102
+					},
+					"margin": {
+						"x": 433,
+						"y": 510,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle157.5-003.png",
+					"region": {
+						"x": 353,
+						"y": 2436,
+						"w": 119,
+						"h": 102
+					},
+					"margin": {
+						"x": 403,
+						"y": 532,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle22.5-005.png",
+					"region": {
+						"x": 472,
+						"y": 2436,
+						"w": 105,
+						"h": 102
+					},
+					"margin": {
+						"x": 457,
+						"y": 531,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-45-000.png",
+					"region": {
+						"x": 577,
+						"y": 2438,
+						"w": 109,
+						"h": 102
+					},
+					"margin": {
+						"x": 435,
+						"y": 512,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack0-009.png",
+					"region": {
+						"x": 686,
+						"y": 2438,
+						"w": 94,
+						"h": 103
+					},
+					"margin": {
+						"x": 461,
+						"y": 526,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk157.5-000.png",
+					"region": {
+						"x": 780,
+						"y": 2441,
+						"w": 172,
+						"h": 102
+					},
+					"margin": {
+						"x": 355,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk157.5-006.png",
+					"region": {
+						"x": 952,
+						"y": 2447,
+						"w": 153,
+						"h": 102
+					},
+					"margin": {
+						"x": 375,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk45-003.png",
+					"region": {
+						"x": 1105,
+						"y": 2452,
+						"w": 117,
+						"h": 102
+					},
+					"margin": {
+						"x": 425,
+						"y": 544,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack135-006.png",
+					"region": {
+						"x": 1222,
+						"y": 2455,
+						"w": 117,
+						"h": 103
+					},
+					"margin": {
+						"x": 415,
+						"y": 547,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk180-003.png",
+					"region": {
+						"x": 1339,
+						"y": 2457,
+						"w": 160,
+						"h": 102
+					},
+					"margin": {
+						"x": 403,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk180-004.png",
+					"region": {
+						"x": 1499,
+						"y": 2458,
+						"w": 193,
+						"h": 102
+					},
+					"margin": {
+						"x": 363,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-90-009.png",
+					"region": {
+						"x": 1692,
+						"y": 2464,
+						"w": 138,
+						"h": 103
+					},
+					"margin": {
+						"x": 417,
+						"y": 505,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk180-006.png",
+					"region": {
+						"x": 1830,
+						"y": 2465,
+						"w": 183,
+						"h": 102
+					},
+					"margin": {
+						"x": 353,
+						"y": 515,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-45-000.png",
+					"region": {
+						"x": 0,
+						"y": 2527,
+						"w": 115,
+						"h": 103
+					},
+					"margin": {
+						"x": 450,
+						"y": 515,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack112.5-005.png",
+					"region": {
+						"x": 115,
+						"y": 2529,
+						"w": 100,
+						"h": 104
+					},
+					"margin": {
+						"x": 448,
+						"y": 558,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-67.5-000.png",
+					"region": {
+						"x": 215,
+						"y": 2533,
+						"w": 130,
+						"h": 103
+					},
+					"margin": {
+						"x": 434,
+						"y": 509,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-157.5-000.png",
+					"region": {
+						"x": 345,
+						"y": 2538,
+						"w": 166,
+						"h": 103
+					},
+					"margin": {
+						"x": 356,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-157.5-003.png",
+					"region": {
+						"x": 511,
+						"y": 2540,
+						"w": 168,
+						"h": 103
+					},
+					"margin": {
+						"x": 428,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle0-007.png",
+					"region": {
+						"x": 679,
+						"y": 2541,
+						"w": 93,
+						"h": 104
+					},
+					"margin": {
+						"x": 460,
+						"y": 525,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-157.5-009.png",
+					"region": {
+						"x": 772,
+						"y": 2543,
+						"w": 163,
+						"h": 103
+					},
+					"margin": {
+						"x": 357,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack135-002.png",
+					"region": {
+						"x": 935,
+						"y": 2549,
+						"w": 166,
+						"h": 103
+					},
+					"margin": {
+						"x": 384,
+						"y": 532,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle157.5-004.png",
+					"region": {
+						"x": 1101,
+						"y": 2554,
+						"w": 119,
+						"h": 103
+					},
+					"margin": {
+						"x": 403,
+						"y": 531,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle157.5-005.png",
+					"region": {
+						"x": 1220,
+						"y": 2558,
+						"w": 119,
+						"h": 103
+					},
+					"margin": {
+						"x": 403,
+						"y": 531,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack180-001.png",
+					"region": {
+						"x": 1339,
+						"y": 2559,
+						"w": 156,
+						"h": 103
+					},
+					"margin": {
+						"x": 356,
+						"y": 528,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack157.5-002.png",
+					"region": {
+						"x": 1495,
+						"y": 2560,
+						"w": 192,
+						"h": 103
+					},
+					"margin": {
+						"x": 369,
+						"y": 531,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack180-009.png",
+					"region": {
+						"x": 1687,
+						"y": 2567,
+						"w": 148,
+						"h": 103
+					},
+					"margin": {
+						"x": 366,
+						"y": 528,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-157.5-000.png",
+					"region": {
+						"x": 1835,
+						"y": 2567,
+						"w": 167,
+						"h": 103
+					},
+					"margin": {
+						"x": 356,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack45-008.png",
+					"region": {
+						"x": 0,
+						"y": 2630,
+						"w": 102,
+						"h": 104
+					},
+					"margin": {
+						"x": 465,
+						"y": 532,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle0-008.png",
+					"region": {
+						"x": 102,
+						"y": 2633,
+						"w": 93,
+						"h": 104
+					},
+					"margin": {
+						"x": 460,
+						"y": 525,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die45-005.png",
+					"region": {
+						"x": 195,
+						"y": 2636,
+						"w": 146,
+						"h": 103
+					},
+					"margin": {
+						"x": 416,
+						"y": 531,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-90-003.png",
+					"region": {
+						"x": 341,
+						"y": 2641,
+						"w": 162,
+						"h": 103
+					},
+					"margin": {
+						"x": 393,
+						"y": 505,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die67.5-008.png",
+					"region": {
+						"x": 503,
+						"y": 2643,
+						"w": 169,
+						"h": 103
+					},
+					"margin": {
+						"x": 377,
+						"y": 508,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-157.5-009.png",
+					"region": {
+						"x": 672,
+						"y": 2646,
+						"w": 202,
+						"h": 103
+					},
+					"margin": {
+						"x": 474,
+						"y": 572,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die90-008.png",
+					"region": {
+						"x": 874,
+						"y": 2652,
+						"w": 178,
+						"h": 103
+					},
+					"margin": {
+						"x": 422,
+						"y": 504,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-157.5-000.png",
+					"region": {
+						"x": 1052,
+						"y": 2657,
+						"w": 150,
+						"h": 103
+					},
+					"margin": {
+						"x": 372,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-67.5-004.png",
+					"region": {
+						"x": 1202,
+						"y": 2661,
+						"w": 136,
+						"h": 103
+					},
+					"margin": {
+						"x": 440,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-157.5-009.png",
+					"region": {
+						"x": 1338,
+						"y": 2662,
+						"w": 150,
+						"h": 103
+					},
+					"margin": {
+						"x": 372,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-90-008.png",
+					"region": {
+						"x": 1488,
+						"y": 2663,
+						"w": 181,
+						"h": 104
+					},
+					"margin": {
+						"x": 374,
+						"y": 502,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack180-000.png",
+					"region": {
+						"x": 1669,
+						"y": 2670,
+						"w": 148,
+						"h": 104
+					},
+					"margin": {
+						"x": 364,
+						"y": 527,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack67.5-003.png",
+					"region": {
+						"x": 1817,
+						"y": 2670,
+						"w": 228,
+						"h": 104
+					},
+					"margin": {
+						"x": 337,
+						"y": 515,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle0-000.png",
+					"region": {
+						"x": 0,
+						"y": 2734,
+						"w": 93,
+						"h": 105
+					},
+					"margin": {
+						"x": 460,
+						"y": 524,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle0-001.png",
+					"region": {
+						"x": 93,
+						"y": 2737,
+						"w": 92,
+						"h": 105
+					},
+					"margin": {
+						"x": 461,
+						"y": 524,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-22.5-005.png",
+					"region": {
+						"x": 185,
+						"y": 2739,
+						"w": 146,
+						"h": 104
+					},
+					"margin": {
+						"x": 414,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-90-008.png",
+					"region": {
+						"x": 331,
+						"y": 2744,
+						"w": 172,
+						"h": 104
+					},
+					"margin": {
+						"x": 409,
+						"y": 592,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die180-000.png",
+					"region": {
+						"x": 503,
+						"y": 2746,
+						"w": 152,
+						"h": 104
+					},
+					"margin": {
+						"x": 360,
+						"y": 527,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die45-008.png",
+					"region": {
+						"x": 655,
+						"y": 2749,
+						"w": 191,
+						"h": 104
+					},
+					"margin": {
+						"x": 346,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die67.5-009.png",
+					"region": {
+						"x": 846,
+						"y": 2755,
+						"w": 176,
+						"h": 104
+					},
+					"margin": {
+						"x": 380,
+						"y": 509,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-157.5-001.png",
+					"region": {
+						"x": 1022,
+						"y": 2760,
+						"w": 150,
+						"h": 104
+					},
+					"margin": {
+						"x": 372,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-157.5-002.png",
+					"region": {
+						"x": 1172,
+						"y": 2764,
+						"w": 152,
+						"h": 104
+					},
+					"margin": {
+						"x": 370,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-157.5-006.png",
+					"region": {
+						"x": 1324,
+						"y": 2765,
+						"w": 150,
+						"h": 104
+					},
+					"margin": {
+						"x": 372,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-157.5-007.png",
+					"region": {
+						"x": 1474,
+						"y": 2767,
+						"w": 148,
+						"h": 104
+					},
+					"margin": {
+						"x": 374,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-157.5-008.png",
+					"region": {
+						"x": 1622,
+						"y": 2774,
+						"w": 149,
+						"h": 104
+					},
+					"margin": {
+						"x": 373,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle180-000.png",
+					"region": {
+						"x": 1771,
+						"y": 2774,
+						"w": 125,
+						"h": 104
+					},
+					"margin": {
+						"x": 387,
+						"y": 527,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle180-001.png",
+					"region": {
+						"x": 1896,
+						"y": 2774,
+						"w": 125,
+						"h": 104
+					},
+					"margin": {
+						"x": 387,
+						"y": 527,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle0-009.png",
+					"region": {
+						"x": 0,
+						"y": 2839,
+						"w": 93,
+						"h": 105
+					},
+					"margin": {
+						"x": 460,
+						"y": 524,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle180-009.png",
+					"region": {
+						"x": 93,
+						"y": 2843,
+						"w": 125,
+						"h": 104
+					},
+					"margin": {
+						"x": 387,
+						"y": 527,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack22.5-001.png",
+					"region": {
+						"x": 218,
+						"y": 2843,
+						"w": 107,
+						"h": 105
+					},
+					"margin": {
+						"x": 455,
+						"y": 528,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-157.5-000.png",
+					"region": {
+						"x": 325,
+						"y": 2848,
+						"w": 165,
+						"h": 104
+					},
+					"margin": {
+						"x": 361,
+						"y": 514,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk180-002.png",
+					"region": {
+						"x": 490,
+						"y": 2850,
+						"w": 150,
+						"h": 104
+					},
+					"margin": {
+						"x": 406,
+						"y": 517,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk22.5-003.png",
+					"region": {
+						"x": 640,
+						"y": 2853,
+						"w": 124,
+						"h": 104
+					},
+					"margin": {
+						"x": 437,
+						"y": 538,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-112.5-001.png",
+					"region": {
+						"x": 764,
+						"y": 2859,
+						"w": 166,
+						"h": 105
+					},
+					"margin": {
+						"x": 377,
+						"y": 507,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle0-002.png",
+					"region": {
+						"x": 930,
+						"y": 2859,
+						"w": 91,
+						"h": 106
+					},
+					"margin": {
+						"x": 461,
+						"y": 523,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die112.5-006.png",
+					"region": {
+						"x": 1021,
+						"y": 2864,
+						"w": 119,
+						"h": 105
+					},
+					"margin": {
+						"x": 456,
+						"y": 508,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die22.5-004.png",
+					"region": {
+						"x": 1140,
+						"y": 2868,
+						"w": 122,
+						"h": 105
+					},
+					"margin": {
+						"x": 439,
+						"y": 528,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-67.5-007.png",
+					"region": {
+						"x": 1262,
+						"y": 2869,
+						"w": 188,
+						"h": 105
+					},
+					"margin": {
+						"x": 382,
+						"y": 495,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-157.5-003.png",
+					"region": {
+						"x": 1450,
+						"y": 2871,
+						"w": 152,
+						"h": 105
+					},
+					"margin": {
+						"x": 370,
+						"y": 520,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-135-008.png",
+					"region": {
+						"x": 1602,
+						"y": 2878,
+						"w": 189,
+						"h": 105
+					},
+					"margin": {
+						"x": 470,
+						"y": 577,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-157.5-005.png",
+					"region": {
+						"x": 1791,
+						"y": 2878,
+						"w": 152,
+						"h": 105
+					},
+					"margin": {
+						"x": 370,
+						"y": 520,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle0-006.png",
+					"region": {
+						"x": 1943,
+						"y": 2878,
+						"w": 93,
+						"h": 106
+					},
+					"margin": {
+						"x": 460,
+						"y": 523,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle0-003.png",
+					"region": {
+						"x": 0,
+						"y": 2944,
+						"w": 91,
+						"h": 107
+					},
+					"margin": {
+						"x": 461,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle180-002.png",
+					"region": {
+						"x": 91,
+						"y": 2947,
+						"w": 127,
+						"h": 105
+					},
+					"margin": {
+						"x": 385,
+						"y": 526,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-90-003.png",
+					"region": {
+						"x": 218,
+						"y": 2948,
+						"w": 100,
+						"h": 107
+					},
+					"margin": {
+						"x": 447,
+						"y": 528,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle180-007.png",
+					"region": {
+						"x": 318,
+						"y": 2952,
+						"w": 123,
+						"h": 105
+					},
+					"margin": {
+						"x": 389,
+						"y": 526,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle180-008.png",
+					"region": {
+						"x": 441,
+						"y": 2954,
+						"w": 123,
+						"h": 105
+					},
+					"margin": {
+						"x": 389,
+						"y": 526,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-135-000.png",
+					"region": {
+						"x": 564,
+						"y": 2957,
+						"w": 139,
+						"h": 105
+					},
+					"margin": {
+						"x": 389,
+						"y": 511,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-135-001.png",
+					"region": {
+						"x": 703,
+						"y": 2964,
+						"w": 111,
+						"h": 105
+					},
+					"margin": {
+						"x": 418,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-22.5-005.png",
+					"region": {
+						"x": 814,
+						"y": 2964,
+						"w": 112,
+						"h": 106
+					},
+					"margin": {
+						"x": 444,
+						"y": 514,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle0-005.png",
+					"region": {
+						"x": 926,
+						"y": 2965,
+						"w": 92,
+						"h": 107
+					},
+					"margin": {
+						"x": 460,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack0-001.png",
+					"region": {
+						"x": 1018,
+						"y": 2969,
+						"w": 98,
+						"h": 108
+					},
+					"margin": {
+						"x": 455,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-67.5-002.png",
+					"region": {
+						"x": 1116,
+						"y": 2973,
+						"w": 142,
+						"h": 105
+					},
+					"margin": {
+						"x": 435,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-67.5-003.png",
+					"region": {
+						"x": 1258,
+						"y": 2974,
+						"w": 158,
+						"h": 105
+					},
+					"margin": {
+						"x": 445,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk180-000.png",
+					"region": {
+						"x": 1416,
+						"y": 2976,
+						"w": 175,
+						"h": 105
+					},
+					"margin": {
+						"x": 350,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk180-001.png",
+					"region": {
+						"x": 1591,
+						"y": 2983,
+						"w": 166,
+						"h": 105
+					},
+					"margin": {
+						"x": 374,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-135-004.png",
+					"region": {
+						"x": 1757,
+						"y": 2983,
+						"w": 173,
+						"h": 106
+					},
+					"margin": {
+						"x": 392,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die0-001.png",
+					"region": {
+						"x": 1930,
+						"y": 2984,
+						"w": 109,
+						"h": 108
+					},
+					"margin": {
+						"x": 469,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-67.5-009.png",
+					"region": {
+						"x": 0,
+						"y": 3052,
+						"w": 129,
+						"h": 106
+					},
+					"margin": {
+						"x": 435,
+						"y": 505,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-90-009.png",
+					"region": {
+						"x": 129,
+						"y": 3055,
+						"w": 174,
+						"h": 106
+					},
+					"margin": {
+						"x": 415,
+						"y": 589,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle180-003.png",
+					"region": {
+						"x": 303,
+						"y": 3057,
+						"w": 127,
+						"h": 106
+					},
+					"margin": {
+						"x": 385,
+						"y": 525,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle180-005.png",
+					"region": {
+						"x": 430,
+						"y": 3059,
+						"w": 126,
+						"h": 106
+					},
+					"margin": {
+						"x": 386,
+						"y": 525,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle180-006.png",
+					"region": {
+						"x": 556,
+						"y": 3062,
+						"w": 125,
+						"h": 106
+					},
+					"margin": {
+						"x": 387,
+						"y": 525,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-112.5-007.png",
+					"region": {
+						"x": 681,
+						"y": 3070,
+						"w": 190,
+						"h": 106
+					},
+					"margin": {
+						"x": 440,
+						"y": 573,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle180-004.png",
+					"region": {
+						"x": 871,
+						"y": 3072,
+						"w": 127,
+						"h": 107
+					},
+					"margin": {
+						"x": 385,
+						"y": 524,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-67.5-008.png",
+					"region": {
+						"x": 998,
+						"y": 3078,
+						"w": 191,
+						"h": 106
+					},
+					"margin": {
+						"x": 366,
+						"y": 585,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-157.5-004.png",
+					"region": {
+						"x": 1189,
+						"y": 3079,
+						"w": 153,
+						"h": 106
+					},
+					"margin": {
+						"x": 369,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk180-005.png",
+					"region": {
+						"x": 1342,
+						"y": 3081,
+						"w": 188,
+						"h": 106
+					},
+					"margin": {
+						"x": 340,
+						"y": 515,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-135-003.png",
+					"region": {
+						"x": 1530,
+						"y": 3088,
+						"w": 166,
+						"h": 107
+					},
+					"margin": {
+						"x": 434,
+						"y": 520,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack0-006.png",
+					"region": {
+						"x": 1696,
+						"y": 3089,
+						"w": 179,
+						"h": 107
+					},
+					"margin": {
+						"x": 448,
+						"y": 510,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-157.5-001.png",
+					"region": {
+						"x": 1875,
+						"y": 3092,
+						"w": 137,
+						"h": 107
+					},
+					"margin": {
+						"x": 399,
+						"y": 514,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle0-004.png",
+					"region": {
+						"x": 0,
+						"y": 3158,
+						"w": 91,
+						"h": 108
+					},
+					"margin": {
+						"x": 461,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack22.5-005.png",
+					"region": {
+						"x": 91,
+						"y": 3161,
+						"w": 199,
+						"h": 107
+					},
+					"margin": {
+						"x": 469,
+						"y": 529,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-135-002.png",
+					"region": {
+						"x": 290,
+						"y": 3163,
+						"w": 118,
+						"h": 108
+					},
+					"margin": {
+						"x": 424,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-157.5-002.png",
+					"region": {
+						"x": 408,
+						"y": 3165,
+						"w": 135,
+						"h": 108
+					},
+					"margin": {
+						"x": 415,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-22.5-009.png",
+					"region": {
+						"x": 543,
+						"y": 3168,
+						"w": 114,
+						"h": 108
+					},
+					"margin": {
+						"x": 446,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-135-005.png",
+					"region": {
+						"x": 657,
+						"y": 3176,
+						"w": 173,
+						"h": 107
+					},
+					"margin": {
+						"x": 361,
+						"y": 511,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-22.5-000.png",
+					"region": {
+						"x": 830,
+						"y": 3179,
+						"w": 105,
+						"h": 109
+					},
+					"margin": {
+						"x": 457,
+						"y": 514,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-45-009.png",
+					"region": {
+						"x": 935,
+						"y": 3184,
+						"w": 193,
+						"h": 108
+					},
+					"margin": {
+						"x": 347,
+						"y": 574,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-67.5-009.png",
+					"region": {
+						"x": 1128,
+						"y": 3185,
+						"w": 182,
+						"h": 108
+					},
+					"margin": {
+						"x": 371,
+						"y": 581,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-157.5-005.png",
+					"region": {
+						"x": 1310,
+						"y": 3187,
+						"w": 188,
+						"h": 108
+					},
+					"margin": {
+						"x": 342,
+						"y": 512,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-67.5-000.png",
+					"region": {
+						"x": 1498,
+						"y": 3195,
+						"w": 127,
+						"h": 109
+					},
+					"margin": {
+						"x": 437,
+						"y": 503,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack180-002.png",
+					"region": {
+						"x": 1625,
+						"y": 3196,
+						"w": 200,
+						"h": 109
+					},
+					"margin": {
+						"x": 364,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-135-009.png",
+					"region": {
+						"x": 1825,
+						"y": 3199,
+						"w": 204,
+						"h": 109
+					},
+					"margin": {
+						"x": 460,
+						"y": 578,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die0-002.png",
+					"region": {
+						"x": 0,
+						"y": 3268,
+						"w": 107,
+						"h": 109
+					},
+					"margin": {
+						"x": 466,
+						"y": 520,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die45-006.png",
+					"region": {
+						"x": 107,
+						"y": 3268,
+						"w": 164,
+						"h": 109
+					},
+					"margin": {
+						"x": 380,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-22.5-007.png",
+					"region": {
+						"x": 271,
+						"y": 3271,
+						"w": 105,
+						"h": 109
+					},
+					"margin": {
+						"x": 457,
+						"y": 514,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-45-000.png",
+					"region": {
+						"x": 376,
+						"y": 3273,
+						"w": 112,
+						"h": 109
+					},
+					"margin": {
+						"x": 453,
+						"y": 508,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-45-006.png",
+					"region": {
+						"x": 488,
+						"y": 3276,
+						"w": 115,
+						"h": 109
+					},
+					"margin": {
+						"x": 450,
+						"y": 508,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-45-007.png",
+					"region": {
+						"x": 603,
+						"y": 3283,
+						"w": 114,
+						"h": 109
+					},
+					"margin": {
+						"x": 451,
+						"y": 508,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-22.5-009.png",
+					"region": {
+						"x": 717,
+						"y": 3283,
+						"w": 105,
+						"h": 110
+					},
+					"margin": {
+						"x": 458,
+						"y": 513,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-22.5-000.png",
+					"region": {
+						"x": 822,
+						"y": 3288,
+						"w": 105,
+						"h": 110
+					},
+					"margin": {
+						"x": 457,
+						"y": 513,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-45-008.png",
+					"region": {
+						"x": 927,
+						"y": 3292,
+						"w": 114,
+						"h": 109
+					},
+					"margin": {
+						"x": 451,
+						"y": 508,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-45-009.png",
+					"region": {
+						"x": 1041,
+						"y": 3293,
+						"w": 114,
+						"h": 109
+					},
+					"margin": {
+						"x": 451,
+						"y": 508,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-112.5-003.png",
+					"region": {
+						"x": 1155,
+						"y": 3293,
+						"w": 143,
+						"h": 110
+					},
+					"margin": {
+						"x": 440,
+						"y": 522,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-22.5-007.png",
+					"region": {
+						"x": 1298,
+						"y": 3295,
+						"w": 167,
+						"h": 110
+					},
+					"margin": {
+						"x": 338,
+						"y": 552,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die22.5-005.png",
+					"region": {
+						"x": 1465,
+						"y": 3304,
+						"w": 147,
+						"h": 110
+					},
+					"margin": {
+						"x": 409,
+						"y": 523,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-45-007.png",
+					"region": {
+						"x": 1612,
+						"y": 3305,
+						"w": 204,
+						"h": 110
+					},
+					"margin": {
+						"x": 397,
+						"y": 488,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-90-007.png",
+					"region": {
+						"x": 1816,
+						"y": 3308,
+						"w": 179,
+						"h": 110
+					},
+					"margin": {
+						"x": 407,
+						"y": 574,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-22.5-001.png",
+					"region": {
+						"x": 0,
+						"y": 3377,
+						"w": 104,
+						"h": 110
+					},
+					"margin": {
+						"x": 458,
+						"y": 513,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-22.5-008.png",
+					"region": {
+						"x": 104,
+						"y": 3377,
+						"w": 105,
+						"h": 110
+					},
+					"margin": {
+						"x": 457,
+						"y": 513,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-22.5-009.png",
+					"region": {
+						"x": 209,
+						"y": 3380,
+						"w": 105,
+						"h": 110
+					},
+					"margin": {
+						"x": 457,
+						"y": 513,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-45-002.png",
+					"region": {
+						"x": 314,
+						"y": 3382,
+						"w": 114,
+						"h": 110
+					},
+					"margin": {
+						"x": 451,
+						"y": 507,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-90-002.png",
+					"region": {
+						"x": 428,
+						"y": 3385,
+						"w": 123,
+						"h": 110
+					},
+					"margin": {
+						"x": 429,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-45-009.png",
+					"region": {
+						"x": 551,
+						"y": 3392,
+						"w": 115,
+						"h": 111
+					},
+					"margin": {
+						"x": 451,
+						"y": 506,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-67.5-004.png",
+					"region": {
+						"x": 666,
+						"y": 3393,
+						"w": 145,
+						"h": 111
+					},
+					"margin": {
+						"x": 418,
+						"y": 503,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-22.5-002.png",
+					"region": {
+						"x": 811,
+						"y": 3398,
+						"w": 104,
+						"h": 111
+					},
+					"margin": {
+						"x": 458,
+						"y": 512,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-22.5-006.png",
+					"region": {
+						"x": 915,
+						"y": 3401,
+						"w": 105,
+						"h": 111
+					},
+					"margin": {
+						"x": 457,
+						"y": 512,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-45-001.png",
+					"region": {
+						"x": 1020,
+						"y": 3402,
+						"w": 113,
+						"h": 111
+					},
+					"margin": {
+						"x": 452,
+						"y": 506,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-90-001.png",
+					"region": {
+						"x": 1133,
+						"y": 3403,
+						"w": 153,
+						"h": 111
+					},
+					"margin": {
+						"x": 403,
+						"y": 497,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-90-002.png",
+					"region": {
+						"x": 1286,
+						"y": 3405,
+						"w": 157,
+						"h": 111
+					},
+					"margin": {
+						"x": 399,
+						"y": 497,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die0-005.png",
+					"region": {
+						"x": 1443,
+						"y": 3414,
+						"w": 141,
+						"h": 111
+					},
+					"margin": {
+						"x": 409,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-135-007.png",
+					"region": {
+						"x": 1584,
+						"y": 3415,
+						"w": 202,
+						"h": 110
+					},
+					"margin": {
+						"x": 351,
+						"y": 504,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-22.5-004.png",
+					"region": {
+						"x": 1786,
+						"y": 3418,
+						"w": 218,
+						"h": 111
+					},
+					"margin": {
+						"x": 318,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-45-003.png",
+					"region": {
+						"x": 0,
+						"y": 3487,
+						"w": 115,
+						"h": 111
+					},
+					"margin": {
+						"x": 450,
+						"y": 506,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-112.5-002.png",
+					"region": {
+						"x": 115,
+						"y": 3490,
+						"w": 125,
+						"h": 111
+					},
+					"margin": {
+						"x": 425,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-157.5-003.png",
+					"region": {
+						"x": 240,
+						"y": 3492,
+						"w": 146,
+						"h": 111
+					},
+					"margin": {
+						"x": 411,
+						"y": 517,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-157.5-004.png",
+					"region": {
+						"x": 386,
+						"y": 3495,
+						"w": 147,
+						"h": 111
+					},
+					"margin": {
+						"x": 399,
+						"y": 515,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-90-001.png",
+					"region": {
+						"x": 533,
+						"y": 3503,
+						"w": 117,
+						"h": 111
+					},
+					"margin": {
+						"x": 422,
+						"y": 510,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-45-000.png",
+					"region": {
+						"x": 650,
+						"y": 3504,
+						"w": 112,
+						"h": 112
+					},
+					"margin": {
+						"x": 453,
+						"y": 505,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-90-001.png",
+					"region": {
+						"x": 762,
+						"y": 3509,
+						"w": 146,
+						"h": 112
+					},
+					"margin": {
+						"x": 410,
+						"y": 495,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-22.5-007.png",
+					"region": {
+						"x": 908,
+						"y": 3513,
+						"w": 199,
+						"h": 112
+					},
+					"margin": {
+						"x": 422,
+						"y": 489,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die90-006.png",
+					"region": {
+						"x": 1107,
+						"y": 3514,
+						"w": 115,
+						"h": 112
+					},
+					"margin": {
+						"x": 429,
+						"y": 502,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-157.5-007.png",
+					"region": {
+						"x": 1222,
+						"y": 3516,
+						"w": 206,
+						"h": 112
+					},
+					"margin": {
+						"x": 469,
+						"y": 556,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-45-004.png",
+					"region": {
+						"x": 1428,
+						"y": 3525,
+						"w": 116,
+						"h": 112
+					},
+					"margin": {
+						"x": 449,
+						"y": 505,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-45-005.png",
+					"region": {
+						"x": 1544,
+						"y": 3525,
+						"w": 116,
+						"h": 112
+					},
+					"margin": {
+						"x": 449,
+						"y": 505,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die0-003.png",
+					"region": {
+						"x": 1660,
+						"y": 3525,
+						"w": 97,
+						"h": 113
+					},
+					"margin": {
+						"x": 457,
+						"y": 516,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-135-008.png",
+					"region": {
+						"x": 1757,
+						"y": 3529,
+						"w": 205,
+						"h": 112
+					},
+					"margin": {
+						"x": 358,
+						"y": 502,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-22.5-003.png",
+					"region": {
+						"x": 0,
+						"y": 3598,
+						"w": 104,
+						"h": 113
+					},
+					"margin": {
+						"x": 458,
+						"y": 510,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-22.5-004.png",
+					"region": {
+						"x": 104,
+						"y": 3601,
+						"w": 105,
+						"h": 113
+					},
+					"margin": {
+						"x": 457,
+						"y": 510,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack22.5-006.png",
+					"region": {
+						"x": 209,
+						"y": 3603,
+						"w": 167,
+						"h": 113
+					},
+					"margin": {
+						"x": 454,
+						"y": 521,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die67.5-006.png",
+					"region": {
+						"x": 376,
+						"y": 3606,
+						"w": 147,
+						"h": 113
+					},
+					"margin": {
+						"x": 401,
+						"y": 507,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-idle-22.5-005.png",
+					"region": {
+						"x": 523,
+						"y": 3614,
+						"w": 105,
+						"h": 113
+					},
+					"margin": {
+						"x": 457,
+						"y": 510,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-112.5-001.png",
+					"region": {
+						"x": 628,
+						"y": 3616,
+						"w": 116,
+						"h": 113
+					},
+					"margin": {
+						"x": 418,
+						"y": 509,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-67.5-000.png",
+					"region": {
+						"x": 744,
+						"y": 3621,
+						"w": 113,
+						"h": 113
+					},
+					"margin": {
+						"x": 426,
+						"y": 499,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-90-003.png",
+					"region": {
+						"x": 857,
+						"y": 3625,
+						"w": 143,
+						"h": 113
+					},
+					"margin": {
+						"x": 436,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack90-007.png",
+					"region": {
+						"x": 1000,
+						"y": 3625,
+						"w": 104,
+						"h": 114
+					},
+					"margin": {
+						"x": 457,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-90-004.png",
+					"region": {
+						"x": 1104,
+						"y": 3626,
+						"w": 115,
+						"h": 113
+					},
+					"margin": {
+						"x": 433,
+						"y": 515,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-157.5-002.png",
+					"region": {
+						"x": 1219,
+						"y": 3628,
+						"w": 193,
+						"h": 114
+					},
+					"margin": {
+						"x": 371,
+						"y": 510,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack90-005.png",
+					"region": {
+						"x": 1412,
+						"y": 3637,
+						"w": 132,
+						"h": 114
+					},
+					"margin": {
+						"x": 473,
+						"y": 550,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-22.5-001.png",
+					"region": {
+						"x": 1544,
+						"y": 3637,
+						"w": 111,
+						"h": 115
+					},
+					"margin": {
+						"x": 451,
+						"y": 508,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack22.5-008.png",
+					"region": {
+						"x": 1655,
+						"y": 3638,
+						"w": 91,
+						"h": 115
+					},
+					"margin": {
+						"x": 470,
+						"y": 519,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-135-003.png",
+					"region": {
+						"x": 1746,
+						"y": 3641,
+						"w": 121,
+						"h": 114
+					},
+					"margin": {
+						"x": 423,
+						"y": 518,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk0-007.png",
+					"region": {
+						"x": 1867,
+						"y": 3641,
+						"w": 126,
+						"h": 114
+					},
+					"margin": {
+						"x": 445,
+						"y": 510,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack45-005.png",
+					"region": {
+						"x": 0,
+						"y": 3714,
+						"w": 192,
+						"h": 115
+					},
+					"margin": {
+						"x": 485,
+						"y": 534,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-112.5-005.png",
+					"region": {
+						"x": 192,
+						"y": 3716,
+						"w": 138,
+						"h": 115
+					},
+					"margin": {
+						"x": 400,
+						"y": 500,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-112.5-009.png",
+					"region": {
+						"x": 330,
+						"y": 3719,
+						"w": 143,
+						"h": 115
+					},
+					"margin": {
+						"x": 404,
+						"y": 499,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-135-004.png",
+					"region": {
+						"x": 473,
+						"y": 3727,
+						"w": 119,
+						"h": 115
+					},
+					"margin": {
+						"x": 417,
+						"y": 515,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack112.5-006.png",
+					"region": {
+						"x": 592,
+						"y": 3729,
+						"w": 109,
+						"h": 116
+					},
+					"margin": {
+						"x": 439,
+						"y": 545,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack45-006.png",
+					"region": {
+						"x": 701,
+						"y": 3734,
+						"w": 140,
+						"h": 116
+					},
+					"margin": {
+						"x": 460,
+						"y": 533,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-67.5-003.png",
+					"region": {
+						"x": 841,
+						"y": 3738,
+						"w": 131,
+						"h": 116
+					},
+					"margin": {
+						"x": 432,
+						"y": 497,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-135-007.png",
+					"region": {
+						"x": 972,
+						"y": 3739,
+						"w": 211,
+						"h": 116
+					},
+					"margin": {
+						"x": 453,
+						"y": 563,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die0-004.png",
+					"region": {
+						"x": 1183,
+						"y": 3742,
+						"w": 113,
+						"h": 116
+					},
+					"margin": {
+						"x": 438,
+						"y": 514,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-22.5-002.png",
+					"region": {
+						"x": 1296,
+						"y": 3742,
+						"w": 105,
+						"h": 118
+					},
+					"margin": {
+						"x": 431,
+						"y": 511,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-112.5-000.png",
+					"region": {
+						"x": 1401,
+						"y": 3751,
+						"w": 119,
+						"h": 116
+					},
+					"margin": {
+						"x": 413,
+						"y": 499,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-112.5-003.png",
+					"region": {
+						"x": 1520,
+						"y": 3752,
+						"w": 125,
+						"h": 116
+					},
+					"margin": {
+						"x": 429,
+						"y": 517,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-67.5-007.png",
+					"region": {
+						"x": 1645,
+						"y": 3755,
+						"w": 190,
+						"h": 117
+					},
+					"margin": {
+						"x": 367,
+						"y": 567,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-112.5-004.png",
+					"region": {
+						"x": 1835,
+						"y": 3755,
+						"w": 151,
+						"h": 118
+					},
+					"margin": {
+						"x": 406,
+						"y": 509,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-45-001.png",
+					"region": {
+						"x": 0,
+						"y": 3829,
+						"w": 123,
+						"h": 118
+					},
+					"margin": {
+						"x": 442,
+						"y": 499,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-67.5-008.png",
+					"region": {
+						"x": 123,
+						"y": 3831,
+						"w": 157,
+						"h": 118
+					},
+					"margin": {
+						"x": 408,
+						"y": 491,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack67.5-005.png",
+					"region": {
+						"x": 280,
+						"y": 3834,
+						"w": 161,
+						"h": 118
+					},
+					"margin": {
+						"x": 494,
+						"y": 541,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk0-006.png",
+					"region": {
+						"x": 441,
+						"y": 3842,
+						"w": 115,
+						"h": 118
+					},
+					"margin": {
+						"x": 444,
+						"y": 506,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-67.5-001.png",
+					"region": {
+						"x": 556,
+						"y": 3845,
+						"w": 138,
+						"h": 119
+					},
+					"margin": {
+						"x": 426,
+						"y": 493,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-45-004.png",
+					"region": {
+						"x": 694,
+						"y": 3850,
+						"w": 123,
+						"h": 119
+					},
+					"margin": {
+						"x": 441,
+						"y": 499,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-112.5-006.png",
+					"region": {
+						"x": 817,
+						"y": 3855,
+						"w": 177,
+						"h": 118
+					},
+					"margin": {
+						"x": 367,
+						"y": 497,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-45-007.png",
+					"region": {
+						"x": 994,
+						"y": 3855,
+						"w": 180,
+						"h": 119
+					},
+					"margin": {
+						"x": 344,
+						"y": 559,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-22.5-001.png",
+					"region": {
+						"x": 1174,
+						"y": 3858,
+						"w": 109,
+						"h": 120
+					},
+					"margin": {
+						"x": 468,
+						"y": 503,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-45-005.png",
+					"region": {
+						"x": 1283,
+						"y": 3860,
+						"w": 112,
+						"h": 120
+					},
+					"margin": {
+						"x": 438,
+						"y": 498,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-90-005.png",
+					"region": {
+						"x": 1395,
+						"y": 3868,
+						"w": 196,
+						"h": 119
+					},
+					"margin": {
+						"x": 338,
+						"y": 485,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-45-004.png",
+					"region": {
+						"x": 1591,
+						"y": 3872,
+						"w": 187,
+						"h": 121
+					},
+					"margin": {
+						"x": 330,
+						"y": 513,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-45-008.png",
+					"region": {
+						"x": 1778,
+						"y": 3873,
+						"w": 136,
+						"h": 121
+					},
+					"margin": {
+						"x": 434,
+						"y": 493,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack67.5-006.png",
+					"region": {
+						"x": 1914,
+						"y": 3873,
+						"w": 104,
+						"h": 121
+					},
+					"margin": {
+						"x": 465,
+						"y": 539,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-22.5-004.png",
+					"region": {
+						"x": 0,
+						"y": 3947,
+						"w": 120,
+						"h": 121
+					},
+					"margin": {
+						"x": 440,
+						"y": 503,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack22.5-007.png",
+					"region": {
+						"x": 120,
+						"y": 3949,
+						"w": 136,
+						"h": 121
+					},
+					"margin": {
+						"x": 480,
+						"y": 515,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack0-007.png",
+					"region": {
+						"x": 256,
+						"y": 3952,
+						"w": 172,
+						"h": 121
+					},
+					"margin": {
+						"x": 453,
+						"y": 497,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-112.5-004.png",
+					"region": {
+						"x": 428,
+						"y": 3960,
+						"w": 113,
+						"h": 121
+					},
+					"margin": {
+						"x": 423,
+						"y": 510,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-22.5-008.png",
+					"region": {
+						"x": 541,
+						"y": 3964,
+						"w": 119,
+						"h": 121
+					},
+					"margin": {
+						"x": 445,
+						"y": 509,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-90-000.png",
+					"region": {
+						"x": 660,
+						"y": 3969,
+						"w": 118,
+						"h": 121
+					},
+					"margin": {
+						"x": 418,
+						"y": 493,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack157.5-004.png",
+					"region": {
+						"x": 778,
+						"y": 3973,
+						"w": 168,
+						"h": 121
+					},
+					"margin": {
+						"x": 388,
+						"y": 513,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack0-005.png",
+					"region": {
+						"x": 946,
+						"y": 3974,
+						"w": 179,
+						"h": 122
+					},
+					"margin": {
+						"x": 451,
+						"y": 496,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-22.5-003.png",
+					"region": {
+						"x": 1125,
+						"y": 3978,
+						"w": 102,
+						"h": 122
+					},
+					"margin": {
+						"x": 458,
+						"y": 502,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack90-006.png",
+					"region": {
+						"x": 1227,
+						"y": 3980,
+						"w": 102,
+						"h": 123
+					},
+					"margin": {
+						"x": 460,
+						"y": 542,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-22.5-002.png",
+					"region": {
+						"x": 1329,
+						"y": 3987,
+						"w": 98,
+						"h": 123
+					},
+					"margin": {
+						"x": 467,
+						"y": 501,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-67.5-001.png",
+					"region": {
+						"x": 1427,
+						"y": 3987,
+						"w": 116,
+						"h": 123
+					},
+					"margin": {
+						"x": 448,
+						"y": 490,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-90-005.png",
+					"region": {
+						"x": 1543,
+						"y": 3993,
+						"w": 120,
+						"h": 123
+					},
+					"margin": {
+						"x": 425,
+						"y": 490,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-45-003.png",
+					"region": {
+						"x": 1663,
+						"y": 3993,
+						"w": 109,
+						"h": 124
+					},
+					"margin": {
+						"x": 455,
+						"y": 494,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack180-003.png",
+					"region": {
+						"x": 1772,
+						"y": 3994,
+						"w": 155,
+						"h": 124
+					},
+					"margin": {
+						"x": 417,
+						"y": 506,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-67.5-002.png",
+					"region": {
+						"x": 1927,
+						"y": 3994,
+						"w": 117,
+						"h": 124
+					},
+					"margin": {
+						"x": 446,
+						"y": 489,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-45-001.png",
+					"region": {
+						"x": 0,
+						"y": 4068,
+						"w": 101,
+						"h": 126
+					},
+					"margin": {
+						"x": 464,
+						"y": 492,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-45-009.png",
+					"region": {
+						"x": 101,
+						"y": 4070,
+						"w": 103,
+						"h": 126
+					},
+					"margin": {
+						"x": 438,
+						"y": 499,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-135-002.png",
+					"region": {
+						"x": 204,
+						"y": 4073,
+						"w": 183,
+						"h": 127
+					},
+					"margin": {
+						"x": 379,
+						"y": 499,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-90-004.png",
+					"region": {
+						"x": 387,
+						"y": 4081,
+						"w": 151,
+						"h": 127
+					},
+					"margin": {
+						"x": 393,
+						"y": 505,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack0-008.png",
+					"region": {
+						"x": 538,
+						"y": 4085,
+						"w": 91,
+						"h": 127
+					},
+					"margin": {
+						"x": 468,
+						"y": 502,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack67.5-007.png",
+					"region": {
+						"x": 629,
+						"y": 4090,
+						"w": 95,
+						"h": 127
+					},
+					"margin": {
+						"x": 474,
+						"y": 535,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-die-45-002.png",
+					"region": {
+						"x": 724,
+						"y": 4094,
+						"w": 103,
+						"h": 127
+					},
+					"margin": {
+						"x": 462,
+						"y": 491,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-67.5-005.png",
+					"region": {
+						"x": 827,
+						"y": 4094,
+						"w": 116,
+						"h": 127
+					},
+					"margin": {
+						"x": 433,
+						"y": 489,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-22.5-005.png",
+					"region": {
+						"x": 943,
+						"y": 4096,
+						"w": 182,
+						"h": 128
+					},
+					"margin": {
+						"x": 434,
+						"y": 472,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-45-002.png",
+					"region": {
+						"x": 1125,
+						"y": 4100,
+						"w": 96,
+						"h": 131
+					},
+					"margin": {
+						"x": 421,
+						"y": 501,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack45-007.png",
+					"region": {
+						"x": 1221,
+						"y": 4103,
+						"w": 105,
+						"h": 129
+					},
+					"margin": {
+						"x": 487,
+						"y": 523,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-67.5-004.png",
+					"region": {
+						"x": 1326,
+						"y": 4110,
+						"w": 173,
+						"h": 128
+					},
+					"margin": {
+						"x": 355,
+						"y": 507,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack0-004.png",
+					"region": {
+						"x": 1499,
+						"y": 4117,
+						"w": 227,
+						"h": 126
+					},
+					"margin": {
+						"x": 325,
+						"y": 497,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-90-009.png",
+					"region": {
+						"x": 1726,
+						"y": 4118,
+						"w": 121,
+						"h": 129
+					},
+					"margin": {
+						"x": 419,
+						"y": 489,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-90-006.png",
+					"region": {
+						"x": 1847,
+						"y": 4118,
+						"w": 144,
+						"h": 130
+					},
+					"margin": {
+						"x": 402,
+						"y": 489,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-67.5-005.png",
+					"region": {
+						"x": 0,
+						"y": 4196,
+						"w": 158,
+						"h": 131
+					},
+					"margin": {
+						"x": 411,
+						"y": 469,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-112.5-007.png",
+					"region": {
+						"x": 158,
+						"y": 4200,
+						"w": 176,
+						"h": 131
+					},
+					"margin": {
+						"x": 374,
+						"y": 489,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-22.5-008.png",
+					"region": {
+						"x": 334,
+						"y": 4208,
+						"w": 116,
+						"h": 132
+					},
+					"margin": {
+						"x": 452,
+						"y": 490,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-112.5-008.png",
+					"region": {
+						"x": 450,
+						"y": 4212,
+						"w": 164,
+						"h": 132
+					},
+					"margin": {
+						"x": 393,
+						"y": 489,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-67.5-009.png",
+					"region": {
+						"x": 614,
+						"y": 4217,
+						"w": 99,
+						"h": 134
+					},
+					"margin": {
+						"x": 432,
+						"y": 489,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-22.5-006.png",
+					"region": {
+						"x": 713,
+						"y": 4221,
+						"w": 111,
+						"h": 132
+					},
+					"margin": {
+						"x": 438,
+						"y": 492,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-22.5-007.png",
+					"region": {
+						"x": 824,
+						"y": 4224,
+						"w": 120,
+						"h": 132
+					},
+					"margin": {
+						"x": 440,
+						"y": 495,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-45-005.png",
+					"region": {
+						"x": 944,
+						"y": 4224,
+						"w": 178,
+						"h": 136
+					},
+					"margin": {
+						"x": 419,
+						"y": 462,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack90-003.png",
+					"region": {
+						"x": 1122,
+						"y": 4232,
+						"w": 187,
+						"h": 133
+					},
+					"margin": {
+						"x": 370,
+						"y": 494,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-90-002.png",
+					"region": {
+						"x": 1309,
+						"y": 4238,
+						"w": 144,
+						"h": 137
+					},
+					"margin": {
+						"x": 400,
+						"y": 496,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack22.5-004.png",
+					"region": {
+						"x": 1453,
+						"y": 4243,
+						"w": 217,
+						"h": 135
+					},
+					"margin": {
+						"x": 345,
+						"y": 479,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-112.5-002.png",
+					"region": {
+						"x": 1670,
+						"y": 4247,
+						"w": 169,
+						"h": 138
+					},
+					"margin": {
+						"x": 386,
+						"y": 493,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-45-006.png",
+					"region": {
+						"x": 1839,
+						"y": 4248,
+						"w": 107,
+						"h": 139
+					},
+					"margin": {
+						"x": 433,
+						"y": 483,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-67.5-008.png",
+					"region": {
+						"x": 1946,
+						"y": 4248,
+						"w": 97,
+						"h": 148
+					},
+					"margin": {
+						"x": 435,
+						"y": 484,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-67.5-006.png",
+					"region": {
+						"x": 0,
+						"y": 4327,
+						"w": 113,
+						"h": 139
+					},
+					"margin": {
+						"x": 431,
+						"y": 483,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-45-008.png",
+					"region": {
+						"x": 113,
+						"y": 4331,
+						"w": 107,
+						"h": 140
+					},
+					"margin": {
+						"x": 439,
+						"y": 493,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-45-007.png",
+					"region": {
+						"x": 220,
+						"y": 4331,
+						"w": 105,
+						"h": 143
+					},
+					"margin": {
+						"x": 437,
+						"y": 484,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack-67.5-002.png",
+					"region": {
+						"x": 325,
+						"y": 4340,
+						"w": 117,
+						"h": 141
+					},
+					"margin": {
+						"x": 412,
+						"y": 493,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack135-004.png",
+					"region": {
+						"x": 442,
+						"y": 4344,
+						"w": 142,
+						"h": 141
+					},
+					"margin": {
+						"x": 403,
+						"y": 494,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-90-008.png",
+					"region": {
+						"x": 584,
+						"y": 4351,
+						"w": 125,
+						"h": 142
+					},
+					"margin": {
+						"x": 421,
+						"y": 486,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack45-004.png",
+					"region": {
+						"x": 709,
+						"y": 4356,
+						"w": 188,
+						"h": 141
+					},
+					"margin": {
+						"x": 379,
+						"y": 468,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-90-007.png",
+					"region": {
+						"x": 897,
+						"y": 4360,
+						"w": 137,
+						"h": 141
+					},
+					"margin": {
+						"x": 409,
+						"y": 484,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack157.5-003.png",
+					"region": {
+						"x": 1034,
+						"y": 4365,
+						"w": 157,
+						"h": 144
+					},
+					"margin": {
+						"x": 405,
+						"y": 490,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-walk-67.5-007.png",
+					"region": {
+						"x": 1191,
+						"y": 4365,
+						"w": 106,
+						"h": 144
+					},
+					"margin": {
+						"x": 432,
+						"y": 483,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack135-003.png",
+					"region": {
+						"x": 1297,
+						"y": 4375,
+						"w": 150,
+						"h": 149
+					},
+					"margin": {
+						"x": 401,
+						"y": 485,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack112.5-003.png",
+					"region": {
+						"x": 1447,
+						"y": 4378,
+						"w": 142,
+						"h": 150
+					},
+					"margin": {
+						"x": 403,
+						"y": 482,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack112.5-004.png",
+					"region": {
+						"x": 1589,
+						"y": 4385,
+						"w": 121,
+						"h": 151
+					},
+					"margin": {
+						"x": 425,
+						"y": 481,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack67.5-004.png",
+					"region": {
+						"x": 1710,
+						"y": 4387,
+						"w": 145,
+						"h": 156
+					},
+					"margin": {
+						"x": 421,
+						"y": 463,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gobloidUnderling_shadow-attack90-004.png",
+					"region": {
+						"x": 1855,
+						"y": 4396,
+						"w": 126,
+						"h": 161
+					},
+					"margin": {
+						"x": 432,
+						"y": 466,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:0f595cc095a184ea18f00f4fe373b272:d13da08aa3092ad74c59254eed825e56:f74c4cba941d497e0b1cfac09bf21dda$"
+	}
+}
