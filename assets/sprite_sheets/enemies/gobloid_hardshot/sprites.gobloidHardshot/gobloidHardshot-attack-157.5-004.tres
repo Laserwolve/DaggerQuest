@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
+
+[ext_resource path="res://assets/sprite_sheets/enemies/gobloid_hardshot/gobloidHardshot.png" type="Texture" id=1]
+
+[resource]
+flags = 7
+atlas = ExtResource( 1 )
+region = Rect2( 931, 1690, 104, 154 )
+margin = Rect2( 453, 454, 920, 870 )

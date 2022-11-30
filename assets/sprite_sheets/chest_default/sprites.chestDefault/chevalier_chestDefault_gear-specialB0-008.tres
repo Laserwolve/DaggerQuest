@@ -1,9 +1,0 @@
-[gd_resource type="AtlasTexture" load_steps=2 format=2]
-
-[ext_resource path="res://assets/sprite_sheets/chest_default/chestDefault.png" type="Texture" id=1]
-
-[resource]
-flags = 7
-atlas = ExtResource( 1 )
-region = Rect2( 709, 3654, 67, 69 )
-margin = Rect2( 480, 506, 957, 955 )

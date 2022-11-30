@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
+
+[ext_resource path="res://assets/sprite_sheets/enemies/gobloid_underling/gobloidUnderling.png" type="Texture" id=1]
+
+[resource]
+flags = 7
+atlas = ExtResource( 1 )
+region = Rect2( 1466, 4592, 96, 175 )
+margin = Rect2( 499, 449, 928, 849 )

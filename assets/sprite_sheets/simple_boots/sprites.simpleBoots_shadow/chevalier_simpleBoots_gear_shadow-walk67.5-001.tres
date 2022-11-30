@@ -1,9 +1,0 @@
-[gd_resource type="AtlasTexture" load_steps=2 format=2]
-
-[ext_resource path="res://assets/sprite_sheets/simple_boots/simpleBoots_shadow.png" type="Texture" id=1]
-
-[resource]
-flags = 7
-atlas = ExtResource( 1 )
-region = Rect2( 3749, 4947, 84, 46 )
-margin = Rect2( 467, 582, 940, 978 )

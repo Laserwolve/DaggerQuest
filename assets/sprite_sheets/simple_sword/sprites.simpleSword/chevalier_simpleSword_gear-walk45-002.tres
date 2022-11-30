@@ -1,9 +1,0 @@
-[gd_resource type="AtlasTexture" load_steps=2 format=2]
-
-[ext_resource path="res://assets/sprite_sheets/simple_sword/simpleSword.png" type="Texture" id=1]
-
-[resource]
-flags = 7
-atlas = ExtResource( 1 )
-region = Rect2( 911, 1522, 91, 51 )
-margin = Rect2( 480, 481, 933, 973 )

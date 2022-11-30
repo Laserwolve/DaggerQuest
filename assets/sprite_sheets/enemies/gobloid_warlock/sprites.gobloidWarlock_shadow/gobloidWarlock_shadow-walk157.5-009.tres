@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
+
+[ext_resource path="res://assets/sprite_sheets/enemies/gobloid_warlock/gobloidWarlock_shadow.png" type="Texture" id=1]
+
+[resource]
+flags = 7
+atlas = ExtResource( 1 )
+region = Rect2( 3207, 1331, 202, 113 )
+margin = Rect2( 334, 513, 822, 911 )
