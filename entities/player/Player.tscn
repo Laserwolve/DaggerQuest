@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bh2gtggljamvl" path="res://entities/shared/EquipedItem.tscn" id="3_11g6d"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_th2xk"]
-size = Vector2(154, 202)
+size = Vector2(20, 8)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_qh42t")
@@ -69,14 +69,14 @@ folder_name = "res://assets/sprite_sheets/players/chevalier/sprites.chevalier/"
 [node name="Legs" type="Node2D" parent="Equipment"]
 
 [node name="default" parent="Equipment/Legs" instance=ExtResource("3_11g6d")]
-folder_name = "res://assets/sprite_sheets/players/chest_default/sprites.chestDefault/"
+folder_name = "res://assets/sprite_sheets/players/legs_default/sprites.legsDefault/"
 
 [node name="Feet" type="Node2D" parent="Equipment"]
 
 [node name="Shirt" type="Node2D" parent="Equipment"]
 
 [node name="default" parent="Equipment/Shirt" instance=ExtResource("3_11g6d")]
-folder_name = "res://assets/sprite_sheets/chest_default/sprites.chestDefault/"
+folder_name = "res://assets/sprite_sheets/players/chest_default/sprites.chestDefault/"
 
 [node name="Head" type="Node2D" parent="Equipment"]
 
@@ -100,7 +100,6 @@ armed_only = true
 folder_name = "res://assets/sprite_sheets/players/simple_sword/sprites.simpleSword/"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(4, 6)
 shape = SubResource("RectangleShape2D_th2xk")
 
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
