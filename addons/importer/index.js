@@ -53,8 +53,7 @@ for (let i = 0; i < tilesets.length; i++) {
             tres += `region = Rect2( ${sprites[sprite].region.x}, ${sprites[sprite].region.y}, ${sprites[sprite].region.w}, ${sprites[sprite].region.h} )\n`
             //tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${sprites[sprite].margin.w}, ${sprites[sprite].margin.h} )\n`
 
-            tres += `margin = Rect2( ${(2048 - sprites[sprite].region.w) / 2}, ${(2048 - sprites[sprite].region.h) / 2}, ${(2048 - sprites[sprite].region.w) / 2}, ${(2048 - sprites[sprite].region.h) / 2} )\n`
-            //tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${2048 - sprites[sprite].region.w}, ${2048 - sprites[sprite].region.h} )\n`
+            tres += `margin = Rect2( ${sprites[sprite].margin.x}, ${sprites[sprite].margin.y}, ${256 - sprites[sprite].region.w}, ${512 - sprites[sprite].region.h} )\n`
 
             saveFile(path, tres)
         }
