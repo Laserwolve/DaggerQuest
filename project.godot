@@ -53,7 +53,7 @@ _global_script_class_icons={
 config/name="Dagger Quest"
 run/main_scene="res://scenes/levels/DebugLevel.tscn"
 config/features=PackedStringArray("4.0", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://icon.png"
 
 [autoload]
 

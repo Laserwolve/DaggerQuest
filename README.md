@@ -1,6 +1,6 @@
 ### *The first 2D ARPG in over 20 years...*
 
-![DaggerQuest logo](/logoForGitHub.png)
+![DaggerQuest logo](misc/logoForGitHub.png)
 
 >“So cringe it's based. This game fears no reviewer, heeds no playerbase and caters no audience.”
 >
