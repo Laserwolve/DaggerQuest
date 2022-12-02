@@ -30,6 +30,7 @@ sources/0 = SubResource("TileSetAtlasSource_xl2ib")
 sources/1 = SubResource("TileSetAtlasSource_a1f1g")
 
 [node name="World" type="Node2D"]
+y_sort_enabled = true
 script = ExtResource("1_70tjd")
 
 [node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
@@ -38,15 +39,8 @@ navpoly = SubResource("NavigationPolygon_4dtrf")
 
 [node name="Loot" type="Node2D" parent="."]
 
-[node name="Entities" type="Node2D" parent="."]
-
-[node name="Player" parent="Entities" instance=ExtResource("2_nhiob")]
-position = Vector2(960, 540)
-z_index = 1
-z_as_relative = false
+[node name="TileMap" type="TileMap" parent="."]
 y_sort_enabled = true
-
-[node name="TileMap" type="TileMap" parent="Entities"]
 position = Vector2(-256, -128)
 tile_set = SubResource("TileSet_kqfbc")
 format = 2
@@ -55,6 +49,13 @@ layer_1/name = ""
 layer_1/enabled = true
 layer_1/modulate = Color(1, 1, 1, 1)
 layer_1/y_sort_enabled = true
-layer_1/y_sort_origin = -128
-layer_1/z_index = 1
+layer_1/y_sort_origin = 0
+layer_1/z_index = 0
 layer_1/tile_data = PackedInt32Array(917509, 1, 0, 851973, 1, 0, 786438, 1, 0)
+
+[node name="Entities" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="Player" parent="Entities" instance=ExtResource("2_nhiob")]
+y_sort_enabled = true
+position = Vector2(960, 540)
