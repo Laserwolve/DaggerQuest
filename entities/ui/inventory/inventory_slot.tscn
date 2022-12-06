@@ -26,6 +26,7 @@ grow_vertical = 2
 script = ExtResource("1_4be1s")
 
 [node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -34,6 +35,8 @@ grow_vertical = 2
 texture = ExtResource("2_6ivxp")
 
 [node name="ItemTexture" type="TextureRect" parent="."]
+z_index = 1
+layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -43,12 +46,14 @@ grow_vertical = 2
 [node name="ToolTip" type="TextureRect" parent="."]
 visible = false
 top_level = true
+layout_mode = 0
 offset_right = 512.0
 offset_bottom = 256.0
 mouse_filter = 2
 texture = ExtResource("3_cthcd")
 
 [node name="ItemName" type="Label" parent="ToolTip"]
+layout_mode = 0
 offset_left = 3.0
 offset_top = 14.0
 offset_right = 255.0
@@ -61,6 +66,7 @@ autowrap_mode = 3
 uppercase = true
 
 [node name="ItemMods" type="Label" parent="ToolTip"]
+layout_mode = 0
 offset_left = 256.0
 offset_top = 14.0
 offset_right = 506.0
@@ -74,6 +80,7 @@ autowrap_mode = 3
 clip_text = true
 
 [node name="ItemDescription" type="Label" parent="ToolTip"]
+layout_mode = 0
 offset_left = 256.0
 offset_top = 182.0
 offset_right = 506.0

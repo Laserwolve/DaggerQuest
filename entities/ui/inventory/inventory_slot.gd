@@ -8,6 +8,7 @@ var item : ItemManager.Item = null
 var is_filled : bool = false
 var is_mouse_over : bool
 var tool_tip_anchor_offset: Vector2 = Vector2(-1, 0)
+@export var slot_limits: Array[ItemManager.ItemSlot] = []
 
 signal pick_up_item(item)
 signal drop_item(slot)
@@ -18,8 +19,7 @@ func _ready():
 func _input(event):
 	if event.is_action_pressed("mouse_accept") and is_mouse_over:
 		if is_filled:
-			pick_up_item.emit(item)
-			call_deferred("set_item", null)
+			pick_up_item.emit(item, self)
 		else:
 			drop_item.emit(self)
 
@@ -42,9 +42,19 @@ func set_item(new_item: ItemManager.Item):
 	item = new_item
 	
 func swap_item(new_item: ItemManager.Item) -> ItemManager.Item:
-	var current_item = item
-	set_item(new_item)
-	return current_item
+	if slot_limits.size() > 0:
+		print(slot_limits.has(new_item.item_type))
+		if slot_limits.has(new_item.item_type):
+			var current_item = item
+			set_item(new_item)
+			return current_item
+		else:
+			return new_item
+	else:
+		print("Not Limited")
+		var current_item = item
+		set_item(new_item)
+		return current_item
 
 func _process(_delta):
 	if is_mouse_over && item != null:
