@@ -93,7 +93,7 @@ func _physics_process(delta):
 		$UI/Inventory.visible = !$UI/Inventory.visible
 		
 	if Input.is_action_just_pressed("character_menu"):
-		pass
+		$UI/Equipment.visible = !$UI/Equipment.visible
 		
 	if Input.is_action_just_pressed("attack") && armed:
 		NAVIGATION.set_target_location(position)

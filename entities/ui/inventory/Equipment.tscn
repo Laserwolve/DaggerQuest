@@ -1,0 +1,111 @@
+[gd_scene load_steps=13 format=3 uid="uid://g6qfdobxhukd"]
+
+[ext_resource type="Script" path="res://entities/ui/inventory/inventory.gd" id="1_8egby"]
+[ext_resource type="PackedScene" uid="uid://chws3isyuni30" path="res://entities/ui/inventory/inventory_slot.tscn" id="2_1lgul"]
+[ext_resource type="Texture2D" uid="uid://clyw7youqjggq" path="res://assets/sprites/ui/arms.png" id="3_2eey5"]
+[ext_resource type="Texture2D" uid="uid://bfn1tagxc122h" path="res://assets/sprites/ui/chest.png" id="4_2gggt"]
+[ext_resource type="Texture2D" uid="uid://nh4lvojxtwov" path="res://assets/sprites/ui/feet.png" id="5_snmw4"]
+[ext_resource type="Texture2D" uid="uid://dyatnp8x3kfvc" path="res://assets/sprites/ui/head.png" id="6_c4rrs"]
+[ext_resource type="Texture2D" uid="uid://lxkhp10ntl6i" path="res://assets/sprites/ui/leftHand.png" id="7_it3m4"]
+[ext_resource type="Texture2D" uid="uid://be1u5hbk3muow" path="res://assets/sprites/ui/legs.png" id="8_r5a22"]
+[ext_resource type="Texture2D" uid="uid://bngrpopo6o5l1" path="res://assets/sprites/ui/mainHand.png" id="9_vmrin"]
+[ext_resource type="Texture2D" uid="uid://bsgxxd4yhux00" path="res://assets/sprites/ui/neck.png" id="10_cvppl"]
+[ext_resource type="Texture2D" uid="uid://bay8mmrkcx80" path="res://assets/sprites/ui/ring1.png" id="11_me4ag"]
+[ext_resource type="Texture2D" uid="uid://bcmdwp3kk3nem" path="res://assets/sprites/ui/ring2.png" id="12_8iwrp"]
+
+[node name="Equipment" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_8egby")
+
+[node name="Slots" type="GridContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+theme_override_constants/h_separation = 78
+theme_override_constants/v_separation = 78
+columns = 2
+
+[node name="Inventory Slot" parent="Slots" instance=ExtResource("2_1lgul")]
+layout_mode = 2
+
+[node name="Inventory Slot2" parent="Slots" instance=ExtResource("2_1lgul")]
+layout_mode = 2
+
+[node name="Inventory Slot3" parent="Slots" instance=ExtResource("2_1lgul")]
+layout_mode = 2
+
+[node name="Inventory Slot4" parent="Slots" instance=ExtResource("2_1lgul")]
+layout_mode = 2
+
+[node name="Inventory Slot5" parent="Slots" instance=ExtResource("2_1lgul")]
+layout_mode = 2
+
+[node name="Inventory Slot6" parent="Slots" instance=ExtResource("2_1lgul")]
+layout_mode = 2
+
+[node name="Inventory Slot7" parent="Slots" instance=ExtResource("2_1lgul")]
+layout_mode = 2
+
+[node name="Inventory Slot8" parent="Slots" instance=ExtResource("2_1lgul")]
+layout_mode = 2
+
+[node name="Inventory Slot9" parent="Slots" instance=ExtResource("2_1lgul")]
+layout_mode = 2
+
+[node name="Inventory Slot10" parent="Slots" instance=ExtResource("2_1lgul")]
+layout_mode = 2
+
+[node name="Overlay" type="GridContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+theme_override_constants/h_separation = 78
+theme_override_constants/v_separation = 78
+columns = 2
+
+[node name="Arms" type="Sprite2D" parent="Overlay"]
+position = Vector2(78, 78)
+texture = ExtResource("3_2eey5")
+
+[node name="Chest" type="Sprite2D" parent="Overlay"]
+position = Vector2(0, 77)
+texture = ExtResource("4_2gggt")
+
+[node name="Feet" type="Sprite2D" parent="Overlay"]
+position = Vector2(0, 311)
+texture = ExtResource("5_snmw4")
+
+[node name="Head" type="Sprite2D" parent="Overlay"]
+texture = ExtResource("6_c4rrs")
+
+[node name="LeftHand" type="Sprite2D" parent="Overlay"]
+position = Vector2(78, 155)
+texture = ExtResource("7_it3m4")
+
+[node name="Legs" type="Sprite2D" parent="Overlay"]
+position = Vector2(0, 234)
+texture = ExtResource("8_r5a22")
+
+[node name="MainHand" type="Sprite2D" parent="Overlay"]
+position = Vector2(0, 156)
+texture = ExtResource("9_vmrin")
+
+[node name="Neck" type="Sprite2D" parent="Overlay"]
+position = Vector2(78, 0)
+texture = ExtResource("10_cvppl")
+
+[node name="Ring1" type="Sprite2D" parent="Overlay"]
+position = Vector2(78, 234)
+texture = ExtResource("11_me4ag")
+
+[node name="Ring2" type="Sprite2D" parent="Overlay"]
+position = Vector2(78, 312)
+texture = ExtResource("12_8iwrp")
