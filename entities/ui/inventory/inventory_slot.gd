@@ -7,14 +7,25 @@ class_name InventorySlot
 var item : ItemManager.Item = null
 var is_filled : bool = false
 var is_mouse_over : bool
-var tool_tip_anchor_offset: Vector2 = Vector2(-1, 0)
+@export var tool_tip_anchor_offset: Vector2 = Vector2(-1, 0)
 @export var slot_limits: Array[ItemManager.ItemSlot] = []
+@export var slot_overlay: String = ""
+
+var overlay_node = null
 
 signal pick_up_item(item)
 signal drop_item(slot)
 
 func _ready():
 	tool_tip_anchor_offset *= Vector2(512, 256) # Tool Tip Size
+	
+	if slot_overlay != "":
+		var resource = load(slot_overlay)
+		var sprite = Sprite2D.new()
+		sprite.texture = resource
+		sprite.name = "Overlay"
+		overlay_node = sprite
+		add_child(sprite)
 
 func _input(event):
 	if event.is_action_pressed("mouse_accept") and is_mouse_over:
@@ -41,6 +52,9 @@ func set_item(new_item: ItemManager.Item):
 	
 	item = new_item
 	
+	if overlay_node != null:
+		overlay_node.visible = !is_filled
+	
 func swap_item(new_item: ItemManager.Item) -> ItemManager.Item:
 	if slot_limits.size() > 0:
 		print(slot_limits.has(new_item.item_type))
@@ -51,7 +65,6 @@ func swap_item(new_item: ItemManager.Item) -> ItemManager.Item:
 		else:
 			return new_item
 	else:
-		print("Not Limited")
 		var current_item = item
 		set_item(new_item)
 		return current_item

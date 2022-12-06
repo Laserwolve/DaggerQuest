@@ -16,8 +16,10 @@ func _on_pick_up_item(item : ItemManager.Item, slot: InventorySlot):
 	slot.set_item(null)
 
 func _on_drop_item(slot: InventorySlot):
+	if item_contained == null:
+		return
+	
 	if slot.slot_limits.size() > 0:
-		print(slot.slot_limits.has(item_contained.item_type))
 		if slot.slot_limits.has(item_contained.item_type):
 			slot.set_item(item_contained)
 			item_contained = null

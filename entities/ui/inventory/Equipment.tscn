@@ -1,16 +1,6 @@
-[gd_scene load_steps=12 format=3 uid="uid://g6qfdobxhukd"]
+[gd_scene load_steps=2 format=3 uid="uid://g6qfdobxhukd"]
 
 [ext_resource type="PackedScene" uid="uid://chws3isyuni30" path="res://entities/ui/inventory/inventory_slot.tscn" id="2_1lgul"]
-[ext_resource type="Texture2D" uid="uid://clyw7youqjggq" path="res://assets/sprites/ui/arms.png" id="3_2eey5"]
-[ext_resource type="Texture2D" uid="uid://bfn1tagxc122h" path="res://assets/sprites/ui/chest.png" id="4_2gggt"]
-[ext_resource type="Texture2D" uid="uid://nh4lvojxtwov" path="res://assets/sprites/ui/feet.png" id="5_snmw4"]
-[ext_resource type="Texture2D" uid="uid://dyatnp8x3kfvc" path="res://assets/sprites/ui/head.png" id="6_c4rrs"]
-[ext_resource type="Texture2D" uid="uid://lxkhp10ntl6i" path="res://assets/sprites/ui/leftHand.png" id="7_it3m4"]
-[ext_resource type="Texture2D" uid="uid://be1u5hbk3muow" path="res://assets/sprites/ui/legs.png" id="8_r5a22"]
-[ext_resource type="Texture2D" uid="uid://bngrpopo6o5l1" path="res://assets/sprites/ui/mainHand.png" id="9_vmrin"]
-[ext_resource type="Texture2D" uid="uid://bsgxxd4yhux00" path="res://assets/sprites/ui/neck.png" id="10_cvppl"]
-[ext_resource type="Texture2D" uid="uid://bay8mmrkcx80" path="res://assets/sprites/ui/ring1.png" id="11_me4ag"]
-[ext_resource type="Texture2D" uid="uid://bcmdwp3kk3nem" path="res://assets/sprites/ui/ring2.png" id="12_8iwrp"]
 
 [node name="Equipment" type="Control"]
 layout_mode = 3
@@ -37,7 +27,9 @@ offset_right = 0.0
 offset_bottom = 0.0
 grow_horizontal = 1
 grow_vertical = 1
+tool_tip_anchor_offset = Vector2(0, 0)
 slot_limits = [3]
+slot_overlay = "res://assets/sprites/ui/head.png"
 
 [node name="Inventory Slot2" parent="Slots" instance=ExtResource("2_1lgul")]
 anchors_preset = 0
@@ -48,7 +40,9 @@ offset_right = 78.0
 offset_bottom = 0.0
 grow_horizontal = 1
 grow_vertical = 1
+tool_tip_anchor_offset = Vector2(0, 0)
 slot_limits = [10]
+slot_overlay = "res://assets/sprites/ui/neck.png"
 
 [node name="Inventory Slot3" parent="Slots" instance=ExtResource("2_1lgul")]
 anchors_preset = 0
@@ -59,7 +53,9 @@ offset_right = 0.0
 offset_bottom = 78.0
 grow_horizontal = 1
 grow_vertical = 1
+tool_tip_anchor_offset = Vector2(0, 0)
 slot_limits = [4]
+slot_overlay = "res://assets/sprites/ui/chest.png"
 
 [node name="Inventory Slot4" parent="Slots" instance=ExtResource("2_1lgul")]
 anchors_preset = 0
@@ -71,7 +67,9 @@ offset_right = 78.0
 offset_bottom = 78.0
 grow_horizontal = 1
 grow_vertical = 1
+tool_tip_anchor_offset = Vector2(0, 0)
 slot_limits = [7]
+slot_overlay = "res://assets/sprites/ui/arms.png"
 
 [node name="Inventory Slot5" parent="Slots" instance=ExtResource("2_1lgul")]
 anchors_preset = 0
@@ -82,7 +80,9 @@ offset_right = 0.0
 offset_bottom = 156.0
 grow_horizontal = 1
 grow_vertical = 1
+tool_tip_anchor_offset = Vector2(0, 0)
 slot_limits = [1]
+slot_overlay = "res://assets/sprites/ui/mainHand.png"
 
 [node name="Inventory Slot6" parent="Slots" instance=ExtResource("2_1lgul")]
 anchors_preset = 0
@@ -94,7 +94,9 @@ offset_right = 78.0
 offset_bottom = 156.0
 grow_horizontal = 1
 grow_vertical = 1
+tool_tip_anchor_offset = Vector2(0, 0)
 slot_limits = [2]
+slot_overlay = "res://assets/sprites/ui/leftHand.png"
 
 [node name="Inventory Slot7" parent="Slots" instance=ExtResource("2_1lgul")]
 anchors_preset = 0
@@ -105,7 +107,9 @@ offset_right = 0.0
 offset_bottom = 234.0
 grow_horizontal = 1
 grow_vertical = 1
+tool_tip_anchor_offset = Vector2(0, 0)
 slot_limits = [5]
+slot_overlay = "res://assets/sprites/ui/legs.png"
 
 [node name="Inventory Slot8" parent="Slots" instance=ExtResource("2_1lgul")]
 anchors_preset = 0
@@ -117,7 +121,9 @@ offset_right = 78.0
 offset_bottom = 234.0
 grow_horizontal = 1
 grow_vertical = 1
+tool_tip_anchor_offset = Vector2(0, 0)
 slot_limits = [8]
+slot_overlay = "res://assets/sprites/ui/ring1.png"
 
 [node name="Inventory Slot9" parent="Slots" instance=ExtResource("2_1lgul")]
 anchors_preset = 0
@@ -128,7 +134,9 @@ offset_right = 0.0
 offset_bottom = 312.0
 grow_horizontal = 1
 grow_vertical = 1
+tool_tip_anchor_offset = Vector2(0, 0)
 slot_limits = [6]
+slot_overlay = "res://assets/sprites/ui/feet.png"
 
 [node name="Inventory Slot10" parent="Slots" instance=ExtResource("2_1lgul")]
 anchors_preset = 0
@@ -140,51 +148,6 @@ offset_right = 78.0
 offset_bottom = 312.0
 grow_horizontal = 1
 grow_vertical = 1
+tool_tip_anchor_offset = Vector2(0, 0)
 slot_limits = [9]
-
-[node name="Overlay" type="GridContainer" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
-mouse_filter = 2
-theme_override_constants/h_separation = 78
-theme_override_constants/v_separation = 78
-columns = 2
-
-[node name="Head" type="Sprite2D" parent="Overlay"]
-texture = ExtResource("6_c4rrs")
-
-[node name="Neck" type="Sprite2D" parent="Overlay"]
-position = Vector2(78, 0)
-texture = ExtResource("10_cvppl")
-
-[node name="Chest" type="Sprite2D" parent="Overlay"]
-position = Vector2(0, 77)
-texture = ExtResource("4_2gggt")
-
-[node name="Arms" type="Sprite2D" parent="Overlay"]
-position = Vector2(78, 78)
-texture = ExtResource("3_2eey5")
-
-[node name="MainHand" type="Sprite2D" parent="Overlay"]
-position = Vector2(0, 156)
-texture = ExtResource("9_vmrin")
-
-[node name="LeftHand" type="Sprite2D" parent="Overlay"]
-position = Vector2(78, 155)
-texture = ExtResource("7_it3m4")
-
-[node name="Legs" type="Sprite2D" parent="Overlay"]
-position = Vector2(0, 234)
-texture = ExtResource("8_r5a22")
-
-[node name="Ring1" type="Sprite2D" parent="Overlay"]
-position = Vector2(78, 234)
-texture = ExtResource("11_me4ag")
-
-[node name="Feet" type="Sprite2D" parent="Overlay"]
-position = Vector2(0, 311)
-texture = ExtResource("5_snmw4")
-
-[node name="Ring2" type="Sprite2D" parent="Overlay"]
-position = Vector2(78, 312)
-texture = ExtResource("12_8iwrp")
+slot_overlay = "res://assets/sprites/ui/ring2.png"

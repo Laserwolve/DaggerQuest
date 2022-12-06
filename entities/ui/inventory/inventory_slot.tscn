@@ -35,7 +35,6 @@ grow_vertical = 2
 texture = ExtResource("2_6ivxp")
 
 [node name="ItemTexture" type="TextureRect" parent="."]
-z_index = 1
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0

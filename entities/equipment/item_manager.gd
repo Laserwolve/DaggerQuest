@@ -46,7 +46,8 @@ static func create_item(item_id : ItemId) -> Item:
 			"Simple Sword",
 			"A sword that kills things",
 			"res://assets/sprites/ui/equipment_icons/sword.png",
-			"res://assets/sprites/ui/equipment_icons/sword.png",
+			"res://assets/sprite_sheets/players/simple_sword/sprites.simpleSword/",
+			"res://assets/sprite_sheets/players/simple_sword/sprites.simpleSword_shadow/",
 			mods), 
 		ItemId.LEGGINGS : Item.new(
 			ItemId.LEGGINGS,
@@ -54,7 +55,8 @@ static func create_item(item_id : ItemId) -> Item:
 			"Leggings",
 			"Makes your ass look great",
 			"res://assets/sprites/ui/equipment_icons/pants.png",
-			"res://assets/sprites/ui/equipment_icons/pants.png",
+			"res://assets/sprite_sheets/players/simple_leggings/sprites.simpleLeggings/",
+			"res://assets/sprite_sheets/players/simple_leggings/sprites.simpleLeggings_shadow/",
 			mods)
 	}
 	
@@ -69,6 +71,7 @@ class Item:
 		item_description : String,
 		icon_path : String,
 		equipment_path: String,
+		equipment_shadow_path: String,
 		item_mods : Array[ItemMod]):
 		
 		self.item_id = item_id
@@ -77,6 +80,7 @@ class Item:
 		self.item_description = item_description
 		self.icon_path = icon_path
 		self.equipment_path = equipment_path
+		self.equipment_shadow_path = equipment_shadow_path
 		self.item_mods = item_mods
 
 	var item_id: ItemId = -1
@@ -85,6 +89,7 @@ class Item:
 	var item_description : String = ""
 	var icon_path : String = "" # asset path to load texture for item
 	var equipment_path: String = "" # asset path to load equipment textures.
+	var equipment_shadow_path: String = ""
 	var item_mods : Array[ItemMod] = [] # list of modications that effect item
 
 # TODO lets move this to its own script, this is currently a proof concept
