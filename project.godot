@@ -9,6 +9,11 @@
 config_version=5
 
 _global_script_classes=[{
+"base": "InventorySlot",
+"class": &"EquipmentSlot",
+"language": &"GDScript",
+"path": "res://entities/ui/inventory/equipment_slot.gd"
+}, {
 "base": "Control",
 "class": &"Inventory",
 "language": &"GDScript",
@@ -40,6 +45,7 @@ _global_script_classes=[{
 "path": "res://entities/player/Player.gd"
 }]
 _global_script_class_icons={
+"EquipmentSlot": "",
 "Inventory": "",
 "InventorySlot": "",
 "ItemManager": "",

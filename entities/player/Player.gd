@@ -6,6 +6,7 @@ class_name Player
 
 # Enums
 enum EquipmentSlots {
+	NONE,
 	BODY,
 	LEGS,
 	FEET,
@@ -31,36 +32,26 @@ var armed: bool = true
 
 var respect_move_held: bool = false
 
-@onready var EQUIPMENT_NODES: Dictionary = {
-	EquipmentSlots.BODY: $Equipment/Body,
-	EquipmentSlots.LEGS: $Equipment/Legs,
-	EquipmentSlots.FEET: $Equipment/Feet,
-	EquipmentSlots.SHIRT: $Equipment/Shirt,
-	EquipmentSlots.HAT: $Equipment/Head,
-	EquipmentSlots.GLOVES: $Equipment/Gloves,
-	EquipmentSlots.ARMS: $Equipment/Arms,
-	EquipmentSlots.MAIN_HAND: $Equipment/MainHand,
-	EquipmentSlots.OFFHAND: $Equipment/Offhand
-}
-
-@onready var SHADOW_NODES: Dictionary = {
-	EquipmentSlots.BODY: $Shadows/Body,
-	EquipmentSlots.LEGS: $Shadows/Legs,
-	EquipmentSlots.FEET: $Shadows/Feet,
-	EquipmentSlots.SHIRT: $Shadows/Shirt,
-	EquipmentSlots.HAT: $Shadows/Head,
-	EquipmentSlots.GLOVES: $Shadows/Gloves,
-	EquipmentSlots.ARMS: $Shadows/Arms,
-	EquipmentSlots.MAIN_HAND: $Shadows/MainHand,
-	EquipmentSlots.OFFHAND: $Shadows/Offhand
-}
-
 # Constants
 const EQUIPED_ITEM = preload("res://entities/shared/EquipedItem.tscn")
 
+@onready var EQUIPMENT_NODES: Dictionary = {
+	EquipmentSlots.BODY: Equipment.new(EQUIPED_ITEM, $Equipment/Body, $Shadows/Body, false, false),
+	EquipmentSlots.LEGS: Equipment.new(EQUIPED_ITEM, $Equipment/Legs, $Shadows/Legs, true, false),
+	EquipmentSlots.FEET: Equipment.new(EQUIPED_ITEM, $Equipment/Feet, $Shadows/Feet, false, false),
+	EquipmentSlots.SHIRT: Equipment.new(EQUIPED_ITEM, $Equipment/Shirt, $Shadows/Shirt, true, false),
+	EquipmentSlots.HAT: Equipment.new(EQUIPED_ITEM, $Equipment/Head, $Shadows/Head, true, false),
+	EquipmentSlots.GLOVES: Equipment.new(EQUIPED_ITEM, $Equipment/Gloves, $Shadows/Gloves, false, false),
+	EquipmentSlots.ARMS: Equipment.new(EQUIPED_ITEM, $Equipment/Arms, $Shadows/Arms, false, false),
+	EquipmentSlots.MAIN_HAND: Equipment.new(EQUIPED_ITEM, $Equipment/MainHand, $Shadows/MainHand, false, true),
+	EquipmentSlots.OFFHAND: Equipment.new(EQUIPED_ITEM, $Equipment/Offhand, $Shadows/Offhand, false, true)
+}
+
+func _init():
+	Global.player = self
+
 func _ready():
 	NAVIGATION.set_target_location(position)
-	Global.player = self
 
 func register_animation_player(player: AnimationPlayer):
 	animation_players.push_back(player)
@@ -125,13 +116,36 @@ func _physics_process(delta):
 		animation_name += "UNARMED"
 	
 	# Hide/Show main hand and offhand based on armed status.
-	EQUIPMENT_NODES[EquipmentSlots.MAIN_HAND].visible = armed
-	SHADOW_NODES[EquipmentSlots.MAIN_HAND].visible = armed
-	
-	EQUIPMENT_NODES[EquipmentSlots.OFFHAND].visible = armed
-	SHADOW_NODES[EquipmentSlots.OFFHAND].visible = armed
+	EQUIPMENT_NODES[EquipmentSlots.MAIN_HAND].setHidden(armed)
+	EQUIPMENT_NODES[EquipmentSlots.OFFHAND].setHidden(armed)
 	
 	play_animation(animation_name + "/" + get_look_angle(look_direction))
+
+func item_changed(item_slot: InventorySlot):
+	if !(item_slot is EquipmentSlot):
+		return
+		
+	match item_slot.equipmentSlot:
+		-1: # NONE
+			pass
+		0: # BODY
+			pass
+		1: # LEGS
+			EQUIPMENT_NODES[EquipmentSlots.LEGS].setEquipment(item_slot.item)
+		2: # FEET
+			EQUIPMENT_NODES[EquipmentSlots.FEET].setEquipment(item_slot.item)
+		3: # SHIRT
+			EQUIPMENT_NODES[EquipmentSlots.SHIRT].setEquipment(item_slot.item)
+		4: # HAT
+			EQUIPMENT_NODES[EquipmentSlots.HAT].setEquipment(item_slot.item)
+		5: # GLOVES
+			EQUIPMENT_NODES[EquipmentSlots.GLOVES].setEquipment(item_slot.item)
+		6: # ARMS
+			EQUIPMENT_NODES[EquipmentSlots.ARMS].setEquipment(item_slot.item)
+		7: # MAIN_HAND
+			EQUIPMENT_NODES[EquipmentSlots.MAIN_HAND].setEquipment(item_slot.item)
+		8: # OFFHAND
+			EQUIPMENT_NODES[EquipmentSlots.OFFHAND].setEquipment(item_slot.item)
 
 func play_animation(animation_name: String):
 	if final_animation:
@@ -186,3 +200,61 @@ func get_look_angle(_look_direction: Vector2) -> String:
 		string = "0"
 	
 	return string
+
+class Equipment:
+	var equipmentRootNode = null
+	var equipmentRootShadowNode = null
+	var hasDefault = false
+	var armedOnly = false
+	
+	var EQUIPED_ITEM = null
+	
+	var equipmentNode = null
+	var equipmentShadowNode = null
+	
+	func _init(
+		EQUIPED_ITEM,
+		equipmentRootNode: Node,
+		equipmentRootShadowNode: Node,
+		hasDefault: bool,
+		armedOnly: bool
+	):
+		self.EQUIPED_ITEM = EQUIPED_ITEM
+		self.equipmentRootNode = equipmentRootNode
+		self.equipmentRootShadowNode = equipmentRootShadowNode
+		self.hasDefault = hasDefault
+		self.armedOnly = armedOnly
+		
+	func setEquipment(item: ItemManager.Item):
+		if item == null:
+			if hasDefault:
+				equipmentRootNode.get_node("default").visible = true
+				equipmentRootShadowNode.get_node("default").visible = true
+			
+			if equipmentNode != null:
+				equipmentNode.queue_free()
+			if equipmentShadowNode != null:
+				equipmentShadowNode.queue_free()
+				
+			equipmentNode = null
+			equipmentShadowNode = null
+		else:
+			equipmentNode = EQUIPED_ITEM.instantiate()
+			equipmentShadowNode = EQUIPED_ITEM.instantiate()
+			
+			equipmentNode.folder_name = item.equipment_path
+			equipmentShadowNode.folder_name = item.equipment_shadow_path
+			
+			equipmentNode.armed_only = armedOnly
+			equipmentShadowNode.armed_only = armedOnly
+			
+			equipmentRootNode.add_child(equipmentNode)
+			equipmentRootShadowNode.add_child(equipmentShadowNode)
+			
+			if hasDefault:
+				equipmentRootNode.get_node("default").visible = false
+				equipmentRootShadowNode.get_node("default").visible = false
+
+	func setHidden(hidden: bool):
+		equipmentRootNode.visible = hidden
+		equipmentRootShadowNode.visible = hidden

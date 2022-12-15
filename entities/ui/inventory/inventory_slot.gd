@@ -14,6 +14,7 @@ var is_mouse_over : bool
 var overlay_node = null
 
 signal slot_clicked(slot)
+signal item_changed(slot)
 
 func _ready():
 	tool_tip_anchor_offset *= Vector2(512, 256) # Tool Tip Size
@@ -47,6 +48,7 @@ func set_item(new_item: ItemManager.Item):
 			mods_node.text += mod.text + "\n"
 	
 	item = new_item
+	item_changed.emit(self)
 	
 	if overlay_node != null:
 		overlay_node.visible = !is_filled

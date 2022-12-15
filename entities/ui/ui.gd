@@ -32,6 +32,7 @@ func connect_signals() -> void:
 		
 	for slot in get_node("Equipment/Slots").get_children():
 		slot.slot_clicked.connect(mouse_item.slot_clicked)
+		slot.item_changed.connect(Global.player.item_changed)
 		#slot.pick_up_item.connect(mouse_item._on_pick_up_item)
 		#slot.drop_item.connect(mouse_item._on_drop_item)
 		pass

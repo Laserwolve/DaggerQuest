@@ -46,15 +46,7 @@ folder_name = "res://assets/sprite_sheets/players/head_default/sprites.headDefau
 
 [node name="Offhand" type="Node2D" parent="Shadows"]
 
-[node name="EquipedItem2" parent="Shadows/Offhand" instance=ExtResource("3_11g6d")]
-armed_only = true
-folder_name = "res://assets/sprite_sheets/players/simple_shield/sprites.simpleShield_shadow/"
-
 [node name="MainHand" type="Node2D" parent="Shadows"]
-
-[node name="EquipedItem3" parent="Shadows/MainHand" instance=ExtResource("3_11g6d")]
-armed_only = true
-folder_name = "res://assets/sprite_sheets/players/simple_sword/sprites.simpleSword_shadow/"
 
 [node name="Equipment" type="Node2D" parent="."]
 
@@ -89,15 +81,7 @@ folder_name = "res://assets/sprite_sheets/players/head_default/sprites.headDefau
 
 [node name="Offhand" type="Node2D" parent="Equipment"]
 
-[node name="EquipedItem" parent="Equipment/Offhand" instance=ExtResource("3_11g6d")]
-armed_only = true
-folder_name = "res://assets/sprite_sheets/players/simple_shield/sprites.simpleShield/"
-
 [node name="MainHand" type="Node2D" parent="Equipment"]
-
-[node name="EquipedItem" parent="Equipment/MainHand" instance=ExtResource("3_11g6d")]
-armed_only = true
-folder_name = "res://assets/sprite_sheets/players/simple_sword/sprites.simpleSword/"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_th2xk")
