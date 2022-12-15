@@ -13,7 +13,14 @@ func _on_pick_up_item(item : ItemManager.Item, slot: InventorySlot):
 	item_contained = item
 	item_texture.texture = load(item.icon_path)
 	
-	slot.set_item(null)
+	item_contained = slot.swap_item(item_contained)
+
+func slot_clicked(slot):
+	item_contained = slot.swap_item(item_contained)
+	if (item_contained != null):
+		item_texture.texture = load(item_contained.icon_path)
+	else:
+		item_texture.texture = null
 
 func _on_drop_item(slot: InventorySlot):
 	if item_contained == null:

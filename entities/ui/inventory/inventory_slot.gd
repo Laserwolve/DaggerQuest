@@ -13,8 +13,7 @@ var is_mouse_over : bool
 
 var overlay_node = null
 
-signal pick_up_item(item)
-signal drop_item(slot)
+signal slot_clicked(slot)
 
 func _ready():
 	tool_tip_anchor_offset *= Vector2(512, 256) # Tool Tip Size
@@ -29,10 +28,7 @@ func _ready():
 
 func _input(event):
 	if event.is_action_pressed("mouse_accept") and is_mouse_over:
-		if is_filled:
-			pick_up_item.emit(item, self)
-		else:
-			drop_item.emit(self)
+		slot_clicked.emit(self)
 
 func set_item(new_item: ItemManager.Item):
 	if new_item == null:
@@ -57,8 +53,7 @@ func set_item(new_item: ItemManager.Item):
 	
 func swap_item(new_item: ItemManager.Item) -> ItemManager.Item:
 	if slot_limits.size() > 0:
-		print(slot_limits.has(new_item.item_type))
-		if slot_limits.has(new_item.item_type):
+		if new_item == null || slot_limits.has(new_item.item_type):
 			var current_item = item
 			set_item(new_item)
 			return current_item
